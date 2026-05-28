@@ -16,6 +16,7 @@ const MASTER_ANSWER_KEY = {
 
 const MODE_LABELS = {
   theory: "Theory cards",
+  sample_final_exam: "Sample Final Exams",
   mcq_part_a: "MCQ Part A",
   variants_10: "Probability & Statistics: 10 Variants",
 };
@@ -127,6 +128,7 @@ const state = {
   mode: loadMode(),
   cardSets: {
     theory: [],
+    sample_final_exam: [],
     mcq_part_a: MCQ_PART_A_CARDS,
     variants_10: [],
   },
@@ -141,6 +143,7 @@ const state = {
   marks: loadMarks(),
   modeNotes: {
     theory: "Loading theory deck...",
+    sample_final_exam: "Loading sample final exams deck...",
     mcq_part_a: "Source: embedded from `MCQ Part A.pdf`.",
     variants_10: "Loading variants deck...",
   },
@@ -184,9 +187,15 @@ async function boot() {
   bindEvents();
   elements.modeFilter.value = state.mode;
 
-  const [theoryResult, variantsResult] = await Promise.all([loadTheoryCards(), loadVariantCards()]);
+  const [theoryResult, sampleFinalExamResult, variantsResult] = await Promise.all([
+    loadTheoryCards(),
+    loadSampleFinalExamCards(),
+    loadVariantCards(),
+  ]);
   state.cardSets.theory = theoryResult.cards;
   state.modeNotes.theory = theoryResult.note;
+  state.cardSets.sample_final_exam = sampleFinalExamResult.cards;
+  state.modeNotes.sample_final_exam = sampleFinalExamResult.note;
   state.cardSets.variants_10 = variantsResult.cards;
   state.modeNotes.variants_10 = variantsResult.note;
 
@@ -334,6 +343,25 @@ async function loadVariantCards() {
     return {
       cards: [],
       note: "<strong>Mode:</strong> Probability & Statistics: 10 Variants<br><strong>Source:</strong> unavailable (failed to load text export)",
+    };
+  }
+}
+
+async function loadSampleFinalExamCards() {
+  try {
+    const response = await fetch("sample_final_exam_quiz.md", { cache: "no-store" });
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+    const raw = await response.text();
+    return {
+      cards: parseTheoryMarkdown(raw),
+      note: "<strong>Mode:</strong> Sample Final Exams<br><strong>Source:</strong> live `sample_final_exam_quiz.md`",
+    };
+  } catch (error) {
+    return {
+      cards: [],
+      note: "<strong>Mode:</strong> Sample Final Exams<br><strong>Source:</strong> unavailable (failed to load markdown)",
     };
   }
 }
