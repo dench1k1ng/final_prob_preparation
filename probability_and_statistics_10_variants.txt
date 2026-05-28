@@ -1,0 +1,1537 @@
+                           Probability and Statistics
+                                       Comprehensive Exam Question Bank
+                                            10 Parallel Test Variants
+
+
+
+
+                                      Format: Multiple Choice Questions (1-10 per Variant)
+
+   Scope: Descriptive Statistics, Probability Rules, Expected Values, Normal Distribution, Confidence Intervals &
+
+                                                       Hypothesis Testing
+
+                                     Target Audience: University Level / Academic Evaluation
+
+
+
+
+Probability & Statistics Exam Bank                                                                            Page 1
+Probability & Statistics — Variant 1
+
+1. An outlier is best defined as an observation that:
+
+ A. is seen more frequently than any other observations in the data set.
+ B. is seen less frequently than the other observations in the data set.
+ C. is always smaller than the rest of the observations in the data set.
+ D. is always larger than the rest of the observations in the data set.
+ E. is significantly and abnormally different from the other observations in the data set.
+
+
+2. Management tracks the daily demand for flu shots over several years. A cumulative probability chart compiled
+from the data follows a standard sigmoidal path where the 95th percentile corresponds precisely to a value of 200
+Shots.
+
+ 1.0
+
+
+
+ 0.5
+
+
+
+ 0.0
+       0                  Median       200
+
+
+
+
+How capacity or inventory should the center maintain daily to guarantee they fully satisfy demand on 95 percent of the
+days?
+
+ A. At most 180 units
+ B. At most 200 units
+ C. Exactly 170 units
+ D. At least 150 units
+ E. At least 200 units
+
+
+3. A large corporation has two separate primary operational divisions. The mean performance metric (or salary
+compensation baseline) of staff in Division 1 is 28,500 based on a cohort size of 128 employees. Division 2 features
+a mean baseline of 22,500 across a cohort size of 32 employees. What is the overall combined mean metric paid/
+allocated across all combined employees in this corporation?
+
+ A. 22,500
+ B. 24,500
+ C. 25,500
+ D. 27,300
+ E. 28,500
+
+
+
+
+Probability & Statistics Exam Bank                                                                                Page 2
+4. A regional school district collects 75 years of weather closure datasets and establishes that the frequency
+distribution for days missed per year exhibits a pronounced right-hand skew (positive skewness) with an isolated
+far-right extreme outlier. Which of the following parameters should be chosen as the most accurate, robust
+measure to describe the center of this distribution?
+
+ A. Mean, because it acts as an unbiased estimator for all linear samples.
+ B. Median, because it remains resistant to extreme values and skewness.
+ C. IQR, because it eliminates outliers and accounts for the central 50 percent.
+ D. First quartile, because the distribution is left-skewed.
+ E. Standard deviation, because it represents structural spread without bias.
+
+
+5. The probability of an operational infrastructure failure incident occurring on any given business day depends
+strongly on environmental conditions. If weather systems remain dry, there is a 0.2% chance of an incident. If
+weather conditions shift to wet, the probability escalates to 1.0%. Today, the local meteorological station forecasts
+a 20% probability of wet conditions. What is the total probability that an operational incident occurs today?
+
+ A. 0.0004
+ B. 0.0016
+ C. 0.0020
+ D. 0.0036
+ E. 0.0060
+
+
+6. An institutional recruitment agency tracks retention rates carefully. Historical logs show that precisely 20% of
+all placed contractual candidates leave their positions by the end of their first year, and only 5% of those who
+successfully complete the first year leave during the subsequent second year. If an employer onboarded 100
+workers via this firm at the start of Year 1, and onboarded another 100 workers at the start of Year 2, how many
+total workers are statistically expected to remain active on the job at the exact end of the second year?
+
+ A. 140
+ B. 148
+ C. 152
+ D. 156
+ E. 163
+
+
+
+
+Probability & Statistics Exam Bank                                                                              Page 3
+7. The nutritional caloric value of a specific commercial item is normally distributed with an expected mean of
+210 calories and a standard deviation of 10 calories. What percentage of these items contain more than 225
+calories?
+
+ A. 66.8%
+ B. 47.7%
+ C. 43.3%
+ D. 6.68%
+ E. 3.34%
+
+
+8. A global distributor utilizes standard protective shipping units. The internal product contents packed per unit
+exhibit a mean weight of 25 lbs with a standard deviation of 2.0 lbs. The physical container itself has a standard
+deviation of 0.15 lbs, and the internal stabilization material has a standard deviation of 0.25 lbs. Assuming all
+component weights are independent, what is the exact standard deviation of the total packed shipping units?
+
+ A. 28.000 pounds
+ B. 5.290 pounds
+ C. 4.085 pounds
+ D. 2.400 pounds
+ E. 2.021 pounds
+
+
+9. A lead social researcher wants to estimate the true population mean annual income per family within a
+metropolitan school zone. Following a rigorous simple random sample, the researcher establishes a 95 percent
+confidence interval for the population mean spanning from \$35,095 to \$45,005. Which statement provides the
+most accurate statistical interpretation of this confidence interval?
+
+ A. 95 percent of all families in this school zone have an annual income that falls within the interval limits.
+ B. There is a 95% probability that the families of all students combined earn exactly between \$35,095 and \$45,005.
+ C. If we were to take another sample of identical size and calculate a 95% confidence interval, there is a 95% chance
+    that the new interval bounds will exactly match (\$35,095, \$45,005).
+ D. There is a 95% probability that the mean of a subsequent sample drawn with matching sample size will fall between
+      \$35,095 and \$45,005.
+ E. In long-run repeated sampling, 95% of intervals generated using this exact methodology will successfully
+    encompass the true fixed population mean income.
+
+
+
+
+Probability & Statistics Exam Bank                                                                                Page 4
+10. The municipal Department of Environmental Health tests soil toxicity across a local reserve. If the
+contamination level exceeds regulatory thresholds, the reserve is ordered to close immediately. The null
+hypothesis states H0: "The reserve is safe and non-toxic". Which option describes a final operational decision
+resulting directly from a Type I error?
+
+ A. Closing down the reserve when the toxicity levels are actually within regulatory safety limits (false alarm).
+ B. Keeping the reserve open and operating when toxicity levels are dangerously in excess of limits.
+ C. Closing down the reserve when toxicity levels are genuinely in excess of allowed limits.
+ D. Keeping the reserve open and operating when toxicity levels are completely safe and within limits.
+ E. Closing the reserve entirely due to unrelated infrastructure noise level constraints.
+
+
+
+
+Probability & Statistics Exam Bank                                                                                  Page 5
+Probability & Statistics — Variant 2
+
+1. An outlier is best defined as an observation that:
+
+ A. is seen more frequently than any other observations in the data set.
+ B. is seen less frequently than the other observations in the data set.
+ C. is always smaller than the rest of the observations in the data set.
+ D. is always larger than the rest of the observations in the data set.
+ E. is significantly and abnormally different from the other observations in the data set.
+
+
+2. Management tracks the daily demand for electricity demand (MW) over several years. A cumulative
+probability chart compiled from the data follows a standard sigmoidal path where the 95th percentile
+corresponds precisely to a value of 420 MW.
+
+ 1.0
+
+
+
+ 0.5
+
+
+
+ 0.0
+       0                  Median       420
+
+
+
+
+How capacity or inventory should the center maintain daily to guarantee they fully satisfy demand on 95 percent of the
+days?
+
+ A. At most 378 units
+ B. At most 420 units
+ C. Exactly 357 units
+ D. At least 315 units
+ E. At least 420 units
+
+
+3. A large corporation has two separate primary operational divisions. The mean performance metric (or salary
+compensation baseline) of staff in Division 1 is 45 based on a cohort size of 60 employees. Division 2 features a
+mean baseline of 55 across a cohort size of 40 employees. What is the overall combined mean metric paid/
+allocated across all combined employees in this corporation?
+
+ A. 55
+ B. -950
+ C. 50
+ D. 49.0
+ E. 45
+
+
+
+
+Probability & Statistics Exam Bank                                                                                Page 6
+4. A regional school district collects 75 years of weather closure datasets and establishes that the frequency
+distribution for days missed per year exhibits a pronounced right-hand skew (positive skewness) with an isolated
+far-right extreme outlier. Which of the following parameters should be chosen as the most accurate, robust
+measure to describe the center of this distribution?
+
+ A. Mean, because it acts as an unbiased estimator for all linear samples.
+ B. Median, because it remains resistant to extreme values and skewness.
+ C. IQR, because it eliminates outliers and accounts for the central 50 percent.
+ D. First quartile, because the distribution is left-skewed.
+ E. Standard deviation, because it represents structural spread without bias.
+
+
+5. The probability of an operational infrastructure failure incident occurring on any given business day depends
+strongly on environmental conditions. If weather systems remain dry, there is a 1.0% chance of an incident. If
+weather conditions shift to wet, the probability escalates to 5.0%. Today, the local meteorological station forecasts
+a 30% probability of wet conditions. What is the total probability that an operational incident occurs today?
+
+ A. 0.0004
+ B. 0.0016
+ C. 0.0020
+ D. 0.0220
+ E. 0.0060
+
+
+6. An institutional recruitment agency tracks retention rates carefully. Historical logs show that precisely 10% of
+all placed contractual candidates leave their positions by the end of their first year, and only 5% of those who
+successfully complete the first year leave during the subsequent second year. If an employer onboarded 200
+workers via this firm at the start of Year 1, and onboarded another 200 workers at the start of Year 2, how many
+total workers are statistically expected to remain active on the job at the exact end of the second year?
+
+ A. 315
+ B. 333
+ C. 343
+ D. 351
+ E. 368
+
+
+
+
+Probability & Statistics Exam Bank                                                                              Page 7
+7. The nutritional caloric value of a specific commercial item is normally distributed with an expected mean of
+100 calories and a standard deviation of 10 calories. What percentage of these items contain more than 115
+calories?
+
+ A. 66.8%
+ B. 47.7%
+ C. 43.3%
+ D. 6.68%
+ E. 3.34%
+
+
+8. A global distributor utilizes standard protective shipping units. The internal product contents packed per unit
+exhibit a mean weight of 25 lbs with a standard deviation of 3.0 lbs. The physical container itself has a standard
+deviation of 1.0 lbs, and the internal stabilization material has a standard deviation of 2.0 lbs. Assuming all
+component weights are independent, what is the exact standard deviation of the total packed shipping units?
+
+ A. 28.000 pounds
+ B. 5.290 pounds
+ C. 4.085 pounds
+ D. 2.400 pounds
+ E. 3.742 pounds
+
+
+9. A lead social researcher wants to estimate the true population mean annual income per family within a
+metropolitan school zone. Following a rigorous simple random sample, the researcher establishes a 95 percent
+confidence interval for the population mean spanning from \$35,095 to \$45,005. Which statement provides the
+most accurate statistical interpretation of this confidence interval?
+
+ A. 95 percent of all families in this school zone have an annual income that falls within the interval limits.
+ B. There is a 95% probability that the families of all students combined earn exactly between \$35,095 and \$45,005.
+ C. If we were to take another sample of identical size and calculate a 95% confidence interval, there is a 95% chance
+    that the new interval bounds will exactly match (\$35,095, \$45,005).
+ D. There is a 95% probability that the mean of a subsequent sample drawn with matching sample size will fall between
+      \$35,095 and \$45,005.
+ E. In long-run repeated sampling, 95% of intervals generated using this exact methodology will successfully
+    encompass the true fixed population mean income.
+
+
+
+
+Probability & Statistics Exam Bank                                                                                Page 8
+10. The municipal Department of Environmental Health tests soil toxicity across a local reserve. If the
+contamination level exceeds regulatory thresholds, the reserve is ordered to close immediately. The null
+hypothesis states H0: "The reserve is safe and non-toxic". Which option describes a final operational decision
+resulting directly from a Type I error?
+
+ A. Closing down the reserve when the toxicity levels are actually within regulatory safety limits (false alarm).
+ B. Keeping the reserve open and operating when toxicity levels are dangerously in excess of limits.
+ C. Closing down the reserve when toxicity levels are genuinely in excess of allowed limits.
+ D. Keeping the reserve open and operating when toxicity levels are completely safe and within limits.
+ E. Closing the reserve entirely due to unrelated infrastructure noise level constraints.
+
+
+
+
+Probability & Statistics Exam Bank                                                                                  Page 9
+Probability & Statistics — Variant 3
+
+1. An outlier is best defined as an observation that:
+
+ A. is seen more frequently than any other observations in the data set.
+ B. is seen less frequently than the other observations in the data set.
+ C. is always smaller than the rest of the observations in the data set.
+ D. is always larger than the rest of the observations in the data set.
+ E. is significantly and abnormally different from the other observations in the data set.
+
+
+2. Management tracks the daily demand for water consumption (kL) over several years. A cumulative probability
+chart compiled from the data follows a standard sigmoidal path where the 95th percentile corresponds precisely
+to a value of 310 kL.
+
+ 1.0
+
+
+
+ 0.5
+
+
+
+ 0.0
+       0                  Median       310
+
+
+
+
+How capacity or inventory should the center maintain daily to guarantee they fully satisfy demand on 95 percent of the
+days?
+
+ A. At most 279 units
+ B. At most 310 units
+ C. Exactly 263 units
+ D. At least 232 units
+ E. At least 310 units
+
+
+3. A large corporation has two separate primary operational divisions. The mean performance metric (or salary
+compensation baseline) of staff in Division 1 is 72 based on a cohort size of 150 employees. Division 2 features a
+mean baseline of 88 across a cohort size of 50 employees. What is the overall combined mean metric paid/
+allocated across all combined employees in this corporation?
+
+ A. 88
+ B. -920
+ C. 80
+ D. 76.0
+ E. 72
+
+
+
+
+Probability & Statistics Exam Bank                                                                               Page 10
+4. A regional school district collects 75 years of weather closure datasets and establishes that the frequency
+distribution for days missed per year exhibits a pronounced right-hand skew (positive skewness) with an isolated
+far-right extreme outlier. Which of the following parameters should be chosen as the most accurate, robust
+measure to describe the center of this distribution?
+
+ A. Mean, because it acts as an unbiased estimator for all linear samples.
+ B. Median, because it remains resistant to extreme values and skewness.
+ C. IQR, because it eliminates outliers and accounts for the central 50 percent.
+ D. First quartile, because the distribution is left-skewed.
+ E. Standard deviation, because it represents structural spread without bias.
+
+
+5. The probability of an operational infrastructure failure incident occurring on any given business day depends
+strongly on environmental conditions. If weather systems remain dry, there is a 5.0% chance of an incident. If
+weather conditions shift to wet, the probability escalates to 2.0%. Today, the local meteorological station forecasts
+a 40% probability of wet conditions. What is the total probability that an operational incident occurs today?
+
+ A. 0.0004
+ B. 0.0016
+ C. 0.0020
+ D. 0.0380
+ E. 0.0060
+
+
+6. An institutional recruitment agency tracks retention rates carefully. Historical logs show that precisely 15% of
+all placed contractual candidates leave their positions by the end of their first year, and only 8% of those who
+successfully complete the first year leave during the subsequent second year. If an employer onboarded 500
+workers via this firm at the start of Year 1, and onboarded another 500 workers at the start of Year 2, how many
+total workers are statistically expected to remain active on the job at the exact end of the second year?
+
+ A. 756
+ B. 798
+ C. 824
+ D. 841
+ E. 883
+
+
+7. The nutritional caloric value of a specific commercial item is normally distributed with an expected mean of 50
+calories and a standard deviation of 4 calories. What percentage of these items contain more than 56 calories?
+
+ A. 66.8%
+ B. 47.7%
+ C. 43.3%
+ D. 6.68%
+ E. 3.34%
+
+
+
+Probability & Statistics Exam Bank                                                                             Page 11
+8. A global distributor utilizes standard protective shipping units. The internal product contents packed per unit
+exhibit a mean weight of 25 lbs with a standard deviation of 0.4 lbs. The physical container itself has a standard
+deviation of 0.2 lbs, and the internal stabilization material has a standard deviation of 0.1 lbs. Assuming all
+component weights are independent, what is the exact standard deviation of the total packed shipping units?
+
+ A. 28.000 pounds
+ B. 5.290 pounds
+ C. 4.085 pounds
+ D. 2.400 pounds
+ E. 0.458 pounds
+
+
+9. A lead social researcher wants to estimate the true population mean annual income per family within a
+metropolitan school zone. Following a rigorous simple random sample, the researcher establishes a 95 percent
+confidence interval for the population mean spanning from \$35,095 to \$45,005. Which statement provides the
+most accurate statistical interpretation of this confidence interval?
+
+ A. 95 percent of all families in this school zone have an annual income that falls within the interval limits.
+ B. There is a 95% probability that the families of all students combined earn exactly between \$35,095 and \$45,005.
+ C. If we were to take another sample of identical size and calculate a 95% confidence interval, there is a 95% chance
+    that the new interval bounds will exactly match (\$35,095, \$45,005).
+ D. There is a 95% probability that the mean of a subsequent sample drawn with matching sample size will fall between
+    \$35,095 and \$45,005.
+ E. In long-run repeated sampling, 95% of intervals generated using this exact methodology will successfully
+    encompass the true fixed population mean income.
+
+
+10. The municipal Department of Environmental Health tests soil toxicity across a local reserve. If the
+contamination level exceeds regulatory thresholds, the reserve is ordered to close immediately. The null
+hypothesis states H0: "The reserve is safe and non-toxic". Which option describes a final operational decision
+resulting directly from a Type I error?
+
+ A. Closing down the reserve when the toxicity levels are actually within regulatory safety limits (false alarm).
+ B. Keeping the reserve open and operating when toxicity levels are dangerously in excess of limits.
+ C. Closing down the reserve when toxicity levels are genuinely in excess of allowed limits.
+ D. Keeping the reserve open and operating when toxicity levels are completely safe and within limits.
+ E. Closing the reserve entirely due to unrelated infrastructure noise level constraints.
+
+
+
+
+Probability & Statistics Exam Bank                                                                                  Page 12
+Probability & Statistics — Variant 4
+
+1. An outlier is best defined as an observation that:
+
+ A. is seen more frequently than any other observations in the data set.
+ B. is seen less frequently than the other observations in the data set.
+ C. is always smaller than the rest of the observations in the data set.
+ D. is always larger than the rest of the observations in the data set.
+ E. is significantly and abnormally different from the other observations in the data set.
+
+
+2. Management tracks the daily demand for hotel room bookings over several years. A cumulative probability
+chart compiled from the data follows a standard sigmoidal path where the 95th percentile corresponds precisely
+to a value of 210 Rooms.
+
+ 1.0
+
+
+
+ 0.5
+
+
+
+ 0.0
+       0                  Median       210
+
+
+
+
+How capacity or inventory should the center maintain daily to guarantee they fully satisfy demand on 95 percent of the
+days?
+
+ A. At most 189 units
+ B. At most 210 units
+ C. Exactly 178 units
+ D. At least 157 units
+ E. At least 210 units
+
+
+3. A large corporation has two separate primary operational divisions. The mean performance metric (or salary
+compensation baseline) of staff in Division 1 is 34 based on a cohort size of 200 employees. Division 2 features a
+mean baseline of 44 across a cohort size of 50 employees. What is the overall combined mean metric paid/
+allocated across all combined employees in this corporation?
+
+ A. 44
+ B. -961
+ C. 39
+ D. 36.0
+ E. 34
+
+
+
+
+Probability & Statistics Exam Bank                                                                               Page 13
+4. A regional school district collects 75 years of weather closure datasets and establishes that the frequency
+distribution for days missed per year exhibits a pronounced right-hand skew (positive skewness) with an isolated
+far-right extreme outlier. Which of the following parameters should be chosen as the most accurate, robust
+measure to describe the center of this distribution?
+
+ A. Mean, because it acts as an unbiased estimator for all linear samples.
+ B. Median, because it remains resistant to extreme values and skewness.
+ C. IQR, because it eliminates outliers and accounts for the central 50 percent.
+ D. First quartile, because the distribution is left-skewed.
+ E. Standard deviation, because it represents structural spread without bias.
+
+
+5. The probability of an operational infrastructure failure incident occurring on any given business day depends
+strongly on environmental conditions. If weather systems remain dry, there is a 2.0% chance of an incident. If
+weather conditions shift to wet, the probability escalates to 8.0%. Today, the local meteorological station forecasts
+a 10% probability of wet conditions. What is the total probability that an operational incident occurs today?
+
+ A. 0.0004
+ B. 0.0016
+ C. 0.0020
+ D. 0.0260
+ E. 0.0060
+
+
+6. An institutional recruitment agency tracks retention rates carefully. Historical logs show that precisely 20% of
+all placed contractual candidates leave their positions by the end of their first year, and only 10% of those who
+successfully complete the first year leave during the subsequent second year. If an employer onboarded 1000
+workers via this firm at the start of Year 1, and onboarded another 1000 workers at the start of Year 2, how many
+total workers are statistically expected to remain active on the job at the exact end of the second year?
+
+ A. 1368
+ B. 1444
+ C. 1489
+ D. 1520
+ E. 1596
+
+
+7. The nutritional caloric value of a specific commercial item is normally distributed with an expected mean of 80
+calories and a standard deviation of 6 calories. What percentage of these items contain more than 89 calories?
+
+ A. 66.8%
+ B. 47.7%
+ C. 43.3%
+ D. 6.68%
+ E. 3.34%
+
+
+
+Probability & Statistics Exam Bank                                                                             Page 14
+8. A global distributor utilizes standard protective shipping units. The internal product contents packed per unit
+exhibit a mean weight of 25 lbs with a standard deviation of 5.0 lbs. The physical container itself has a standard
+deviation of 3.0 lbs, and the internal stabilization material has a standard deviation of 2.0 lbs. Assuming all
+component weights are independent, what is the exact standard deviation of the total packed shipping units?
+
+ A. 28.000 pounds
+ B. 5.290 pounds
+ C. 4.085 pounds
+ D. 2.400 pounds
+ E. 6.164 pounds
+
+
+9. A lead social researcher wants to estimate the true population mean annual income per family within a
+metropolitan school zone. Following a rigorous simple random sample, the researcher establishes a 95 percent
+confidence interval for the population mean spanning from \$35,095 to \$45,005. Which statement provides the
+most accurate statistical interpretation of this confidence interval?
+
+ A. 95 percent of all families in this school zone have an annual income that falls within the interval limits.
+ B. There is a 95% probability that the families of all students combined earn exactly between \$35,095 and \$45,005.
+ C. If we were to take another sample of identical size and calculate a 95% confidence interval, there is a 95% chance
+    that the new interval bounds will exactly match (\$35,095, \$45,005).
+ D. There is a 95% probability that the mean of a subsequent sample drawn with matching sample size will fall between
+    \$35,095 and \$45,005.
+ E. In long-run repeated sampling, 95% of intervals generated using this exact methodology will successfully
+    encompass the true fixed population mean income.
+
+
+10. The municipal Department of Environmental Health tests soil toxicity across a local reserve. If the
+contamination level exceeds regulatory thresholds, the reserve is ordered to close immediately. The null
+hypothesis states H0: "The reserve is safe and non-toxic". Which option describes a final operational decision
+resulting directly from a Type I error?
+
+ A. Closing down the reserve when the toxicity levels are actually within regulatory safety limits (false alarm).
+ B. Keeping the reserve open and operating when toxicity levels are dangerously in excess of limits.
+ C. Closing down the reserve when toxicity levels are genuinely in excess of allowed limits.
+ D. Keeping the reserve open and operating when toxicity levels are completely safe and within limits.
+ E. Closing the reserve entirely due to unrelated infrastructure noise level constraints.
+
+
+
+
+Probability & Statistics Exam Bank                                                                                  Page 15
+Probability & Statistics — Variant 5
+
+1. An outlier is best defined as an observation that:
+
+ A. is seen more frequently than any other observations in the data set.
+ B. is seen less frequently than the other observations in the data set.
+ C. is always smaller than the rest of the observations in the data set.
+ D. is always larger than the rest of the observations in the data set.
+ E. is significantly and abnormally different from the other observations in the data set.
+
+
+2. Management tracks the daily demand for tech support tickets over several years. A cumulative probability
+chart compiled from the data follows a standard sigmoidal path where the 95th percentile corresponds precisely
+to a value of 125 Tickets.
+
+ 1.0
+
+
+
+ 0.5
+
+
+
+ 0.0
+       0                  Median       125
+
+
+
+
+How capacity or inventory should the center maintain daily to guarantee they fully satisfy demand on 95 percent of the
+days?
+
+ A. At most 112 units
+ B. At most 125 units
+ C. Exactly 106 units
+ D. At least 93 units
+ E. At least 125 units
+
+
+3. A large corporation has two separate primary operational divisions. The mean performance metric (or salary
+compensation baseline) of staff in Division 1 is 12 based on a cohort size of 70 employees. Division 2 features a
+mean baseline of 20 across a cohort size of 30 employees. What is the overall combined mean metric paid/
+allocated across all combined employees in this corporation?
+
+ A. 20
+ B. -984
+ C. 16
+ D. 14.4
+ E. 12
+
+
+
+
+Probability & Statistics Exam Bank                                                                               Page 16
+4. A regional school district collects 75 years of weather closure datasets and establishes that the frequency
+distribution for days missed per year exhibits a pronounced right-hand skew (positive skewness) with an isolated
+far-right extreme outlier. Which of the following parameters should be chosen as the most accurate, robust
+measure to describe the center of this distribution?
+
+ A. Mean, because it acts as an unbiased estimator for all linear samples.
+ B. Median, because it remains resistant to extreme values and skewness.
+ C. IQR, because it eliminates outliers and accounts for the central 50 percent.
+ D. First quartile, because the distribution is left-skewed.
+ E. Standard deviation, because it represents structural spread without bias.
+
+
+5. The probability of an operational infrastructure failure incident occurring on any given business day depends
+strongly on environmental conditions. If weather systems remain dry, there is a 1.0% chance of an incident. If
+weather conditions shift to wet, the probability escalates to 4.0%. Today, the local meteorological station forecasts
+a 25% probability of wet conditions. What is the total probability that an operational incident occurs today?
+
+ A. 0.0004
+ B. 0.0016
+ C. 0.0020
+ D. 0.0175
+ E. 0.0060
+
+
+6. An institutional recruitment agency tracks retention rates carefully. Historical logs show that precisely 5% of
+all placed contractual candidates leave their positions by the end of their first year, and only 2% of those who
+successfully complete the first year leave during the subsequent second year. If an employer onboarded 1000
+workers via this firm at the start of Year 1, and onboarded another 1000 workers at the start of Year 2, how many
+total workers are statistically expected to remain active on the job at the exact end of the second year?
+
+ A. 1692
+ B. 1786
+ C. 1843
+ D. 1881
+ E. 1975
+
+
+
+
+Probability & Statistics Exam Bank                                                                             Page 17
+7. The nutritional caloric value of a specific commercial item is normally distributed with an expected mean of
+120 calories and a standard deviation of 12 calories. What percentage of these items contain more than 138
+calories?
+
+ A. 66.8%
+ B. 47.7%
+ C. 43.3%
+ D. 6.68%
+ E. 3.34%
+
+
+8. A global distributor utilizes standard protective shipping units. The internal product contents packed per unit
+exhibit a mean weight of 25 lbs with a standard deviation of 0.3 lbs. The physical container itself has a standard
+deviation of 0.5 lbs, and the internal stabilization material has a standard deviation of 0.2 lbs. Assuming all
+component weights are independent, what is the exact standard deviation of the total packed shipping units?
+
+ A. 28.000 pounds
+ B. 5.290 pounds
+ C. 4.085 pounds
+ D. 2.400 pounds
+ E. 0.616 pounds
+
+
+9. A lead social researcher wants to estimate the true population mean annual income per family within a
+metropolitan school zone. Following a rigorous simple random sample, the researcher establishes a 95 percent
+confidence interval for the population mean spanning from \$35,095 to \$45,005. Which statement provides the
+most accurate statistical interpretation of this confidence interval?
+
+ A. 95 percent of all families in this school zone have an annual income that falls within the interval limits.
+ B. There is a 95% probability that the families of all students combined earn exactly between \$35,095 and \$45,005.
+ C. If we were to take another sample of identical size and calculate a 95% confidence interval, there is a 95% chance
+    that the new interval bounds will exactly match (\$35,095, \$45,005).
+ D. There is a 95% probability that the mean of a subsequent sample drawn with matching sample size will fall between
+      \$35,095 and \$45,005.
+ E. In long-run repeated sampling, 95% of intervals generated using this exact methodology will successfully
+    encompass the true fixed population mean income.
+
+
+
+
+Probability & Statistics Exam Bank                                                                                Page 18
+10. The municipal Department of Environmental Health tests soil toxicity across a local reserve. If the
+contamination level exceeds regulatory thresholds, the reserve is ordered to close immediately. The null
+hypothesis states H0: "The reserve is safe and non-toxic". Which option describes a final operational decision
+resulting directly from a Type I error?
+
+ A. Closing down the reserve when the toxicity levels are actually within regulatory safety limits (false alarm).
+ B. Keeping the reserve open and operating when toxicity levels are dangerously in excess of limits.
+ C. Closing down the reserve when toxicity levels are genuinely in excess of allowed limits.
+ D. Keeping the reserve open and operating when toxicity levels are completely safe and within limits.
+ E. Closing the reserve entirely due to unrelated infrastructure noise level constraints.
+
+
+
+
+Probability & Statistics Exam Bank                                                                                  Page 19
+Probability & Statistics — Variant 6
+
+1. An outlier is best defined as an observation that:
+
+ A. is seen more frequently than any other observations in the data set.
+ B. is seen less frequently than the other observations in the data set.
+ C. is always smaller than the rest of the observations in the data set.
+ D. is always larger than the rest of the observations in the data set.
+ E. is significantly and abnormally different from the other observations in the data set.
+
+
+2. Management tracks the daily demand for daily bakery loaf sales over several years. A cumulative probability
+chart compiled from the data follows a standard sigmoidal path where the 95th percentile corresponds precisely
+to a value of 290 Loaves.
+
+ 1.0
+
+
+
+ 0.5
+
+
+
+ 0.0
+       0                  Median       290
+
+
+
+
+How capacity or inventory should the center maintain daily to guarantee they fully satisfy demand on 95 percent of the
+days?
+
+ A. At most 261 units
+ B. At most 290 units
+ C. Exactly 246 units
+ D. At least 217 units
+ E. At least 290 units
+
+
+3. A large corporation has two separate primary operational divisions. The mean performance metric (or salary
+compensation baseline) of staff in Division 1 is 80 based on a cohort size of 40 employees. Division 2 features a
+mean baseline of 40 across a cohort size of 10 employees. What is the overall combined mean metric paid/
+allocated across all combined employees in this corporation?
+
+ A. 40
+ B. -940
+ C. 60
+ D. 72.0
+ E. 80
+
+
+
+
+Probability & Statistics Exam Bank                                                                               Page 20
+4. A regional school district collects 75 years of weather closure datasets and establishes that the frequency
+distribution for days missed per year exhibits a pronounced right-hand skew (positive skewness) with an isolated
+far-right extreme outlier. Which of the following parameters should be chosen as the most accurate, robust
+measure to describe the center of this distribution?
+
+ A. Mean, because it acts as an unbiased estimator for all linear samples.
+ B. Median, because it remains resistant to extreme values and skewness.
+ C. IQR, because it eliminates outliers and accounts for the central 50 percent.
+ D. First quartile, because the distribution is left-skewed.
+ E. Standard deviation, because it represents structural spread without bias.
+
+
+5. The probability of an operational infrastructure failure incident occurring on any given business day depends
+strongly on environmental conditions. If weather systems remain dry, there is a 2.0% chance of an incident. If
+weather conditions shift to wet, the probability escalates to 6.0%. Today, the local meteorological station forecasts
+a 15% probability of wet conditions. What is the total probability that an operational incident occurs today?
+
+ A. 0.0004
+ B. 0.0016
+ C. 0.0020
+ D. 0.0260
+ E. 0.0060
+
+
+6. An institutional recruitment agency tracks retention rates carefully. Historical logs show that precisely 25% of
+all placed contractual candidates leave their positions by the end of their first year, and only 10% of those who
+successfully complete the first year leave during the subsequent second year. If an employer onboarded 400
+workers via this firm at the start of Year 1, and onboarded another 400 workers at the start of Year 2, how many
+total workers are statistically expected to remain active on the job at the exact end of the second year?
+
+ A. 513
+ B. 541
+ C. 558
+ D. 570
+ E. 598
+
+
+
+
+Probability & Statistics Exam Bank                                                                             Page 21
+7. The nutritional caloric value of a specific commercial item is normally distributed with an expected mean of
+400 calories and a standard deviation of 30 calories. What percentage of these items contain more than 445
+calories?
+
+ A. 66.8%
+ B. 47.7%
+ C. 43.3%
+ D. 6.68%
+ E. 3.34%
+
+
+8. A global distributor utilizes standard protective shipping units. The internal product contents packed per unit
+exhibit a mean weight of 25 lbs with a standard deviation of 1.2 lbs. The physical container itself has a standard
+deviation of 2.0 lbs, and the internal stabilization material has a standard deviation of 0.5 lbs. Assuming all
+component weights are independent, what is the exact standard deviation of the total packed shipping units?
+
+ A. 28.000 pounds
+ B. 5.290 pounds
+ C. 4.085 pounds
+ D. 2.400 pounds
+ E. 2.385 pounds
+
+
+9. A lead social researcher wants to estimate the true population mean annual income per family within a
+metropolitan school zone. Following a rigorous simple random sample, the researcher establishes a 95 percent
+confidence interval for the population mean spanning from \$35,095 to \$45,005. Which statement provides the
+most accurate statistical interpretation of this confidence interval?
+
+ A. 95 percent of all families in this school zone have an annual income that falls within the interval limits.
+ B. There is a 95% probability that the families of all students combined earn exactly between \$35,095 and \$45,005.
+ C. If we were to take another sample of identical size and calculate a 95% confidence interval, there is a 95% chance
+    that the new interval bounds will exactly match (\$35,095, \$45,005).
+ D. There is a 95% probability that the mean of a subsequent sample drawn with matching sample size will fall between
+      \$35,095 and \$45,005.
+ E. In long-run repeated sampling, 95% of intervals generated using this exact methodology will successfully
+    encompass the true fixed population mean income.
+
+
+
+
+Probability & Statistics Exam Bank                                                                                Page 22
+10. The municipal Department of Environmental Health tests soil toxicity across a local reserve. If the
+contamination level exceeds regulatory thresholds, the reserve is ordered to close immediately. The null
+hypothesis states H0: "The reserve is safe and non-toxic". Which option describes a final operational decision
+resulting directly from a Type I error?
+
+ A. Closing down the reserve when the toxicity levels are actually within regulatory safety limits (false alarm).
+ B. Keeping the reserve open and operating when toxicity levels are dangerously in excess of limits.
+ C. Closing down the reserve when toxicity levels are genuinely in excess of allowed limits.
+ D. Keeping the reserve open and operating when toxicity levels are completely safe and within limits.
+ E. Closing the reserve entirely due to unrelated infrastructure noise level constraints.
+
+
+
+
+Probability & Statistics Exam Bank                                                                                  Page 23
+Probability & Statistics — Variant 7
+
+1. An outlier is best defined as an observation that:
+
+ A. is seen more frequently than any other observations in the data set.
+ B. is seen less frequently than the other observations in the data set.
+ C. is always smaller than the rest of the observations in the data set.
+ D. is always larger than the rest of the observations in the data set.
+ E. is significantly and abnormally different from the other observations in the data set.
+
+
+2. Management tracks the daily demand for internet bandwidth (Mbps) over several years. A cumulative
+probability chart compiled from the data follows a standard sigmoidal path where the 95th percentile
+corresponds precisely to a value of 850 Mbps.
+
+ 1.0
+
+
+
+ 0.5
+
+
+
+ 0.0
+       0                  Median       850
+
+
+
+
+How capacity or inventory should the center maintain daily to guarantee they fully satisfy demand on 95 percent of the
+days?
+
+ A. At most 765 units
+ B. At most 850 units
+ C. Exactly 722 units
+ D. At least 637 units
+ E. At least 850 units
+
+
+3. A large corporation has two separate primary operational divisions. The mean performance metric (or salary
+compensation baseline) of staff in Division 1 is 30 based on a cohort size of 80 employees. Division 2 features a
+mean baseline of 15 across a cohort size of 20 employees. What is the overall combined mean metric paid/
+allocated across all combined employees in this corporation?
+
+ A. 15
+ B. -977
+ C. 22
+ D. 27.0
+ E. 30
+
+
+
+
+Probability & Statistics Exam Bank                                                                               Page 24
+4. A regional school district collects 75 years of weather closure datasets and establishes that the frequency
+distribution for days missed per year exhibits a pronounced right-hand skew (positive skewness) with an isolated
+far-right extreme outlier. Which of the following parameters should be chosen as the most accurate, robust
+measure to describe the center of this distribution?
+
+ A. Mean, because it acts as an unbiased estimator for all linear samples.
+ B. Median, because it remains resistant to extreme values and skewness.
+ C. IQR, because it eliminates outliers and accounts for the central 50 percent.
+ D. First quartile, because the distribution is left-skewed.
+ E. Standard deviation, because it represents structural spread without bias.
+
+
+5. The probability of an operational infrastructure failure incident occurring on any given business day depends
+strongly on environmental conditions. If weather systems remain dry, there is a 1.0% chance of an incident. If
+weather conditions shift to wet, the probability escalates to 3.0%. Today, the local meteorological station forecasts
+a 50% probability of wet conditions. What is the total probability that an operational incident occurs today?
+
+ A. 0.0004
+ B. 0.0016
+ C. 0.0020
+ D. 0.0200
+ E. 0.0060
+
+
+6. An institutional recruitment agency tracks retention rates carefully. Historical logs show that precisely 4% of
+all placed contractual candidates leave their positions by the end of their first year, and only 2% of those who
+successfully complete the first year leave during the subsequent second year. If an employer onboarded 100
+workers via this firm at the start of Year 1, and onboarded another 100 workers at the start of Year 2, how many
+total workers are statistically expected to remain active on the job at the exact end of the second year?
+
+ A. 171
+ B. 180
+ C. 186
+ D. 190
+ E. 199
+
+
+7. The nutritional caloric value of a specific commercial item is normally distributed with an expected mean of 25
+calories and a standard deviation of 2 calories. What percentage of these items contain more than 28.5 calories?
+
+ A. 66.8%
+ B. 47.7%
+ C. 43.3%
+ D. 6.68%
+ E. 3.34%
+
+
+
+Probability & Statistics Exam Bank                                                                             Page 25
+8. A global distributor utilizes standard protective shipping units. The internal product contents packed per unit
+exhibit a mean weight of 25 lbs with a standard deviation of 6.0 lbs. The physical container itself has a standard
+deviation of 4.0 lbs, and the internal stabilization material has a standard deviation of 1.0 lbs. Assuming all
+component weights are independent, what is the exact standard deviation of the total packed shipping units?
+
+ A. 28.000 pounds
+ B. 5.290 pounds
+ C. 4.085 pounds
+ D. 2.400 pounds
+ E. 7.280 pounds
+
+
+9. A lead social researcher wants to estimate the true population mean annual income per family within a
+metropolitan school zone. Following a rigorous simple random sample, the researcher establishes a 95 percent
+confidence interval for the population mean spanning from \$35,095 to \$45,005. Which statement provides the
+most accurate statistical interpretation of this confidence interval?
+
+ A. 95 percent of all families in this school zone have an annual income that falls within the interval limits.
+ B. There is a 95% probability that the families of all students combined earn exactly between \$35,095 and \$45,005.
+ C. If we were to take another sample of identical size and calculate a 95% confidence interval, there is a 95% chance
+    that the new interval bounds will exactly match (\$35,095, \$45,005).
+ D. There is a 95% probability that the mean of a subsequent sample drawn with matching sample size will fall between
+    \$35,095 and \$45,005.
+ E. In long-run repeated sampling, 95% of intervals generated using this exact methodology will successfully
+    encompass the true fixed population mean income.
+
+
+10. The municipal Department of Environmental Health tests soil toxicity across a local reserve. If the
+contamination level exceeds regulatory thresholds, the reserve is ordered to close immediately. The null
+hypothesis states H0: "The reserve is safe and non-toxic". Which option describes a final operational decision
+resulting directly from a Type I error?
+
+ A. Closing down the reserve when the toxicity levels are actually within regulatory safety limits (false alarm).
+ B. Keeping the reserve open and operating when toxicity levels are dangerously in excess of limits.
+ C. Closing down the reserve when toxicity levels are genuinely in excess of allowed limits.
+ D. Keeping the reserve open and operating when toxicity levels are completely safe and within limits.
+ E. Closing the reserve entirely due to unrelated infrastructure noise level constraints.
+
+
+
+
+Probability & Statistics Exam Bank                                                                                  Page 26
+Probability & Statistics — Variant 8
+
+1. An outlier is best defined as an observation that:
+
+ A. is seen more frequently than any other observations in the data set.
+ B. is seen less frequently than the other observations in the data set.
+ C. is always smaller than the rest of the observations in the data set.
+ D. is always larger than the rest of the observations in the data set.
+ E. is significantly and abnormally different from the other observations in the data set.
+
+
+2. Management tracks the daily demand for supermarket customers over several years. A cumulative probability
+chart compiled from the data follows a standard sigmoidal path where the 95th percentile corresponds precisely
+to a value of 510 Customers.
+
+ 1.0
+
+
+
+ 0.5
+
+
+
+ 0.0
+       0                  Median       510
+
+
+
+
+How capacity or inventory should the center maintain daily to guarantee they fully satisfy demand on 95 percent of the
+days?
+
+ A. At most 459 units
+ B. At most 510 units
+ C. Exactly 433 units
+ D. At least 382 units
+ E. At least 510 units
+
+
+3. A large corporation has two separate primary operational divisions. The mean performance metric (or salary
+compensation baseline) of staff in Division 1 is 15 based on a cohort size of 120 employees. Division 2 features a
+mean baseline of 18 across a cohort size of 80 employees. What is the overall combined mean metric paid/
+allocated across all combined employees in this corporation?
+
+ A. 18
+ B. -983
+ C. 16
+ D. 16.2
+ E. 15
+
+
+
+
+Probability & Statistics Exam Bank                                                                               Page 27
+4. A regional school district collects 75 years of weather closure datasets and establishes that the frequency
+distribution for days missed per year exhibits a pronounced right-hand skew (positive skewness) with an isolated
+far-right extreme outlier. Which of the following parameters should be chosen as the most accurate, robust
+measure to describe the center of this distribution?
+
+ A. Mean, because it acts as an unbiased estimator for all linear samples.
+ B. Median, because it remains resistant to extreme values and skewness.
+ C. IQR, because it eliminates outliers and accounts for the central 50 percent.
+ D. First quartile, because the distribution is left-skewed.
+ E. Standard deviation, because it represents structural spread without bias.
+
+
+5. The probability of an operational infrastructure failure incident occurring on any given business day depends
+strongly on environmental conditions. If weather systems remain dry, there is a 3.0% chance of an incident. If
+weather conditions shift to wet, the probability escalates to 10.0%. Today, the local meteorological station
+forecasts a 5% probability of wet conditions. What is the total probability that an operational incident occurs
+today?
+
+ A. 0.0004
+ B. 0.0016
+ C. 0.0020
+ D. 0.0335
+ E. 0.0060
+
+
+6. An institutional recruitment agency tracks retention rates carefully. Historical logs show that precisely 10% of
+all placed contractual candidates leave their positions by the end of their first year, and only 4% of those who
+successfully complete the first year leave during the subsequent second year. If an employer onboarded 300
+workers via this firm at the start of Year 1, and onboarded another 300 workers at the start of Year 2, how many
+total workers are statistically expected to remain active on the job at the exact end of the second year?
+
+ A. 476
+ B. 502
+ C. 518
+ D. 529
+ E. 555
+
+
+
+
+Probability & Statistics Exam Bank                                                                           Page 28
+7. The nutritional caloric value of a specific commercial item is normally distributed with an expected mean of 70
+calories and a standard deviation of 8 calories. What percentage of these items contain more than 82 calories?
+
+ A. 66.8%
+ B. 47.7%
+ C. 43.3%
+ D. 6.68%
+ E. 3.34%
+
+
+8. A global distributor utilizes standard protective shipping units. The internal product contents packed per unit
+exhibit a mean weight of 25 lbs with a standard deviation of 5.0 lbs. The physical container itself has a standard
+deviation of 2.0 lbs, and the internal stabilization material has a standard deviation of 0.5 lbs. Assuming all
+component weights are independent, what is the exact standard deviation of the total packed shipping units?
+
+ A. 28.000 pounds
+ B. 5.290 pounds
+ C. 4.085 pounds
+ D. 2.400 pounds
+ E. 5.408 pounds
+
+
+9. A lead social researcher wants to estimate the true population mean annual income per family within a
+metropolitan school zone. Following a rigorous simple random sample, the researcher establishes a 95 percent
+confidence interval for the population mean spanning from \$35,095 to \$45,005. Which statement provides the
+most accurate statistical interpretation of this confidence interval?
+
+ A. 95 percent of all families in this school zone have an annual income that falls within the interval limits.
+ B. There is a 95% probability that the families of all students combined earn exactly between \$35,095 and \$45,005.
+ C. If we were to take another sample of identical size and calculate a 95% confidence interval, there is a 95% chance
+    that the new interval bounds will exactly match (\$35,095, \$45,005).
+ D. There is a 95% probability that the mean of a subsequent sample drawn with matching sample size will fall between
+    \$35,095 and \$45,005.
+ E. In long-run repeated sampling, 95% of intervals generated using this exact methodology will successfully
+    encompass the true fixed population mean income.
+
+
+
+
+Probability & Statistics Exam Bank                                                                                Page 29
+10. The municipal Department of Environmental Health tests soil toxicity across a local reserve. If the
+contamination level exceeds regulatory thresholds, the reserve is ordered to close immediately. The null
+hypothesis states H0: "The reserve is safe and non-toxic". Which option describes a final operational decision
+resulting directly from a Type I error?
+
+ A. Closing down the reserve when the toxicity levels are actually within regulatory safety limits (false alarm).
+ B. Keeping the reserve open and operating when toxicity levels are dangerously in excess of limits.
+ C. Closing down the reserve when toxicity levels are genuinely in excess of allowed limits.
+ D. Keeping the reserve open and operating when toxicity levels are completely safe and within limits.
+ E. Closing the reserve entirely due to unrelated infrastructure noise level constraints.
+
+
+
+
+Probability & Statistics Exam Bank                                                                                  Page 30
+Probability & Statistics — Variant 9
+
+1. An outlier is best defined as an observation that:
+
+ A. is seen more frequently than any other observations in the data set.
+ B. is seen less frequently than the other observations in the data set.
+ C. is always smaller than the rest of the observations in the data set.
+ D. is always larger than the rest of the observations in the data set.
+ E. is significantly and abnormally different from the other observations in the data set.
+
+
+2. Management tracks the daily demand for courier packages delivered over several years. A cumulative
+probability chart compiled from the data follows a standard sigmoidal path where the 95th percentile
+corresponds precisely to a value of 680 Packages.
+
+ 1.0
+
+
+
+ 0.5
+
+
+
+ 0.0
+       0                  Median       680
+
+
+
+
+How capacity or inventory should the center maintain daily to guarantee they fully satisfy demand on 95 percent of the
+days?
+
+ A. At most 612 units
+ B. At most 680 units
+ C. Exactly 578 units
+ D. At least 510 units
+ E. At least 680 units
+
+
+3. A large corporation has two separate primary operational divisions. The mean performance metric (or salary
+compensation baseline) of staff in Division 1 is 82 based on a cohort size of 45 employees. Division 2 features a
+mean baseline of 94 across a cohort size of 15 employees. What is the overall combined mean metric paid/
+allocated across all combined employees in this corporation?
+
+ A. 94
+ B. -912
+ C. 88
+ D. 85.0
+ E. 82
+
+
+
+
+Probability & Statistics Exam Bank                                                                               Page 31
+4. A regional school district collects 75 years of weather closure datasets and establishes that the frequency
+distribution for days missed per year exhibits a pronounced right-hand skew (positive skewness) with an isolated
+far-right extreme outlier. Which of the following parameters should be chosen as the most accurate, robust
+measure to describe the center of this distribution?
+
+ A. Mean, because it acts as an unbiased estimator for all linear samples.
+ B. Median, because it remains resistant to extreme values and skewness.
+ C. IQR, because it eliminates outliers and accounts for the central 50 percent.
+ D. First quartile, because the distribution is left-skewed.
+ E. Standard deviation, because it represents structural spread without bias.
+
+
+5. The probability of an operational infrastructure failure incident occurring on any given business day depends
+strongly on environmental conditions. If weather systems remain dry, there is a 2.0% chance of an incident. If
+weather conditions shift to wet, the probability escalates to 4.0%. Today, the local meteorological station forecasts
+a 35% probability of wet conditions. What is the total probability that an operational incident occurs today?
+
+ A. 0.0004
+ B. 0.0016
+ C. 0.0020
+ D. 0.0270
+ E. 0.0060
+
+
+6. An institutional recruitment agency tracks retention rates carefully. Historical logs show that precisely 12% of
+all placed contractual candidates leave their positions by the end of their first year, and only 5% of those who
+successfully complete the first year leave during the subsequent second year. If an employer onboarded 500
+workers via this firm at the start of Year 1, and onboarded another 500 workers at the start of Year 2, how many
+total workers are statistically expected to remain active on the job at the exact end of the second year?
+
+ A. 772
+ B. 815
+ C. 840
+ D. 858
+ E. 900
+
+
+
+
+Probability & Statistics Exam Bank                                                                             Page 32
+7. The nutritional caloric value of a specific commercial item is normally distributed with an expected mean of
+150 calories and a standard deviation of 14 calories. What percentage of these items contain more than 171
+calories?
+
+ A. 66.8%
+ B. 47.7%
+ C. 43.3%
+ D. 6.68%
+ E. 3.34%
+
+
+8. A global distributor utilizes standard protective shipping units. The internal product contents packed per unit
+exhibit a mean weight of 25 lbs with a standard deviation of 1.5 lbs. The physical container itself has a standard
+deviation of 0.2 lbs, and the internal stabilization material has a standard deviation of 0.4 lbs. Assuming all
+component weights are independent, what is the exact standard deviation of the total packed shipping units?
+
+ A. 28.000 pounds
+ B. 5.290 pounds
+ C. 4.085 pounds
+ D. 2.400 pounds
+ E. 1.565 pounds
+
+
+9. A lead social researcher wants to estimate the true population mean annual income per family within a
+metropolitan school zone. Following a rigorous simple random sample, the researcher establishes a 95 percent
+confidence interval for the population mean spanning from \$35,095 to \$45,005. Which statement provides the
+most accurate statistical interpretation of this confidence interval?
+
+ A. 95 percent of all families in this school zone have an annual income that falls within the interval limits.
+ B. There is a 95% probability that the families of all students combined earn exactly between \$35,095 and \$45,005.
+ C. If we were to take another sample of identical size and calculate a 95% confidence interval, there is a 95% chance
+    that the new interval bounds will exactly match (\$35,095, \$45,005).
+ D. There is a 95% probability that the mean of a subsequent sample drawn with matching sample size will fall between
+      \$35,095 and \$45,005.
+ E. In long-run repeated sampling, 95% of intervals generated using this exact methodology will successfully
+    encompass the true fixed population mean income.
+
+
+
+
+Probability & Statistics Exam Bank                                                                                Page 33
+10. The municipal Department of Environmental Health tests soil toxicity across a local reserve. If the
+contamination level exceeds regulatory thresholds, the reserve is ordered to close immediately. The null
+hypothesis states H0: "The reserve is safe and non-toxic". Which option describes a final operational decision
+resulting directly from a Type I error?
+
+ A. Closing down the reserve when the toxicity levels are actually within regulatory safety limits (false alarm).
+ B. Keeping the reserve open and operating when toxicity levels are dangerously in excess of limits.
+ C. Closing down the reserve when toxicity levels are genuinely in excess of allowed limits.
+ D. Keeping the reserve open and operating when toxicity levels are completely safe and within limits.
+ E. Closing the reserve entirely due to unrelated infrastructure noise level constraints.
+
+
+
+
+Probability & Statistics Exam Bank                                                                                  Page 34
+Probability & Statistics — Variant 10
+
+1. An outlier is best defined as an observation that:
+
+ A. is seen more frequently than any other observations in the data set.
+ B. is seen less frequently than the other observations in the data set.
+ C. is always smaller than the rest of the observations in the data set.
+ D. is always larger than the rest of the observations in the data set.
+ E. is significantly and abnormally different from the other observations in the data set.
+
+
+2. Management tracks the daily demand for car rentals per day over several years. A cumulative probability chart
+compiled from the data follows a standard sigmoidal path where the 95th percentile corresponds precisely to a
+value of 175 Cars.
+
+ 1.0
+
+
+
+ 0.5
+
+
+
+ 0.0
+       0                  Median       175
+
+
+
+
+How capacity or inventory should the center maintain daily to guarantee they fully satisfy demand on 95 percent of the
+days?
+
+ A. At most 157 units
+ B. At most 175 units
+ C. Exactly 148 units
+ D. At least 131 units
+ E. At least 175 units
+
+
+3. A large corporation has two separate primary operational divisions. The mean performance metric (or salary
+compensation baseline) of staff in Division 1 is 8 based on a cohort size of 12 employees. Division 2 features a
+mean baseline of 14 across a cohort size of 4 employees. What is the overall combined mean metric paid/allocated
+across all combined employees in this corporation?
+
+ A. 14
+ B. -989
+ C. 11
+ D. 9.5
+ E. 8
+
+
+
+
+Probability & Statistics Exam Bank                                                                               Page 35
+4. A regional school district collects 75 years of weather closure datasets and establishes that the frequency
+distribution for days missed per year exhibits a pronounced right-hand skew (positive skewness) with an isolated
+far-right extreme outlier. Which of the following parameters should be chosen as the most accurate, robust
+measure to describe the center of this distribution?
+
+ A. Mean, because it acts as an unbiased estimator for all linear samples.
+ B. Median, because it remains resistant to extreme values and skewness.
+ C. IQR, because it eliminates outliers and accounts for the central 50 percent.
+ D. First quartile, because the distribution is left-skewed.
+ E. Standard deviation, because it represents structural spread without bias.
+
+
+5. The probability of an operational infrastructure failure incident occurring on any given business day depends
+strongly on environmental conditions. If weather systems remain dry, there is a 1.0% chance of an incident. If
+weather conditions shift to wet, the probability escalates to 12.0%. Today, the local meteorological station
+forecasts a 8% probability of wet conditions. What is the total probability that an operational incident occurs
+today?
+
+ A. 0.0004
+ B. 0.0016
+ C. 0.0020
+ D. 0.0188
+ E. 0.0060
+
+
+6. An institutional recruitment agency tracks retention rates carefully. Historical logs show that precisely 8% of
+all placed contractual candidates leave their positions by the end of their first year, and only 4% of those who
+successfully complete the first year leave during the subsequent second year. If an employer onboarded 50
+workers via this firm at the start of Year 1, and onboarded another 50 workers at the start of Year 2, how many
+total workers are statistically expected to remain active on the job at the exact end of the second year?
+
+ A. 82
+ B. 87
+ C. 90
+ D. 92
+ E. 96
+
+
+
+
+Probability & Statistics Exam Bank                                                                            Page 36
+7. The nutritional caloric value of a specific commercial item is normally distributed with an expected mean of
+1000 calories and a standard deviation of 80 calories. What percentage of these items contain more than 1120
+calories?
+
+ A. 66.8%
+ B. 47.7%
+ C. 43.3%
+ D. 6.68%
+ E. 3.34%
+
+
+8. A global distributor utilizes standard protective shipping units. The internal product contents packed per unit
+exhibit a mean weight of 25 lbs with a standard deviation of 1.0 lbs. The physical container itself has a standard
+deviation of 0.6 lbs, and the internal stabilization material has a standard deviation of 0.2 lbs. Assuming all
+component weights are independent, what is the exact standard deviation of the total packed shipping units?
+
+ A. 28.000 pounds
+ B. 5.290 pounds
+ C. 4.085 pounds
+ D. 2.400 pounds
+ E. 1.183 pounds
+
+
+9. A lead social researcher wants to estimate the true population mean annual income per family within a
+metropolitan school zone. Following a rigorous simple random sample, the researcher establishes a 95 percent
+confidence interval for the population mean spanning from \$35,095 to \$45,005. Which statement provides the
+most accurate statistical interpretation of this confidence interval?
+
+ A. 95 percent of all families in this school zone have an annual income that falls within the interval limits.
+ B. There is a 95% probability that the families of all students combined earn exactly between \$35,095 and \$45,005.
+ C. If we were to take another sample of identical size and calculate a 95% confidence interval, there is a 95% chance
+    that the new interval bounds will exactly match (\$35,095, \$45,005).
+ D. There is a 95% probability that the mean of a subsequent sample drawn with matching sample size will fall between
+      \$35,095 and \$45,005.
+ E. In long-run repeated sampling, 95% of intervals generated using this exact methodology will successfully
+    encompass the true fixed population mean income.
+
+
+
+
+Probability & Statistics Exam Bank                                                                                Page 37
+10. The municipal Department of Environmental Health tests soil toxicity across a local reserve. If the
+contamination level exceeds regulatory thresholds, the reserve is ordered to close immediately. The null
+hypothesis states H0: "The reserve is safe and non-toxic". Which option describes a final operational decision
+resulting directly from a Type I error?
+
+ A. Closing down the reserve when the toxicity levels are actually within regulatory safety limits (false alarm).
+ B. Keeping the reserve open and operating when toxicity levels are dangerously in excess of limits.
+ C. Closing down the reserve when toxicity levels are genuinely in excess of allowed limits.
+ D. Keeping the reserve open and operating when toxicity levels are completely safe and within limits.
+ E. Closing the reserve entirely due to unrelated infrastructure noise level constraints.
+
+
+
+
+Probability & Statistics Exam Bank                                                                                  Page 38
+Master Answer Key (Variants 1–10)
+
+This master key lists the correct option letter for each of the 10 parallel multiple choice questions across all variants
+generated in this book.
+
+        Question No.                 V1    V2       V3        V4       V5       V6        V7       V8       V9        V10
+
+          Question 1                 E      E        E        E         E        E        E         E        E          E
+
+          Question 2                 E      E        E        E         E        E        E         E        E          E
+
+          Question 3                 D     D         D        D         D        D        D         D        D          D
+
+          Question 4                 B      B        B        B         B        B        B         B        B          B
+
+          Question 5                 D     D         D        D         D        D        D         D        D          D
+
+          Question 6                 D     D         D        D         D        D        D         D        D          D
+
+          Question 7                 D     D         D        D         D        D        D         D        D          D
+
+          Question 8                 E      E        E        E         E        E        E         E        E          E
+
+          Question 9                 E      E        E        E         E        E        E         E        E          E
+
+         Question 10                 A      A        A        A         A        A        A         A        A          A
+
+
+
+
+Probability & Statistics Exam Bank                                                                                     Page 39
+

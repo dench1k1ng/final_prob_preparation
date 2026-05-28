@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Statistics Theory Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="quiz-data.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <p class="hero-kicker">Probability &amp; Statistics / Oral Theory Drill</p>
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <h1>Statistics Theory Quiz</h1>
+            <p class="hero-text">
+              Revision site built from your theory cards. Filter by chapter, reveal
+              answers only after you think, and mark weak spots for repeat review.
+            </p>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-tile">
+              <span class="stat-label">Loaded</span>
+              <strong id="loaded-count">0</strong>
+            </div>
+            <div class="stat-tile">
+              <span class="stat-label">Reviewed</span>
+              <strong id="reviewed-count">0</strong>
+            </div>
+            <div class="stat-tile accent">
+              <span class="stat-label">Need Review</span>
+              <strong id="need-review-count">0</strong>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="workspace">
+        <aside class="control-panel">
+          <div class="panel-section">
+            <label class="field-label" for="mode-filter">Quiz mode</label>
+            <select id="mode-filter">
+              <option value="theory">Theory cards</option>
+              <option value="mcq_part_a">MCQ Part A</option>
+              <option value="variants_10">Probability &amp; Statistics: 10 Variants</option>
+            </select>
+          </div>
+
+          <div class="panel-section">
+            <label class="field-label" for="search-input">Search topics</label>
+            <input id="search-input" type="search" placeholder="Bayes, regression, CLT..." />
+          </div>
+
+          <div class="panel-section">
+            <label class="field-label" for="section-filter">Section</label>
+            <select id="section-filter">
+              <option value="all">All sections</option>
+            </select>
+          </div>
+
+          <div class="panel-section toggle-row">
+            <label class="toggle">
+              <input id="shuffle-toggle" type="checkbox" />
+              <span>Shuffle current selection</span>
+            </label>
+            <label class="toggle">
+              <input id="review-only-toggle" type="checkbox" />
+              <span>Show only weak cards</span>
+            </label>
+          </div>
+
+          <div class="panel-section action-row">
+            <button id="random-card-button" class="ghost-button" type="button">Random card</button>
+            <button id="reset-progress-button" class="ghost-button danger" type="button">Reset marks</button>
+          </div>
+
+          <div class="panel-section progress-panel">
+            <div class="progress-copy">
+              <span>Current run</span>
+              <strong id="position-indicator">0 / 0</strong>
+            </div>
+            <div class="progress-track" aria-hidden="true">
+              <div id="progress-bar" class="progress-bar"></div>
+            </div>
+          </div>
+
+          <div class="panel-section source-note" id="source-note">
+            Loading quiz source...
+          </div>
+        </aside>
+
+        <section class="quiz-stage">
+          <div class="card-frame">
+            <div class="card-header">
+              <div>
+                <p id="card-section" class="card-section">Section</p>
+                <h2 id="card-title">Loading...</h2>
+              </div>
+              <div id="card-number" class="card-number">Card 0</div>
+            </div>
+
+            <article class="quiz-card" id="quiz-card">
+              <div class="prompt-block">
+                <span class="prompt-tag">Question</span>
+                <p id="card-question" class="card-question">Preparing cards...</p>
+              </div>
+
+              <div class="answer-veil" id="answer-veil">
+                <button id="reveal-button" class="reveal-button" type="button">Reveal answer</button>
+                <p>Try to answer aloud before opening the card.</p>
+              </div>
+
+              <div id="answer-panel" class="answer-panel hidden">
+                <section>
+                  <span class="prompt-tag">Short answer</span>
+                  <div id="card-answer"></div>
+                </section>
+                <section>
+                  <span class="prompt-tag">Key formula / notation</span>
+                  <div id="card-formula"></div>
+                </section>
+                <section>
+                  <span class="prompt-tag">Mini example</span>
+                  <div id="card-example"></div>
+                </section>
+                <section>
+                  <span class="prompt-tag">What to remember</span>
+                  <div id="card-memory"></div>
+                </section>
+              </div>
+            </article>
+
+            <div class="card-footer">
+              <div class="mark-buttons">
+                <button id="mark-review-button" class="mark-button review" type="button">Need review</button>
+                <button id="mark-known-button" class="mark-button known" type="button">Know it</button>
+              </div>
+              <div class="nav-buttons">
+                <button id="prev-button" class="nav-button" type="button">Previous</button>
+                <button id="next-button" class="nav-button primary" type="button">Next</button>
+              </div>
+            </div>
+          </div>
+
+          <section class="topic-strip">
+            <div class="topic-strip-header">
+              <h3>Topic navigator</h3>
+              <p>Jump directly to any card in the current filtered set.</p>
+            </div>
+            <div id="topic-list" class="topic-list"></div>
+          </section>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
