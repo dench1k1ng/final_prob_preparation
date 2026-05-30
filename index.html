@@ -3,155 +3,129 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Statistics Theory Quiz</title>
+    <title>Statistics Final Exam Prep</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
-    <script defer src="quiz-data.js"></script>
+    <script defer src="data/exam-dataset.js"></script>
     <script defer src="app.js"></script>
   </head>
   <body>
-    <div class="page-shell">
+    <div class="grain"></div>
+    <div class="shell">
       <header class="hero">
-        <p class="hero-kicker">Probability &amp; Statistics / Oral Theory Drill</p>
-        <div class="hero-grid">
-          <div class="hero-copy">
-            <h1>Statistics Theory Quiz</h1>
-            <p class="hero-text">
-              Revision site built from your theory cards. Filter by chapter, reveal
-              answers only after you think, and mark weak spots for repeat review.
-            </p>
-          </div>
-          <div class="hero-stats">
-            <div class="stat-tile">
-              <span class="stat-label">Loaded</span>
-              <strong id="loaded-count">0</strong>
-            </div>
-            <div class="stat-tile">
-              <span class="stat-label">Reviewed</span>
-              <strong id="reviewed-count">0</strong>
-            </div>
-            <div class="stat-tile accent">
-              <span class="stat-label">Need Review</span>
-              <strong id="need-review-count">0</strong>
-            </div>
-          </div>
+        <p class="kicker">Probability and Statistics</p>
+        <h1>Interactive Final Exam Prep</h1>
+        <p class="hero-copy">
+          Full solved bank for all 10 variants (240 questions). Self-test first, then reveal bilingual solutions.
+        </p>
+        <div class="hero-stats">
+          <article>
+            <span>Total items</span>
+            <strong id="stat-total">0</strong>
+          </article>
+          <article>
+            <span>Resolved</span>
+            <strong id="stat-resolved">0</strong>
+          </article>
+          <article>
+            <span>Current filter</span>
+            <strong id="stat-filtered">0</strong>
+          </article>
         </div>
       </header>
 
-      <main class="workspace">
-        <aside class="control-panel">
-          <div class="panel-section">
-            <label class="field-label" for="mode-filter">Quiz mode</label>
-            <select id="mode-filter">
-              <option value="theory">Theory cards</option>
-              <option value="sample_final_exam">Sample Final Exams</option>
-              <option value="mcq_part_a">MCQ Part A</option>
-              <option value="variants_10">Probability &amp; Statistics: 10 Variants</option>
+      <main class="layout">
+        <aside class="controls">
+          <section>
+            <h2>Filters</h2>
+            <label for="variant-select">Variant</label>
+            <select id="variant-select"></select>
+            <label for="part-select">Part</label>
+            <select id="part-select">
+              <option value="all">All</option>
+              <option value="Part A">Part A</option>
+              <option value="Part B">Part B</option>
             </select>
-          </div>
-
-          <div class="panel-section">
-            <label class="field-label" for="search-input">Search topics</label>
-            <input id="search-input" type="search" placeholder="Bayes, regression, CLT..." />
-          </div>
-
-          <div class="panel-section">
-            <label class="field-label" for="section-filter">Section</label>
-            <select id="section-filter">
-              <option value="all">All sections</option>
+            <label for="type-select">Type</label>
+            <select id="type-select">
+              <option value="all">All</option>
+              <option value="MCQ">MCQ</option>
+              <option value="FR">FR</option>
             </select>
-          </div>
+          </section>
 
-          <div class="panel-section toggle-row">
-            <label class="toggle">
-              <input id="shuffle-toggle" type="checkbox" />
-              <span>Shuffle current selection</span>
-            </label>
-            <label class="toggle">
-              <input id="review-only-toggle" type="checkbox" />
-              <span>Show only weak cards</span>
-            </label>
-          </div>
-
-          <div class="panel-section action-row">
-            <button id="random-card-button" class="ghost-button" type="button">Random card</button>
-            <button id="reset-progress-button" class="ghost-button danger" type="button">Reset marks</button>
-          </div>
-
-          <div class="panel-section progress-panel">
-            <div class="progress-copy">
-              <span>Current run</span>
-              <strong id="position-indicator">0 / 0</strong>
+          <section>
+            <h2>Study Mode</h2>
+            <div class="mode-grid" role="group" aria-label="Study mode">
+              <button id="mode-compact" class="mode-btn" type="button">Compact</button>
+              <button id="mode-full" class="mode-btn active" type="button">Full</button>
             </div>
-            <div class="progress-track" aria-hidden="true">
-              <div id="progress-bar" class="progress-bar"></div>
-            </div>
-          </div>
+            <button id="next-unresolved" class="ghost" type="button">Next unresolved</button>
+            <button id="hide-all" class="ghost" type="button">Hide all solutions</button>
+          </section>
 
-          <div class="panel-section source-note" id="source-note">
-            Loading quiz source...
-          </div>
+          <section>
+            <h2>Navigator</h2>
+            <div id="question-list" class="question-list"></div>
+          </section>
+
+          <section>
+            <h2>Resources</h2>
+            <a class="print-link" href="final_exam_solutions_ru_en.md" target="_blank" rel="noopener noreferrer">
+              Open printable handbook (Markdown)
+            </a>
+          </section>
         </aside>
 
-        <section class="quiz-stage">
-          <div class="card-frame">
-            <div class="card-header">
+        <section class="study-pane">
+          <article class="card" id="question-card">
+            <div class="card-top">
               <div>
-                <p id="card-section" class="card-section">Section</p>
-                <h2 id="card-title">Loading...</h2>
+                <p id="question-meta" class="meta">Variant 1 · Part A · Q1</p>
+                <h2 id="question-title">Question</h2>
               </div>
-              <div id="card-number" class="card-number">Card 0</div>
+              <div id="question-tags" class="tag-wrap"></div>
             </div>
 
-            <article class="quiz-card" id="quiz-card">
-              <div class="prompt-block">
-                <span class="prompt-tag">Question</span>
-                <p id="card-question" class="card-question">Preparing cards...</p>
-              </div>
+            <pre id="question-prompt" class="prompt"></pre>
 
-              <div class="answer-veil" id="answer-veil">
-                <button id="reveal-button" class="reveal-button" type="button">Reveal answer</button>
-                <p>Try to answer aloud before opening the card.</p>
-              </div>
-
-              <div id="answer-panel" class="answer-panel hidden">
-                <section>
-                  <span class="prompt-tag">Short answer</span>
-                  <div id="card-answer"></div>
-                </section>
-                <section>
-                  <span class="prompt-tag">Key formula / notation</span>
-                  <div id="card-formula"></div>
-                </section>
-                <section>
-                  <span class="prompt-tag">Mini example</span>
-                  <div id="card-example"></div>
-                </section>
-                <section>
-                  <span class="prompt-tag">What to remember</span>
-                  <div id="card-memory"></div>
-                </section>
-              </div>
-            </article>
-
-            <div class="card-footer">
-              <div class="mark-buttons">
-                <button id="mark-review-button" class="mark-button review" type="button">Need review</button>
-                <button id="mark-known-button" class="mark-button known" type="button">Know it</button>
-              </div>
-              <div class="nav-buttons">
-                <button id="prev-button" class="nav-button" type="button">Previous</button>
-                <button id="next-button" class="nav-button primary" type="button">Next</button>
-              </div>
+            <div class="pager" aria-label="Question navigation">
+              <button id="prev-question" class="ghost pager-btn" type="button">Previous</button>
+              <button id="next-question" class="ghost pager-btn" type="button">Next</button>
             </div>
-          </div>
 
-          <section class="topic-strip">
-            <div class="topic-strip-header">
-              <h3>Topic navigator</h3>
-              <p>Jump directly to any card in the current filtered set.</p>
+            <div class="actions">
+              <button id="show-answer" class="primary" type="button">Show answer</button>
+              <button id="show-derivation" class="secondary" type="button">Show full derivation</button>
+              <button id="mark-resolved" class="ghost" type="button">Mark resolved</button>
             </div>
-            <div id="topic-list" class="topic-list"></div>
-          </section>
+
+            <section id="answer-box" class="answer-box hidden">
+              <h3>Final answer</h3>
+              <p id="final-answer"></p>
+            </section>
+
+            <section id="ru-box" class="solution-box hidden">
+              <h3>RU: Вычисление</h3>
+              <ul id="ru-steps"></ul>
+            </section>
+
+            <section id="en-box" class="solution-box hidden">
+              <h3>EN: Explanation</h3>
+              <p id="en-explanation"></p>
+            </section>
+          </article>
+
+          <aside class="answer-key">
+            <h2>Answer Key Panel</h2>
+            <p id="key-caption">Current variant quick key</p>
+            <div id="key-grid" class="key-grid"></div>
+          </aside>
         </section>
       </main>
     </div>

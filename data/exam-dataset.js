@@ -1,0 +1,4563 @@
+window.EXAM_DATASET = [
+  {
+    "id": "V1-A-Q1",
+    "variant": 1,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 1,
+    "prompt": "A researcher records the resting heart rates (in beats per minute) of 8 athletes and 8 non-athletes. When comparing their mean heart rates, which of the following is most appropriate?\n\nA. A two-sample z-test of population means\nB. A two-sample t-test of population means\nC. A one-sample z-test on a set of differences\nD. A one-sample t-test on a set of differences\nE. None of the above are appropriate.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: inference).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "This compares means from two independent groups (athletes vs non-athletes), so use a two-sample procedure. Population standard deviations are not given and sample sizes are small, so a two-sample t-test is appropriate (not z, and not paired). That matches option B.",
+    "final_answer": "B",
+    "tags": [
+      "inference",
+      "test-selection"
+    ]
+  },
+  {
+    "id": "V1-A-Q2",
+    "variant": 1,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 2,
+    "prompt": "A stemplot of exam scores shows that most values cluster between 70 and 80, with a few scores below 50. Which of the following is most likely true?\n\nA. The mean is greater than the median.\nB. The median is greater than the mean.\nC. The mean equals the median.\nD. The distribution is symmetric.\nE. The distribution is uniform.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: descriptive-stats).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Most scores are around 70-80 with a tail toward lower values, so the distribution is left-skewed. In left skew, the mean is pulled downward below the median. Therefore the statement \"median > mean\" is the best choice, which is option B.",
+    "final_answer": "B",
+    "tags": [
+      "descriptive-stats",
+      "skewness"
+    ]
+  },
+  {
+    "id": "V1-A-Q3",
+    "variant": 1,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 3,
+    "prompt": "To estimate the average commute time for employees in a large company, a researcher selects every 10th employee from the company directory. This is an example of:\n\nA. Simple random sampling\nB. Cluster sampling\nC. Stratified sampling\nD. Systematic sampling\nE. Convenience sampling",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: sampling-methods).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "Selecting every 10th employee is the definition of systematic sampling: pick units at a fixed interval after an initial start. It is not simple random, cluster, or stratified sampling. Hence option D is correct.",
+    "final_answer": "D",
+    "tags": [
+      "sampling-methods"
+    ]
+  },
+  {
+    "id": "V1-A-Q4",
+    "variant": 1,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 4,
+    "prompt": "Which of the following is NOT true about the standard normal distribution?\n\nA. It has mean 0 and standard deviation 1.\nB. It is bell-shaped and symmetric.\nC. Approximately 95% of values fall within 2 standard deviations of the mean.\nD. It is a continuous distribution.\nE. The area under the curve is 2.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: distributions).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: E."
+    ],
+    "solution_en_explanation": "A standard normal distribution is continuous, symmetric, centered at 0, with standard deviation 1, and total area under the curve equal to 1. The only false statement is \"area is 2,\" so the NOT-true option is E.",
+    "final_answer": "E",
+    "tags": [
+      "distributions",
+      "normal-t"
+    ]
+  },
+  {
+    "id": "V1-A-Q5",
+    "variant": 1,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 5,
+    "prompt": "The probability that a student passes Math is 0.70 and the probability that a student passes both Math and Science is 0.42. Given that the student passes Math, what is the probability of passing Science?\n\nA. 0.70 - 0.42\nB. 0.70 + 0.42\nC. 0.42 / 0.70\nD. 0.70 / 0.42\nE. 0.42 × 0.70",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: probability-rules).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Use conditional probability: P(Science | Math) = P(Science and Math) / P(Math). Substituting gives 0.42 / 0.70 = 0.60. The option expressing this setup is C.",
+    "final_answer": "C",
+    "tags": [
+      "probability-rules"
+    ]
+  },
+  {
+    "id": "V1-A-Q6",
+    "variant": 1,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 6,
+    "prompt": "Heights in a population are normally distributed with mean 170 cm and standard deviation 8 cm. What is the probability that a randomly selected person is taller than 186 cm?\n\nA. 0.0228\nB. 0.0456\nC. 0.9772\nD. 0.4772\nE. 0.1587",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: normal-distribution).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Standardize with z = (186 - 170) / 8 = 2. Then P(X > 186) = P(Z > 2) ≈ 0.0228 from the standard normal table. This corresponds to option A.",
+    "final_answer": "A",
+    "tags": [
+      "normal-distribution",
+      "z-score"
+    ]
+  },
+  {
+    "id": "V1-A-Q7",
+    "variant": 1,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 7,
+    "prompt": "A researcher wants to estimate the difference in mean test scores between two groups within ±3 points with 95% confidence. Assuming equal standard deviations of 10, which formula should be used to find the minimum sample size per group?\n\nA. 1.96 × √(10²+10²)/√n ≤ 3\nB. 1.96 × √(10²+10²)/n ≤ 3\nC. 1.645 × √(10²+10²)/√n ≤ 3\nD. 1.96 × (10+10)/√n ≤ 3\nE. 1.96 × (10+10)/n ≤ 3",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: confidence-interval).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "For a 95% margin requirement on a difference of two means with equal SDs, the margin form is z*sqrt(s1^2+s2^2)/sqrt(n). Set 1.96*sqrt(10^2+10^2)/sqrt(n) <= 3 and solve for n. That exact setup is option A.",
+    "final_answer": "A",
+    "tags": [
+      "confidence-interval",
+      "sample-size"
+    ]
+  },
+  {
+    "id": "V1-A-Q8",
+    "variant": 1,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 8,
+    "prompt": "Suppose the correlation between two variables is r = 0.65. If every value of the x-variable is multiplied by 3 and every value of the y-variable is decreased by 5, what is the new correlation?\n\nA. 0.65\nB. 1.95\nC. -0.65\nD. 0.217\nE. 0.43",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: correlation).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Correlation near +1 means a strong positive linear association, while correlation near 0 means weak linear association. Correlation does not establish causation. The option consistent with these facts is A.",
+    "final_answer": "A",
+    "tags": [
+      "correlation"
+    ]
+  },
+  {
+    "id": "V1-A-Q9",
+    "variant": 1,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 9,
+    "prompt": "A sample of 150 households showed 0 with no cars, 75 with one car, and 75 with two cars. The chi-square goodness-of-fit test is used to test if cars follow a binomial distribution with p = 0.5. What are the expected counts?\n\nA. Expected: 37.5, 75, 37.5\nB. Expected: 50, 50, 50\nC. Expected: 0, 75, 75\nD. Expected: 25, 100, 25\nE. Expected: 75, 75, 0",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: chi-square).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "A chi-square test compares observed category counts to expected counts under a null model. The statistic sums (O-E)^2/E across categories and is right-tailed. The choice that describes this correctly is option A.",
+    "final_answer": "A",
+    "tags": [
+      "chi-square"
+    ]
+  },
+  {
+    "id": "V1-A-Q10",
+    "variant": 1,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 10,
+    "prompt": "A company can invest in three projects. Project X guarantees $40,000. Project Y has a 60% chance of $80,000 and 40% chance of $0. Project Z has a 10% chance of $500,000 and 90% chance of $0. Which should the company choose to maximize expected return?\n\nA. Project X\nB. Project Y\nC. Project Z\nD. All have the same expected return.\nE. It depends on factors not given.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: expected-value).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Expected value is the probability-weighted average: E(X)=sum x*p(x). You multiply each outcome by its probability and add, rather than averaging outcomes equally. The correct statement is option C.",
+    "final_answer": "C",
+    "tags": [
+      "expected-value"
+    ]
+  },
+  {
+    "id": "V1-A-Q11",
+    "variant": 1,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 11,
+    "prompt": "A factory tests two production lines (Line 1 and Line 2) by randomly assigning batches to each line. A quality inspector rates each batch without knowing which line produced it. This study is best described as:\n\nA. A completely randomized design\nB. A randomized block design with the two lines as blocks\nC. A matched-pairs design\nD. An observational study\nE. A stratified random sample",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: experimental-design).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "A well-designed experiment uses random assignment to treatment groups to balance confounders and support causal conclusions. Random sampling affects generalizability, not internal treatment comparison alone. The best answer is option A.",
+    "final_answer": "A",
+    "tags": [
+      "experimental-design"
+    ]
+  },
+  {
+    "id": "V1-A-Q12",
+    "variant": 1,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 12,
+    "prompt": "Residual plots from five regression analyses are examined. Which pattern in a residual plot provides the strongest evidence that a linear model is appropriate?\n\nA. A clear curve in the residuals\nB. Residuals with increasing spread as x increases\nC. Residuals randomly scattered around zero with no pattern\nD. Residuals that systematically decrease\nE. Residuals showing a strong linear trend",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: regression).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Residual = observed y - predicted y-hat. Positive residuals mean underprediction by the model, negative residuals mean overprediction. The option matching this interpretation is C.",
+    "final_answer": "C",
+    "tags": [
+      "regression",
+      "residuals"
+    ]
+  },
+  {
+    "id": "V1-A-Q13",
+    "variant": 1,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 13,
+    "prompt": "For a sample of 60 dogs, the mean weight is 25 kg with a standard deviation of 8 kg. Which of the following is most likely true?\n\nA. The distribution is approximately normal because n = 60, and the Central Limit Theorem applies.\nB. The distribution is approximately normal because the standard deviation is less than the mean.\nC. The distribution is skewed right because the least possible weight is within 3 standard deviations of the mean.\nD. The distribution is skewed left because the least possible weight is within 3 standard deviations of the mean.\nE. The distribution has a median greater than the mean.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: shape).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "By the central limit theorem, the sampling distribution of the sample mean becomes approximately normal for sufficiently large n (under standard conditions), even if the population is non-normal. The correct choice is option C.",
+    "final_answer": "C",
+    "tags": [
+      "shape",
+      "clt"
+    ]
+  },
+  {
+    "id": "V1-A-Q14",
+    "variant": 1,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 14,
+    "prompt": "When conducting a large-sample test of H₀: p = p₀ for a single proportion, the test statistic uses p₀(1−p₀)/n in the denominator because:\n\nA. The standard deviation of p̂ is known when the null hypothesis is true.\nB. The standard deviation of p̂ is known when the alternative hypothesis is true.\nC. The sample size is large enough to approximate p₀.\nD. The standard deviation of p₀ is known when the null hypothesis is true.\nE. The standard deviation of p₀ is known when the alternative hypothesis is true.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: hypothesis-testing).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "In hypothesis testing, compare the p-value with alpha (or compare the test statistic with a critical threshold). Reject H0 only when evidence is strong enough under the null model. The option expressing this rule is A.",
+    "final_answer": "A",
+    "tags": [
+      "hypothesis-testing"
+    ]
+  },
+  {
+    "id": "V1-A-Q15",
+    "variant": 1,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 15,
+    "prompt": "A telephone survey randomly dials numbers and only interviews respondents aged 25 or older. Which is NOT a legitimate concern?\n\nA. People aged 25–34 with only mobile phones may be underrepresented.\nB. People with unlisted numbers may be underrepresented.\nC. People with multiple phone numbers may be overrepresented.\nD. People living in rural areas may be underrepresented.\nE. People younger than 25 may bias the sample.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: bias).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: E."
+    ],
+    "solution_en_explanation": "Bias is a systematic deviation caused by design or measurement issues, not random sampling fluctuation. Increasing sample size reduces random error but does not fix biased collection. Therefore option E is correct.",
+    "final_answer": "E",
+    "tags": [
+      "bias"
+    ]
+  },
+  {
+    "id": "V1-A-Q16",
+    "variant": 1,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 16,
+    "prompt": "A device has four independent components with failure probabilities 0.02, 0.03, 0.05, and 0.04. The device fails if any component fails. What is the probability the device does not fail in one year?\n\nA. Less than 0.02\nB. 0.140\nC. 0.860\nD. 0.868\nE. Greater than 0.99",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: independence).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "Independence means P(A and B)=P(A)P(B), equivalently P(A|B)=P(A) when P(B)>0. If this product rule fails, events are dependent. The option stating this criterion is D.",
+    "final_answer": "D",
+    "tags": [
+      "independence",
+      "probability-rules"
+    ]
+  },
+  {
+    "id": "V1-A-Q17",
+    "variant": 1,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 17,
+    "prompt": "A 95% confidence interval for a population mean is (24.3, 31.7). What is the point estimate?\n\nA. 3.7\nB. 24.3\nC. 28.0\nD. 31.7\nE. It cannot be determined.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: confidence-interval).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "A confidence interval gives a plausible range for the population parameter based on sample data and method reliability. In repeated sampling, a 95% method captures the true parameter about 95% of the time. The correct interpretation here is option C.",
+    "final_answer": "C",
+    "tags": [
+      "confidence-interval"
+    ]
+  },
+  {
+    "id": "V1-A-Q18",
+    "variant": 1,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 18,
+    "prompt": "When using a one-sample t-procedure, we require the population size to be at least 10 times the sample size in order to:\n\nA. Ensure the sample is large enough.\nB. Apply the Central Limit Theorem.\nC. Approximate the population standard deviation.\nD. Make observations approximately independent.\nE. Eliminate sampling bias.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: conditions).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "Before inference, check conditions such as randomness/independence and distribution or large-sample requirements for the chosen method. If assumptions fail badly, usual formulas may be invalid. The best option is D.",
+    "final_answer": "D",
+    "tags": [
+      "conditions",
+      "inference"
+    ]
+  },
+  {
+    "id": "V1-A-Q19",
+    "variant": 1,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 19,
+    "prompt": "A lottery sells 2,000 tickets at $2 each. One ticket wins $500. The expected net gain per ticket is −$1.75. What does this mean?\n\nA. Ticket buyers lose an average of $0.25 per ticket.\nB. Ticket buyers lose an average of $1.75 per ticket.\nC. Each buyer will lose exactly $1.75.\nD. A buyer must buy 7 more tickets for expected gain to reach $0.\nE. A buyer has a 17.5% chance of being selected.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: expected-value).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "For repeated independent trials, expected total equals number of trials times expected single-trial outcome: E(total)=n*E(X). This linearity rule is fundamental and does not require normality. The option reflecting this is B.",
+    "final_answer": "B",
+    "tags": [
+      "expected-value"
+    ]
+  },
+  {
+    "id": "V1-A-Q20",
+    "variant": 1,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 20,
+    "prompt": "Suppose H_a: μ < 50. For a fixed sample size and significance level, the power is greatest when the true mean is:\n\nA. 49\nB. 48\nC. 50\nD. 51\nE. 45",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: power).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: E."
+    ],
+    "solution_en_explanation": "Statistical power is P(reject H0 | H1 true): the chance a test detects a real effect. Power increases with larger effects, larger n, lower variability, and a more permissive alpha. The option defining this correctly is E.",
+    "final_answer": "E",
+    "tags": [
+      "power"
+    ]
+  },
+  {
+    "id": "V1-B-Q1",
+    "variant": 1,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 1,
+    "prompt": "A bag contains 5 red, 3 blue, and 2 green marbles. A player pays $3 to draw one marble at random and\nreceives $10 for red, $4 for blue, and $0 for green.\n   (a) Let X represent the net gain for one play. Complete the probability distribution table for X.\n\n   (b) What is the expected value of X for one play?\n\n   (c) How many times must the game be played for the expected total net gain to reach at least $20?\n\n   (d) If the game is played 500 times, with mean net gain $0.70 and standard deviation $4.12, use the\n   normal distribution to approximate the probability that the total net gain is at least $400.",
+    "solution_ru_steps": [
+      "Определим чистый результат за игру: выигрыш игрока = выплата - стоимость.",
+      "Исход 1: X=7, P=0.5.",
+      "Исход 2: X=1, P=0.3.",
+      "Исход 3: X=-3, P=0.2.",
+      "Матожидание: E(X)=Σ x·p = 3.2.",
+      "Для ожидаемого суммарного результата не менее 20: n·E(X) >= 20, значит n >= 6.25 -> минимально n=7.",
+      "Для части (d): z = (400-350)/92.126 = 0.5427.",
+      "P(T >= 400) = P(Z >= 0.5427) = 0.2937."
+    ],
+    "solution_en_explanation": "Build the net-gain distribution first, then compute E(X). Use n*E(X) for the minimum plays threshold. In part (d), standardize the total gain with z=(T-mu)/sigma and read the upper-tail normal probability.",
+    "final_answer": "Distribution: 7 (p=0.5), 1 (p=0.3), -3 (p=0.2); E(X)=3.2; min plays=7; P(total >= 400)≈0.2937",
+    "tags": [
+      "expected-value",
+      "random-variable",
+      "clt"
+    ]
+  },
+  {
+    "id": "V1-B-Q2",
+    "variant": 1,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 2,
+    "prompt": "A survey of 850 randomly selected high school students asked whether they preferred morning or\nevening study sessions. Of 850 students, 510 preferred evening. A previous survey found that 55% of\nstudents preferred evening study.\n   Do the data provide convincing evidence that the proportion of students who prefer evening study\n   has changed? Conduct a two-proportion z-test at the α = 0.05 level.",
+    "solution_ru_steps": [
+      "Гипотезы: H0: p=0.55, Ha: p != 0.55.",
+      "p̂ = 510/850 = 0.6.",
+      "SE0 = sqrt(p0(1-p0)/n) = 0.01706.",
+      "z = (p̂-p0)/SE0 = 2.9302.",
+      "Двустороннее p-value = 0.0034.",
+      "Так как p-value < 0.05, отвергаем H0."
+    ],
+    "solution_en_explanation": "Set null and alternative hypotheses for proportion(s), compute the z statistic using the null-based standard error, then compare the p-value to alpha=0.05.",
+    "final_answer": "z=2.9302, p-value=0.0034 => Reject H0",
+    "tags": [
+      "hypothesis-test",
+      "proportion",
+      "z-test"
+    ]
+  },
+  {
+    "id": "V1-B-Q3",
+    "variant": 1,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 3,
+    "prompt": "A biologist claims that a new fertilizer increases average plant height by at least 15%. Assume σ = 4.2\ncm is known from prior studies. How large a sample is needed to be 95% confident that the sample\nmean is within 1.5 cm of the population mean?",
+    "solution_ru_steps": [
+      "Используем формулу для известной σ: n=(z*σ/E)^2.",
+      "Подставляем: n=(1.96*4.2/1.5)^2=30.1181.",
+      "Округляем вверх: n=31."
+    ],
+    "solution_en_explanation": "For a margin-of-error requirement with known sigma, use n=(z*sigma/E)^2 and round up.",
+    "final_answer": "Required minimum sample size: n=31",
+    "tags": [
+      "confidence-interval",
+      "sample-size"
+    ]
+  },
+  {
+    "id": "V1-B-Q4",
+    "variant": 1,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 4,
+    "prompt": "The weights of 800 packages are approximately normally distributed with mean 2.5 kg and standard\ndeviation 0.3 kg. Suppose 100 random samples of size 16 are drawn.\n   (a) Find the mean and standard deviation of the sampling distribution of x̄.\n\n(b) Find the number of sample means that fall between 2.4 and 2.6 kg.\n\n(c) Find the number of sample means falling below 2.35 kg.",
+    "solution_ru_steps": [
+      "Параметры распределения выборочного среднего: μx̄=μ=2.5, σx̄=σ/√n=0.075.",
+      "Для интервала [2.4, 2.6]: z1=-1.3333, z2=1.3333.",
+      "P(2.4<=x̄<=2.6)=0.8176 => ожидаемое число = 81.76 (~82).",
+      "Для порога 2.35: z=-2, вероятность=0.0228 => ожидаемое число=2.28 (~2)."
+    ],
+    "solution_en_explanation": "Use the sampling distribution of x-bar: mean mu and SD sigma/sqrt(n). Convert bounds to z-scores, compute normal probabilities, then multiply by the number of repeated samples.",
+    "final_answer": "mu_xbar=2.5, sd_xbar=0.075; between count≈81.76; below 2.35 count≈2.28",
+    "tags": [
+      "sampling-distribution",
+      "normal-approximation"
+    ]
+  },
+  {
+    "id": "V2-A-Q1",
+    "variant": 2,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 1,
+    "prompt": "A study compares cholesterol levels of 10 patients before and after a diet program. The most appropriate test is:\n\nA. Two-sample z-test\nB. Two-sample t-test\nC. One-sample z-test on differences\nD. One-sample t-test on differences\nE. Chi-square test",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: inference).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "This compares means from two independent groups (athletes vs non-athletes), so use a two-sample procedure. Population standard deviations are not given and sample sizes are small, so a two-sample t-test is appropriate (not z, and not paired). That matches option D.",
+    "final_answer": "D",
+    "tags": [
+      "inference",
+      "test-selection"
+    ]
+  },
+  {
+    "id": "V2-A-Q2",
+    "variant": 2,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 2,
+    "prompt": "A boxplot is right-skewed. Which statement is most likely true?\n\nA. Mean > Median\nB. Mean = Median\nC. Mean < Median\nD. Median = Mode\nE. The IQR is zero.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: descriptive-stats).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Most scores are around 70-80 with a tail toward lower values, so the distribution is left-skewed. In left skew, the mean is pulled downward below the median. Therefore the statement \"median > mean\" is the best choice, which is option A.",
+    "final_answer": "A",
+    "tags": [
+      "descriptive-stats",
+      "skewness"
+    ]
+  },
+  {
+    "id": "V2-A-Q3",
+    "variant": 2,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 3,
+    "prompt": "A researcher surveys every employee in 5 randomly chosen departments out of 40 in a company. This is:\n\nA. Simple random sampling\nB. Systematic sampling\nC. Stratified sampling\nD. Cluster sampling\nE. Convenience sampling",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: sampling-methods).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "Selecting every 10th employee is the definition of systematic sampling: pick units at a fixed interval after an initial start. It is not simple random, cluster, or stratified sampling. Hence option D is correct.",
+    "final_answer": "D",
+    "tags": [
+      "sampling-methods"
+    ]
+  },
+  {
+    "id": "V2-A-Q4",
+    "variant": 2,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 4,
+    "prompt": "Which is NOT true about a t-distribution with 5 degrees of freedom compared to the standard normal?\n\nA. It is bell-shaped.\nB. It has heavier tails.\nC. It has mean 0.\nD. It has standard deviation 1.\nE. It is symmetric.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: distributions).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "A standard normal distribution is continuous, symmetric, centered at 0, with standard deviation 1, and total area under the curve equal to 1. The only false statement is \"area is 2,\" so the NOT-true option is D.",
+    "final_answer": "D",
+    "tags": [
+      "distributions",
+      "normal-t"
+    ]
+  },
+  {
+    "id": "V2-A-Q5",
+    "variant": 2,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 5,
+    "prompt": "P(A) = 0.4, P(B) = 0.3, and A and B are independent. What is P(A or B)?\n\nA. 0.12\nB. 0.58\nC. 0.70\nD. 0.42\nE. 0.28",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: probability-rules).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Use conditional probability: P(Science | Math) = P(Science and Math) / P(Math). Substituting gives 0.42 / 0.70 = 0.60. The option expressing this setup is B.",
+    "final_answer": "B",
+    "tags": [
+      "probability-rules"
+    ]
+  },
+  {
+    "id": "V2-A-Q6",
+    "variant": 2,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 6,
+    "prompt": "IQ scores are normally distributed with μ = 100 and σ = 15. What percent of people have IQ between 85 and 115?\n\nA. 34%\nB. 50%\nC. 68%\nD. 95%\nE. 99.7%",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: normal-distribution).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Standardize with z = (186 - 170) / 8 = 2. Then P(X > 186) = P(Z > 2) ≈ 0.0228 from the standard normal table. This corresponds to option C.",
+    "final_answer": "C",
+    "tags": [
+      "normal-distribution",
+      "z-score"
+    ]
+  },
+  {
+    "id": "V2-A-Q7",
+    "variant": 2,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 7,
+    "prompt": "A researcher needs to estimate a difference in proportions to within 0.04 with 90% confidence. Using conservative estimate p = 0.5, the sample size per group should satisfy:\n\nA. 1.645√(0.5×0.5/n + 0.5×0.5/n) ≤ 0.04\nB. 1.96√(0.5×0.5/n + 0.5×0.5/n) ≤ 0.04\nC. 1.645(0.5+0.5)/√n ≤ 0.04\nD. 1.96(0.5+0.5)/n ≤ 0.04\nE. 1.645(0.5+0.5)/n ≤ 0.04",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: confidence-interval).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "For a 95% margin requirement on a difference of two means with equal SDs, the margin form is z*sqrt(s1^2+s2^2)/sqrt(n). Set 1.96*sqrt(10^2+10^2)/sqrt(n) <= 3 and solve for n. That exact setup is option A.",
+    "final_answer": "A",
+    "tags": [
+      "confidence-interval",
+      "sample-size"
+    ]
+  },
+  {
+    "id": "V2-A-Q8",
+    "variant": 2,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 8,
+    "prompt": "If the correlation between x and y is 0.80, and every y-value is increased by 10, the new correlation is:\n\nA. 0.80\nB. 0.70\nC. 0.90\nD. 0.64\nE. 0.88",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: correlation).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Correlation near +1 means a strong positive linear association, while correlation near 0 means weak linear association. Correlation does not establish causation. The option consistent with these facts is A.",
+    "final_answer": "A",
+    "tags": [
+      "correlation"
+    ]
+  },
+  {
+    "id": "V2-A-Q9",
+    "variant": 2,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 9,
+    "prompt": "In a chi-square goodness-of-fit test with 4 categories and a sample of 200, the expected frequency for each category if equally likely is:\n\nA. 20\nB. 25\nC. 40\nD. 50\nE. 200",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: chi-square).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "A chi-square test compares observed category counts to expected counts under a null model. The statistic sums (O-E)^2/E across categories and is right-tailed. The choice that describes this correctly is option D.",
+    "final_answer": "D",
+    "tags": [
+      "chi-square"
+    ]
+  },
+  {
+    "id": "V2-A-Q10",
+    "variant": 2,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 10,
+    "prompt": "Option 1: guaranteed $15,000. Option 2: 40% chance of $30,000 and 60% chance of $5,000. Which has the higher expected value?\n\nA. Option 1\nB. Option 2\nC. They are equal.\nD. Depends on risk.\nE. Cannot be determined.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: expected-value).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Expected value is the probability-weighted average: E(X)=sum x*p(x). You multiply each outcome by its probability and add, rather than averaging outcomes equally. The correct statement is option C.",
+    "final_answer": "C",
+    "tags": [
+      "expected-value"
+    ]
+  },
+  {
+    "id": "V2-A-Q11",
+    "variant": 2,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 11,
+    "prompt": "Patients are randomly assigned to receive Drug A or Drug B. An evaluator who does not know which drug was administered rates patient improvement. This is best described as:\n\nA. Observational study\nB. Completely randomized design\nC. Matched-pairs design\nD. Randomized block design\nE. Stratified study",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: experimental-design).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "A well-designed experiment uses random assignment to treatment groups to balance confounders and support causal conclusions. Random sampling affects generalizability, not internal treatment comparison alone. The best answer is option B.",
+    "final_answer": "B",
+    "tags": [
+      "experimental-design"
+    ]
+  },
+  {
+    "id": "V2-A-Q12",
+    "variant": 2,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 12,
+    "prompt": "A residual plot shows a funnel shape (spread increases with x). This suggests:\n\nA. Linear model is appropriate.\nB. Non-constant variance (heteroscedasticity).\nC. The data have outliers.\nD. The model overestimates at small x.\nE. The residuals are normally distributed.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: regression).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Residual = observed y - predicted y-hat. Positive residuals mean underprediction by the model, negative residuals mean overprediction. The option matching this interpretation is B.",
+    "final_answer": "B",
+    "tags": [
+      "regression",
+      "residuals"
+    ]
+  },
+  {
+    "id": "V2-A-Q13",
+    "variant": 2,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 13,
+    "prompt": "For a sample of 30 cats with mean lifespan 14 years and standard deviation 2 years, which is most likely true?\n\nA. Distribution is normal by CLT.\nB. Distribution is skewed right because minimum lifespan is within 7 standard deviations.\nC. Distribution is skewed left because minimum lifespan is within 7 standard deviations.\nD. Distribution is uniform.\nE. Distribution has median greater than mean.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: shape).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "By the central limit theorem, the sampling distribution of the sample mean becomes approximately normal for sufficiently large n (under standard conditions), even if the population is non-normal. The correct choice is option B.",
+    "final_answer": "B",
+    "tags": [
+      "shape",
+      "clt"
+    ]
+  },
+  {
+    "id": "V2-A-Q14",
+    "variant": 2,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 14,
+    "prompt": "In the z-test for a proportion, we use p₀ rather than p̂ in the denominator because:\n\nA. p̂ is unknown.\nB. We assume H₀ is true, so we use p₀.\nC. p̂ cannot be computed.\nD. p₀ is more accurate.\nE. The CLT does not apply.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: hypothesis-testing).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "In hypothesis testing, compare the p-value with alpha (or compare the test statistic with a critical threshold). Reject H0 only when evidence is strong enough under the null model. The option expressing this rule is B.",
+    "final_answer": "B",
+    "tags": [
+      "hypothesis-testing"
+    ]
+  },
+  {
+    "id": "V2-A-Q15",
+    "variant": 2,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 15,
+    "prompt": "An online poll allows anyone to respond. The biggest concern is:\n\nA. Undercoverage of elderly people.\nB. Voluntary response bias.\nC. Non-response bias.\nD. Measurement error.\nE. Observer effect.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: bias).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Bias is a systematic deviation caused by design or measurement issues, not random sampling fluctuation. Increasing sample size reduces random error but does not fix biased collection. Therefore option B is correct.",
+    "final_answer": "B",
+    "tags": [
+      "bias"
+    ]
+  },
+  {
+    "id": "V2-A-Q16",
+    "variant": 2,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 16,
+    "prompt": "Two components fail independently with probabilities 0.05 and 0.08. The system works only if both work. P(system works) =\n\nA. 0.130\nB. 0.004\nC. 0.874\nD. 0.870\nE. 0.996",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: independence).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Independence means P(A and B)=P(A)P(B), equivalently P(A|B)=P(A) when P(B)>0. If this product rule fails, events are dependent. The option stating this criterion is C.",
+    "final_answer": "C",
+    "tags": [
+      "independence",
+      "probability-rules"
+    ]
+  },
+  {
+    "id": "V2-A-Q17",
+    "variant": 2,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 17,
+    "prompt": "A 90% confidence interval for a proportion is (0.32, 0.48). The margin of error is:\n\nA. 0.32\nB. 0.08\nC. 0.40\nD. 0.16\nE. 0.48",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: confidence-interval).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "A confidence interval gives a plausible range for the population parameter based on sample data and method reliability. In repeated sampling, a 95% method captures the true parameter about 95% of the time. The correct interpretation here is option B.",
+    "final_answer": "B",
+    "tags": [
+      "confidence-interval"
+    ]
+  },
+  {
+    "id": "V2-A-Q18",
+    "variant": 2,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 18,
+    "prompt": "In a one-sample t-test, the assumption of normality is most critical when:\n\nA. n is large.\nB. n is small.\nC. σ is known.\nD. The sample is random.\nE. The population is large.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: conditions).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Before inference, check conditions such as randomness/independence and distribution or large-sample requirements for the chosen method. If assumptions fail badly, usual formulas may be invalid. The best option is B.",
+    "final_answer": "B",
+    "tags": [
+      "conditions",
+      "inference"
+    ]
+  },
+  {
+    "id": "V2-A-Q19",
+    "variant": 2,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 19,
+    "prompt": "A 50/50 raffle sells 500 tickets at $5. The top prize is $1,000. Expected net gain per ticket is −$3. This means:\n\nA. Buyers lose $2 on average per ticket.\nB. Buyers lose $3 on average per ticket.\nC. Each buyer loses exactly $3.\nD. Buying 3 more tickets makes gain zero.\nE. Buyer has 30% chance of winning.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: expected-value).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "For repeated independent trials, expected total equals number of trials times expected single-trial outcome: E(total)=n*E(X). This linearity rule is fundamental and does not require normality. The option reflecting this is B.",
+    "final_answer": "B",
+    "tags": [
+      "expected-value"
+    ]
+  },
+  {
+    "id": "V2-A-Q20",
+    "variant": 2,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 20,
+    "prompt": "H_a: μ > 100. For fixed sample size and α, power is greatest when true μ is:\n\nA. 100\nB. 101\nC. 99\nD. 105\nE. 98",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: power).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "Statistical power is P(reject H0 | H1 true): the chance a test detects a real effect. Power increases with larger effects, larger n, lower variability, and a more permissive alpha. The option defining this correctly is D.",
+    "final_answer": "D",
+    "tags": [
+      "power"
+    ]
+  },
+  {
+    "id": "V2-B-Q1",
+    "variant": 2,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 1,
+    "prompt": "A carnival game costs $4 to play. A player draws a ball from a bag of 10 balls (4 red worth $8, 4 blue\nworth $3, 2 yellow worth $0).\n   (a) Let X be the net gain. Complete the probability distribution of X.\n\n   (b) Find E(X).\n\n   (c) What is the minimum number of plays for the expected total net gain to be at least $30?\n\n   (d) In 400 plays, mean total net gain is $80 and standard deviation is $200. Use the normal\n   distribution to find the probability that total gain exceeds $120.",
+    "solution_ru_steps": [
+      "Определим чистый результат за игру: выигрыш игрока = выплата - стоимость.",
+      "Исход 1: X=4, P=0.4.",
+      "Исход 2: X=-1, P=0.4.",
+      "Исход 3: X=-4, P=0.2.",
+      "Матожидание: E(X)=Σ x·p = 0.4.",
+      "Для ожидаемого суммарного результата не менее 30: n·E(X) >= 30, значит n >= 75 -> минимально n=75.",
+      "Для части (d): z = (120-80)/200 = 0.2.",
+      "P(T >= 120) = P(Z >= 0.2) = 0.4207."
+    ],
+    "solution_en_explanation": "Build the net-gain distribution first, then compute E(X). Use n*E(X) for the minimum plays threshold. In part (d), standardize the total gain with z=(T-mu)/sigma and read the upper-tail normal probability.",
+    "final_answer": "Distribution: 4 (p=0.4), -1 (p=0.4), -4 (p=0.2); E(X)=0.4; min plays=75; P(total >= 120)≈0.4207",
+    "tags": [
+      "expected-value",
+      "random-variable",
+      "clt"
+    ]
+  },
+  {
+    "id": "V2-B-Q2",
+    "variant": 2,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 2,
+    "prompt": "A survey in 2023 found that 480 out of 800 randomly chosen adults use social media daily. A 2022\nsurvey found 420 out of 700 adults used social media daily.\n   Test whether the proportion of adults who use social media daily changed from 2022 to 2023. Use α\n   = 0.05.",
+    "solution_ru_steps": [
+      "Гипотезы: H0: p1=p2, Ha: p1 != p2.",
+      "p1̂=480/800=0.6, p2̂=420/700=0.6.",
+      "Объединённая оценка p̂=0.6.",
+      "SE = sqrt(p̂(1-p̂)(1/n1+1/n2)) = 0.02535.",
+      "z = (p1̂-p2̂)/SE = 0.",
+      "Двустороннее p-value = 1; не отвергаем H0."
+    ],
+    "solution_en_explanation": "Set null and alternative hypotheses for proportion(s), compute the z statistic using the null-based standard error, then compare the p-value to alpha=0.05.",
+    "final_answer": "p1=0.6, p2=0.6, z=0, p-value=1 => Fail to reject H0",
+    "tags": [
+      "hypothesis-test",
+      "proportion",
+      "z-test"
+    ]
+  },
+  {
+    "id": "V2-B-Q3",
+    "variant": 2,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 3,
+    "prompt": "A researcher wants to estimate the mean recovery time for patients on a new medication. From past\nstudies, σ = 6.5 days. How many patients must be sampled to be 99% confident the estimate is within 2\ndays of the true mean?",
+    "solution_ru_steps": [
+      "Используем формулу для известной σ: n=(z*σ/E)^2.",
+      "Подставляем: n=(2.576*6.5/2)^2=70.0904.",
+      "Округляем вверх: n=71."
+    ],
+    "solution_en_explanation": "For a margin-of-error requirement with known sigma, use n=(z*sigma/E)^2 and round up.",
+    "final_answer": "Required minimum sample size: n=71",
+    "tags": [
+      "confidence-interval",
+      "sample-size"
+    ]
+  },
+  {
+    "id": "V2-B-Q4",
+    "variant": 2,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 4,
+    "prompt": "Test scores for 500 students are approximately normally distributed with mean 72 and standard\ndeviation 9. Suppose 80 random samples of size 20 are drawn.\n   (a) Find the mean and standard deviation of the sampling distribution of x̄.\n\n   (b) How many sample means fall between 70 and 74?\n\n(c) How many sample means fall above 75?",
+    "solution_ru_steps": [
+      "Параметры распределения выборочного среднего: μx̄=μ=72, σx̄=σ/√n=2.01246.",
+      "Для интервала [70, 74]: z1=-0.9938, z2=0.9938.",
+      "P(70<=x̄<=74)=0.6797 => ожидаемое число = 54.37 (~54).",
+      "Для порога 75: z=1.4907, вероятность=0.068 => ожидаемое число=5.44 (~5)."
+    ],
+    "solution_en_explanation": "Use the sampling distribution of x-bar: mean mu and SD sigma/sqrt(n). Convert bounds to z-scores, compute normal probabilities, then multiply by the number of repeated samples.",
+    "final_answer": "mu_xbar=72, sd_xbar=2.01246; between count≈54.37; above 75 count≈5.44",
+    "tags": [
+      "sampling-distribution",
+      "normal-approximation"
+    ]
+  },
+  {
+    "id": "V3-A-Q1",
+    "variant": 3,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 1,
+    "prompt": "A teacher wants to compare exam scores of students who studied with music vs. without music using groups of 15 each. The appropriate test is:\n\nA. Paired t-test\nB. Two-sample t-test\nC. Two-sample z-test\nD. One-proportion z-test\nE. Chi-square test",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: inference).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "This compares means from two independent groups (athletes vs non-athletes), so use a two-sample procedure. Population standard deviations are not given and sample sizes are small, so a two-sample t-test is appropriate (not z, and not paired). That matches option B.",
+    "final_answer": "B",
+    "tags": [
+      "inference",
+      "test-selection"
+    ]
+  },
+  {
+    "id": "V3-A-Q2",
+    "variant": 3,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 2,
+    "prompt": "A distribution has mean 50 and median 60. The distribution is:\n\nA. Symmetric\nB. Skewed right\nC. Skewed left\nD. Uniform\nE. Bimodal",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: descriptive-stats).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Most scores are around 70-80 with a tail toward lower values, so the distribution is left-skewed. In left skew, the mean is pulled downward below the median. Therefore the statement \"median > mean\" is the best choice, which is option C.",
+    "final_answer": "C",
+    "tags": [
+      "descriptive-stats",
+      "skewness"
+    ]
+  },
+  {
+    "id": "V3-A-Q3",
+    "variant": 3,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 3,
+    "prompt": "To survey opinions of 1,000 employees, a researcher divides them into departments and randomly selects proportional numbers from each department. This is:\n\nA. Simple random sampling\nB. Cluster sampling\nC. Stratified sampling\nD. Systematic sampling\nE. Voluntary response sampling",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: sampling-methods).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Selecting every 10th employee is the definition of systematic sampling: pick units at a fixed interval after an initial start. It is not simple random, cluster, or stratified sampling. Hence option C is correct.",
+    "final_answer": "C",
+    "tags": [
+      "sampling-methods"
+    ]
+  },
+  {
+    "id": "V3-A-Q4",
+    "variant": 3,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 4,
+    "prompt": "As degrees of freedom increase, the t-distribution:\n\nA. Becomes more skewed\nB. Approaches the standard normal distribution\nC. Becomes wider\nD. Has decreasing mean\nE. Has standard deviation less than 1",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: distributions).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "A standard normal distribution is continuous, symmetric, centered at 0, with standard deviation 1, and total area under the curve equal to 1. The only false statement is \"area is 2,\" so the NOT-true option is B.",
+    "final_answer": "B",
+    "tags": [
+      "distributions",
+      "normal-t"
+    ]
+  },
+  {
+    "id": "V3-A-Q5",
+    "variant": 3,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 5,
+    "prompt": "P(A) = 0.5, P(B|A) = 0.4. What is P(A and B)?\n\nA. 0.20\nB. 0.40\nC. 0.80\nD. 0.10\nE. 0.90",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: probability-rules).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Use conditional probability: P(Science | Math) = P(Science and Math) / P(Math). Substituting gives 0.42 / 0.70 = 0.60. The option expressing this setup is A.",
+    "final_answer": "A",
+    "tags": [
+      "probability-rules"
+    ]
+  },
+  {
+    "id": "V3-A-Q6",
+    "variant": 3,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 6,
+    "prompt": "A normal distribution has μ = 500 and σ = 100. What is the probability of a value below 350?\n\nA. 0.0668\nB. 0.1587\nC. 0.9332\nD. 0.0228\nE. 0.0013",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: normal-distribution).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Standardize with z = (186 - 170) / 8 = 2. Then P(X > 186) = P(Z > 2) ≈ 0.0228 from the standard normal table. This corresponds to option A.",
+    "final_answer": "A",
+    "tags": [
+      "normal-distribution",
+      "z-score"
+    ]
+  },
+  {
+    "id": "V3-A-Q7",
+    "variant": 3,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 7,
+    "prompt": "A researcher uses a 99% confidence interval to estimate a mean, with σ = 12. To have margin of error ≤ 3, which condition must hold?\n\nA. 2.576 × 12/√n ≤ 3\nB. 1.96 × 12/√n ≤ 3\nC. 2.576 × 12/n ≤ 3\nD. 1.645 × 12/√n ≤ 3\nE. 2.576 × √12/n ≤ 3",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: confidence-interval).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "For a 95% margin requirement on a difference of two means with equal SDs, the margin form is z*sqrt(s1^2+s2^2)/sqrt(n). Set 1.96*sqrt(10^2+10^2)/sqrt(n) <= 3 and solve for n. That exact setup is option A.",
+    "final_answer": "A",
+    "tags": [
+      "confidence-interval",
+      "sample-size"
+    ]
+  },
+  {
+    "id": "V3-A-Q8",
+    "variant": 3,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 8,
+    "prompt": "The correlation between study hours and test scores is 0.72. If all test scores are divided by 10, the new correlation is:\n\nA. 0.072\nB. 7.2\nC. 0.72\nD. −0.72\nE. 0.52",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: correlation).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Correlation near +1 means a strong positive linear association, while correlation near 0 means weak linear association. Correlation does not establish causation. The option consistent with these facts is C.",
+    "final_answer": "C",
+    "tags": [
+      "correlation"
+    ]
+  },
+  {
+    "id": "V3-A-Q9",
+    "variant": 3,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 9,
+    "prompt": "In a chi-square test for independence with a 3×4 table, the degrees of freedom are:\n\nA. 12\nB. 11\nC. 6\nD. 7\nE. 3",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: chi-square).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "A chi-square test compares observed category counts to expected counts under a null model. The statistic sums (O-E)^2/E across categories and is right-tailed. The choice that describes this correctly is option C.",
+    "final_answer": "C",
+    "tags": [
+      "chi-square"
+    ]
+  },
+  {
+    "id": "V3-A-Q10",
+    "variant": 3,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 10,
+    "prompt": "A game has expected payout −$0.50. A player plays 100 times. Expected total loss is:\n\nA. $0.50\nB. $5.00\nC. $50.00\nD. $500.00\nE. $0.005",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: expected-value).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Expected value is the probability-weighted average: E(X)=sum x*p(x). You multiply each outcome by its probability and add, rather than averaging outcomes equally. The correct statement is option C.",
+    "final_answer": "C",
+    "tags": [
+      "expected-value"
+    ]
+  },
+  {
+    "id": "V3-A-Q11",
+    "variant": 3,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 11,
+    "prompt": "In a double-blind experiment, which of the following is true?\n\nA. Only the researcher knows the treatments.\nB. Only the subjects know the treatments.\nC. Neither the subjects nor the evaluators know the treatments.\nD. The treatments are known to everyone.\nE. Subjects choose their own treatment.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: experimental-design).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "A well-designed experiment uses random assignment to treatment groups to balance confounders and support causal conclusions. Random sampling affects generalizability, not internal treatment comparison alone. The best answer is option C.",
+    "final_answer": "C",
+    "tags": [
+      "experimental-design"
+    ]
+  },
+  {
+    "id": "V3-A-Q12",
+    "variant": 3,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 12,
+    "prompt": "A residual plot shows points randomly scattered above and below zero. This indicates:\n\nA. Non-linearity\nB. Heteroscedasticity\nC. The linear model is appropriate.\nD. Outliers are present.\nE. The model is poor.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: regression).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Residual = observed y - predicted y-hat. Positive residuals mean underprediction by the model, negative residuals mean overprediction. The option matching this interpretation is C.",
+    "final_answer": "C",
+    "tags": [
+      "regression",
+      "residuals"
+    ]
+  },
+  {
+    "id": "V3-A-Q13",
+    "variant": 3,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 13,
+    "prompt": "For a sample of 25 values with mean 100 and standard deviation 30, the distribution of the sample is likely:\n\nA. Normal by CLT\nB. Skewed right because min is within 3.3 SD of mean\nC. Skewed left because min is within 3.3 SD of mean\nD. Uniform\nE. The same as the population",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: shape).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "By the central limit theorem, the sampling distribution of the sample mean becomes approximately normal for sufficiently large n (under standard conditions), even if the population is non-normal. The correct choice is option B.",
+    "final_answer": "B",
+    "tags": [
+      "shape",
+      "clt"
+    ]
+  },
+  {
+    "id": "V3-A-Q14",
+    "variant": 3,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 14,
+    "prompt": "The denominator in the one-proportion z-test statistic uses p₀ because:\n\nA. p̂ is always unknown\nB. Under H₀ we assume p = p₀, so we use its standard error\nC. p₀ is always greater than p̂\nD. The CLT requires it\nE. Sample size must be large",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: hypothesis-testing).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "In hypothesis testing, compare the p-value with alpha (or compare the test statistic with a critical threshold). Reject H0 only when evidence is strong enough under the null model. The option expressing this rule is B.",
+    "final_answer": "B",
+    "tags": [
+      "hypothesis-testing"
+    ]
+  },
+  {
+    "id": "V3-A-Q15",
+    "variant": 3,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 15,
+    "prompt": "A mall intercept survey asks shoppers their opinions. The most serious source of bias is:\n\nA. Response bias\nB. Undercoverage\nC. Non-response bias\nD. Observer bias\nE. Sampling bias",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: bias).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: E."
+    ],
+    "solution_en_explanation": "Bias is a systematic deviation caused by design or measurement issues, not random sampling fluctuation. Increasing sample size reduces random error but does not fix biased collection. Therefore option E is correct.",
+    "final_answer": "E",
+    "tags": [
+      "bias"
+    ]
+  },
+  {
+    "id": "V3-A-Q16",
+    "variant": 3,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 16,
+    "prompt": "Three independent components have reliability (probability of working) 0.95, 0.90, and 0.85. The system works if all three work. P(system works) =\n\nA. 0.726\nB. 0.274\nC. 0.770\nD. 0.900\nE. 0.950",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: independence).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Independence means P(A and B)=P(A)P(B), equivalently P(A|B)=P(A) when P(B)>0. If this product rule fails, events are dependent. The option stating this criterion is A.",
+    "final_answer": "A",
+    "tags": [
+      "independence",
+      "probability-rules"
+    ]
+  },
+  {
+    "id": "V3-A-Q17",
+    "variant": 3,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 17,
+    "prompt": "A confidence interval is (42, 58). The margin of error is:\n\nA. 42\nB. 8\nC. 58\nD. 16\nE. 50",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: confidence-interval).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "A confidence interval gives a plausible range for the population parameter based on sample data and method reliability. In repeated sampling, a 95% method captures the true parameter about 95% of the time. The correct interpretation here is option B.",
+    "final_answer": "B",
+    "tags": [
+      "confidence-interval"
+    ]
+  },
+  {
+    "id": "V3-A-Q18",
+    "variant": 3,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 18,
+    "prompt": "Which condition is needed to use a one-sample t-test?\n\nA. Population must be exactly normal.\nB. Population standard deviation must be known.\nC. Sample must come from approximately normal population or n must be large.\nD. n must be at least 100.\nE. Population must be finite.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: conditions).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Before inference, check conditions such as randomness/independence and distribution or large-sample requirements for the chosen method. If assumptions fail badly, usual formulas may be invalid. The best option is C.",
+    "final_answer": "C",
+    "tags": [
+      "conditions",
+      "inference"
+    ]
+  },
+  {
+    "id": "V3-A-Q19",
+    "variant": 3,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 19,
+    "prompt": "A nonprofit sells 500 raffle tickets at $10 each. One prize of $1,500 is awarded. Expected net gain per ticket is −$7. This means:\n\nA. Buyers lose $3 on average.\nB. Buyers lose $7 on average.\nC. Every buyer loses exactly $7.\nD. Buying 7 more tickets makes gain zero.\nE. Chance of winning is 70%.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: expected-value).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "For repeated independent trials, expected total equals number of trials times expected single-trial outcome: E(total)=n*E(X). This linearity rule is fundamental and does not require normality. The option reflecting this is B.",
+    "final_answer": "B",
+    "tags": [
+      "expected-value"
+    ]
+  },
+  {
+    "id": "V3-A-Q20",
+    "variant": 3,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 20,
+    "prompt": "H_a: μ ≠ 25. For fixed n and α, the power is maximized when the true mean is:\n\nA. 25\nB. Closest to 25\nC. Farthest from 25\nD. Equal to the null\nE. Equal to α",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: power).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Statistical power is P(reject H0 | H1 true): the chance a test detects a real effect. Power increases with larger effects, larger n, lower variability, and a more permissive alpha. The option defining this correctly is C.",
+    "final_answer": "C",
+    "tags": [
+      "power"
+    ]
+  },
+  {
+    "id": "V3-B-Q1",
+    "variant": 3,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 1,
+    "prompt": "A game uses a spinner with 8 equal sections: 2 sections labeled $5, 3 sections labeled $1, and 3\nsections labeled $0. The cost to play is $2.\n   (a) Let X be the net gain. Complete the probability distribution of X.\n\n   (b) Calculate E(X).\n\n   (c) What is the fewest number of plays needed so the expected total net gain is at least $25?\n\n   (d) In 600 plays, the mean total net gain is $180 and standard deviation is $300. Approximate the\n   probability that total net gain is at least $250.",
+    "solution_ru_steps": [
+      "Определим чистый результат за игру: выигрыш игрока = выплата - стоимость.",
+      "Исход 1: X=3, P=0.25.",
+      "Исход 2: X=-1, P=0.375.",
+      "Исход 3: X=-2, P=0.375.",
+      "Матожидание: E(X)=Σ x·p = -0.375.",
+      "Для ожидаемого суммарного результата не менее 25: n·E(X) >= 25, значит n >= -66.6667 -> минимально n=-66.",
+      "Для части (d): z = (250-180)/300 = 0.2333.",
+      "P(T >= 250) = P(Z >= 0.2333) = 0.4078."
+    ],
+    "solution_en_explanation": "Build the net-gain distribution first, then compute E(X). Use n*E(X) for the minimum plays threshold. In part (d), standardize the total gain with z=(T-mu)/sigma and read the upper-tail normal probability.",
+    "final_answer": "Distribution: 3 (p=0.25), -1 (p=0.375), -2 (p=0.375); E(X)=-0.375; min plays=-66; P(total >= 250)≈0.4078",
+    "tags": [
+      "expected-value",
+      "random-variable",
+      "clt"
+    ]
+  },
+  {
+    "id": "V3-B-Q2",
+    "variant": 3,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 2,
+    "prompt": "In 2024, 390 out of 600 randomly selected adults reported exercising regularly. In 2022, 310 out of 550\nadults reported the same.\n   Does the data provide evidence that the proportion changed between 2022 and 2024? Test at α =\n   0.05.",
+    "solution_ru_steps": [
+      "Гипотезы: H0: p1=p2, Ha: p1 != p2.",
+      "p1̂=390/600=0.65, p2̂=310/550=0.5636.",
+      "Объединённая оценка p̂=0.6087.",
+      "SE = sqrt(p̂(1-p̂)(1/n1+1/n2)) = 0.02881.",
+      "z = (p1̂-p2̂)/SE = 2.9977.",
+      "Двустороннее p-value = 0.0027; отвергаем H0."
+    ],
+    "solution_en_explanation": "Set null and alternative hypotheses for proportion(s), compute the z statistic using the null-based standard error, then compare the p-value to alpha=0.05.",
+    "final_answer": "p1=0.65, p2=0.5636, z=2.9977, p-value=0.0027 => Reject H0",
+    "tags": [
+      "hypothesis-test",
+      "proportion",
+      "z-test"
+    ]
+  },
+  {
+    "id": "V3-B-Q3",
+    "variant": 3,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 3,
+    "prompt": "A nutritionist claims that the average caloric intake of adults can be estimated. Assume σ = 220\ncalories. How many adults must be sampled to be 95% confident the estimate is within 50 calories of\nthe true mean?",
+    "solution_ru_steps": [
+      "Используем формулу для известной σ: n=(z*σ/E)^2.",
+      "Подставляем: n=(1.96*220/50)^2=74.3734.",
+      "Округляем вверх: n=75."
+    ],
+    "solution_en_explanation": "For a margin-of-error requirement with known sigma, use n=(z*sigma/E)^2 and round up.",
+    "final_answer": "Required minimum sample size: n=75",
+    "tags": [
+      "confidence-interval",
+      "sample-size"
+    ]
+  },
+  {
+    "id": "V3-B-Q4",
+    "variant": 3,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 4,
+    "prompt": "Reaction times of 600 drivers are approximately normally distributed with mean 0.45 seconds and\nstandard deviation 0.08 seconds. 150 random samples of size 30 are drawn.\n   (a) Find the mean and standard deviation of the sampling distribution of x̄.\n\n   (b) How many sample means fall between 0.43 and 0.47 seconds?\n\n(c) How many sample means fall above 0.48 seconds?",
+    "solution_ru_steps": [
+      "Параметры распределения выборочного среднего: μx̄=μ=0.45, σx̄=σ/√n=0.01461.",
+      "Для интервала [0.43, 0.47]: z1=-1.3693, z2=1.3693.",
+      "P(0.43<=x̄<=0.47)=0.8291 => ожидаемое число = 124.36 (~124).",
+      "Для порога 0.48: z=2.054, вероятность=0.02 => ожидаемое число=3 (~3)."
+    ],
+    "solution_en_explanation": "Use the sampling distribution of x-bar: mean mu and SD sigma/sqrt(n). Convert bounds to z-scores, compute normal probabilities, then multiply by the number of repeated samples.",
+    "final_answer": "mu_xbar=0.45, sd_xbar=0.01461; between count≈124.36; above 0.48 count≈3",
+    "tags": [
+      "sampling-distribution",
+      "normal-approximation"
+    ]
+  },
+  {
+    "id": "V4-A-Q1",
+    "variant": 4,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 1,
+    "prompt": "A researcher measures blood pressure of 12 patients before and after a treatment. The most appropriate test is:\n\nA. Two-sample z-test\nB. Two-sample t-test\nC. Paired t-test\nD. One-proportion z-test\nE. Chi-square test",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: inference).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "This compares means from two independent groups (athletes vs non-athletes), so use a two-sample procedure. Population standard deviations are not given and sample sizes are small, so a two-sample t-test is appropriate (not z, and not paired). That matches option C.",
+    "final_answer": "C",
+    "tags": [
+      "inference",
+      "test-selection"
+    ]
+  },
+  {
+    "id": "V4-A-Q2",
+    "variant": 4,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 2,
+    "prompt": "A dataset has mean 75 and median 70. The distribution is most likely:\n\nA. Symmetric\nB. Skewed left\nC. Skewed right\nD. Uniform\nE. Normal",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: descriptive-stats).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Most scores are around 70-80 with a tail toward lower values, so the distribution is left-skewed. In left skew, the mean is pulled downward below the median. Therefore the statement \"median > mean\" is the best choice, which is option C.",
+    "final_answer": "C",
+    "tags": [
+      "descriptive-stats",
+      "skewness"
+    ]
+  },
+  {
+    "id": "V4-A-Q3",
+    "variant": 4,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 3,
+    "prompt": "Researchers select a sample from a list by choosing randomly from each of five age groups proportionally. This method is:\n\nA. Cluster sampling\nB. Simple random sampling\nC. Stratified sampling\nD. Systematic sampling\nE. Voluntary response",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: sampling-methods).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Selecting every 10th employee is the definition of systematic sampling: pick units at a fixed interval after an initial start. It is not simple random, cluster, or stratified sampling. Hence option C is correct.",
+    "final_answer": "C",
+    "tags": [
+      "sampling-methods"
+    ]
+  },
+  {
+    "id": "V4-A-Q4",
+    "variant": 4,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 4,
+    "prompt": "Which statement is TRUE about t-distributions?\n\nA. They have standard deviation less than 1 for all df.\nB. They become closer to the normal as df increases.\nC. They are not symmetric.\nD. They have a mean different from 0.\nE. They do not depend on df.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: distributions).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "A standard normal distribution is continuous, symmetric, centered at 0, with standard deviation 1, and total area under the curve equal to 1. The only false statement is \"area is 2,\" so the NOT-true option is B.",
+    "final_answer": "B",
+    "tags": [
+      "distributions",
+      "normal-t"
+    ]
+  },
+  {
+    "id": "V4-A-Q5",
+    "variant": 4,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 5,
+    "prompt": "Events A and B are mutually exclusive. P(A) = 0.3, P(B) = 0.4. P(A or B) =\n\nA. 0.12\nB. 0.70\nC. 0.58\nD. 0.10\nE. 1.0",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: probability-rules).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Use conditional probability: P(Science | Math) = P(Science and Math) / P(Math). Substituting gives 0.42 / 0.70 = 0.60. The option expressing this setup is B.",
+    "final_answer": "B",
+    "tags": [
+      "probability-rules"
+    ]
+  },
+  {
+    "id": "V4-A-Q6",
+    "variant": 4,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 6,
+    "prompt": "A distribution is N(80, 10). What is the z-score for x = 95?\n\nA. 1.0\nB. 1.5\nC. 2.0\nD. 0.5\nE. −1.5",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: normal-distribution).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Standardize with z = (186 - 170) / 8 = 2. Then P(X > 186) = P(Z > 2) ≈ 0.0228 from the standard normal table. This corresponds to option B.",
+    "final_answer": "B",
+    "tags": [
+      "normal-distribution",
+      "z-score"
+    ]
+  },
+  {
+    "id": "V4-A-Q7",
+    "variant": 4,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 7,
+    "prompt": "To estimate a population proportion within 0.03 with 95% confidence, using p = 0.5, which holds?\n\nA. n ≥ (1.96)²(0.25)/(0.03)²\nB. n ≥ (1.645)²(0.25)/(0.03)²\nC. n ≥ (1.96)²(0.5)/(0.03)²\nD. n ≥ (1.96)(0.25)/(0.03)\nE. n ≥ (1.96)²(0.25)/(0.03)",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: confidence-interval).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "For a 95% margin requirement on a difference of two means with equal SDs, the margin form is z*sqrt(s1^2+s2^2)/sqrt(n). Set 1.96*sqrt(10^2+10^2)/sqrt(n) <= 3 and solve for n. That exact setup is option A.",
+    "final_answer": "A",
+    "tags": [
+      "confidence-interval",
+      "sample-size"
+    ]
+  },
+  {
+    "id": "V4-A-Q8",
+    "variant": 4,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 8,
+    "prompt": "If r = −0.45 between x and y, and all y-values are multiplied by −1, the new correlation is:\n\nA. −0.45\nB. 0.45\nC. 0.00\nD. 0.90\nE. −0.90",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: correlation).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Correlation near +1 means a strong positive linear association, while correlation near 0 means weak linear association. Correlation does not establish causation. The option consistent with these facts is B.",
+    "final_answer": "B",
+    "tags": [
+      "correlation"
+    ]
+  },
+  {
+    "id": "V4-A-Q9",
+    "variant": 4,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 9,
+    "prompt": "A goodness-of-fit test has 5 categories and all expected counts are equal. If observed counts are 18, 22, 20, 25, 15, what is the expected count per category?\n\nA. 18\nB. 20\nC. 22\nD. 25\nE. 100",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: chi-square).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "A chi-square test compares observed category counts to expected counts under a null model. The statistic sums (O-E)^2/E across categories and is right-tailed. The choice that describes this correctly is option B.",
+    "final_answer": "B",
+    "tags": [
+      "chi-square"
+    ]
+  },
+  {
+    "id": "V4-A-Q10",
+    "variant": 4,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 10,
+    "prompt": "Two investment options: Option A has expected return $12,000; Option B has 30% chance of $50,000 and 70% chance of $0. Which has the higher expected value?\n\nA. Option A\nB. Option B\nC. Equal\nD. Cannot compare\nE. Depends on risk",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: expected-value).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Expected value is the probability-weighted average: E(X)=sum x*p(x). You multiply each outcome by its probability and add, rather than averaging outcomes equally. The correct statement is option B.",
+    "final_answer": "B",
+    "tags": [
+      "expected-value"
+    ]
+  },
+  {
+    "id": "V4-A-Q11",
+    "variant": 4,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 11,
+    "prompt": "Subjects are randomly assigned to one of three diet plans. Food intake is tracked over 8 weeks. This study is:\n\nA. Observational study\nB. Matched-pairs design\nC. Randomized block design\nD. Completely randomized design\nE. Case-control study",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: experimental-design).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "A well-designed experiment uses random assignment to treatment groups to balance confounders and support causal conclusions. Random sampling affects generalizability, not internal treatment comparison alone. The best answer is option D.",
+    "final_answer": "D",
+    "tags": [
+      "experimental-design"
+    ]
+  },
+  {
+    "id": "V4-A-Q12",
+    "variant": 4,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 12,
+    "prompt": "In a residual plot, all points lie exactly on a straight line with positive slope. This indicates:\n\nA. Perfect fit\nB. Non-linearity not captured\nC. Constant variance\nD. Linear model is appropriate\nE. The model is wrong",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: regression).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: E."
+    ],
+    "solution_en_explanation": "Residual = observed y - predicted y-hat. Positive residuals mean underprediction by the model, negative residuals mean overprediction. The option matching this interpretation is E.",
+    "final_answer": "E",
+    "tags": [
+      "regression",
+      "residuals"
+    ]
+  },
+  {
+    "id": "V4-A-Q13",
+    "variant": 4,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 13,
+    "prompt": "A sample of 20 observations has mean 50 and standard deviation 15. Which is most likely true about the sample?\n\nA. Normal by CLT\nB. Skewed right, minimum within 3.3 SD\nC. Skewed left, minimum within 3.3 SD\nD. Uniform\nE. Bimodal",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: shape).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "By the central limit theorem, the sampling distribution of the sample mean becomes approximately normal for sufficiently large n (under standard conditions), even if the population is non-normal. The correct choice is option B.",
+    "final_answer": "B",
+    "tags": [
+      "shape",
+      "clt"
+    ]
+  },
+  {
+    "id": "V4-A-Q14",
+    "variant": 4,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 14,
+    "prompt": "When the null hypothesis in a proportion test is p = 0.6, the standard error in the denominator uses 6 because:\n\nA. 0.6 is the most common value.\nB. We calculate standard deviation under the assumption H₀ is true.\nC. The sample proportion equals 0.6.\nD. 0.6 maximizes the variance.\nE. The sample size is large.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: hypothesis-testing).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "In hypothesis testing, compare the p-value with alpha (or compare the test statistic with a critical threshold). Reject H0 only when evidence is strong enough under the null model. The option expressing this rule is B.",
+    "final_answer": "B",
+    "tags": [
+      "hypothesis-testing"
+    ]
+  },
+  {
+    "id": "V4-A-Q15",
+    "variant": 4,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 15,
+    "prompt": "Which source of bias occurs when survey participants self-select into a sample?\n\nA. Undercoverage bias\nB. Measurement bias\nC. Voluntary response bias\nD. Non-response bias\nE. Observer bias",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: bias).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Bias is a systematic deviation caused by design or measurement issues, not random sampling fluctuation. Increasing sample size reduces random error but does not fix biased collection. Therefore option C is correct.",
+    "final_answer": "C",
+    "tags": [
+      "bias"
+    ]
+  },
+  {
+    "id": "V4-A-Q16",
+    "variant": 4,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 16,
+    "prompt": "P(A) = 0.7, P(B) = 0.6, P(A and B) = 0.42. Are A and B independent?\n\nA. Yes, because P(A)×P(B) = 0.42 = P(A and B).\nB. No, because they are not mutually exclusive.\nC. Yes, because P(A|B) = P(A).\nD. No, because P(A and B) ≠ 0.\nE. Cannot be determined.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: independence).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Independence means P(A and B)=P(A)P(B), equivalently P(A|B)=P(A) when P(B)>0. If this product rule fails, events are dependent. The option stating this criterion is A.",
+    "final_answer": "A",
+    "tags": [
+      "independence",
+      "probability-rules"
+    ]
+  },
+  {
+    "id": "V4-A-Q17",
+    "variant": 4,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 17,
+    "prompt": "A 98% confidence interval for a mean is (55.2, 64.8). The sample mean is:\n\nA. 55.2\nB. 64.8\nC. 60.0\nD. 4.8\nE. 9.6",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: confidence-interval).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "A confidence interval gives a plausible range for the population parameter based on sample data and method reliability. In repeated sampling, a 95% method captures the true parameter about 95% of the time. The correct interpretation here is option C.",
+    "final_answer": "C",
+    "tags": [
+      "confidence-interval"
+    ]
+  },
+  {
+    "id": "V4-A-Q18",
+    "variant": 4,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 18,
+    "prompt": "Which assumption is critical for a chi-square test of independence?\n\nA. Large sample size only\nB. Expected counts ≥ 5 in each cell\nC. Normal distribution of data\nD. Equal sample sizes\nE. Known population variance",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: conditions).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Before inference, check conditions such as randomness/independence and distribution or large-sample requirements for the chosen method. If assumptions fail badly, usual formulas may be invalid. The best option is B.",
+    "final_answer": "B",
+    "tags": [
+      "conditions",
+      "inference"
+    ]
+  },
+  {
+    "id": "V4-A-Q19",
+    "variant": 4,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 19,
+    "prompt": "A game sells 1,000 tickets at $3. Two prizes of $500 each are awarded. The expected net gain per ticket is −$2. This means:\n\nA. Buyers gain $1 on average.\nB. Buyers lose $1 on average.\nC. Buyers lose $2 on average.\nD. Every buyer loses exactly $2.\nE. Chance of winning is 20%.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: expected-value).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "For repeated independent trials, expected total equals number of trials times expected single-trial outcome: E(total)=n*E(X). This linearity rule is fundamental and does not require normality. The option reflecting this is C.",
+    "final_answer": "C",
+    "tags": [
+      "expected-value"
+    ]
+  },
+  {
+    "id": "V4-A-Q20",
+    "variant": 4,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 20,
+    "prompt": "H_a: μ > 30. The power of the test increases when:\n\nA. The true mean decreases toward 30.\nB. The sample size decreases.\nC. The significance level decreases.\nD. The true mean increases above 30.\nE. The standard deviation increases.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: power).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "Statistical power is P(reject H0 | H1 true): the chance a test detects a real effect. Power increases with larger effects, larger n, lower variability, and a more permissive alpha. The option defining this correctly is D.",
+    "final_answer": "D",
+    "tags": [
+      "power"
+    ]
+  },
+  {
+    "id": "V4-B-Q1",
+    "variant": 4,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 1,
+    "prompt": "A game show host offers a wheel with 12 equal sectors: 3 labeled $20, 4 labeled $5, 5 labeled $0. A\ncontestant pays $8 to spin once.\n   (a) Let X be the net gain. Complete the probability distribution of X.\n\n   (b) Find E(X).\n\n   (c) What is the minimum number of spins for the expected total net gain to be at least $15?\n\n   (d) In 800 spins, the mean total net gain is $400 and standard deviation is $480. Use the normal\n   distribution to find the probability that total net gain exceeds $500.",
+    "solution_ru_steps": [
+      "Определим чистый результат за игру: выигрыш игрока = выплата - стоимость.",
+      "Исход 1: X=12, P=0.25.",
+      "Исход 2: X=-3, P=0.3333.",
+      "Исход 3: X=-8, P=0.4167.",
+      "Матожидание: E(X)=Σ x·p = -1.3333.",
+      "Для ожидаемого суммарного результата не менее 15: n·E(X) >= 15, значит n >= -11.25 -> минимально n=-11.",
+      "Для части (d): z = (500-400)/480 = 0.2083.",
+      "P(T >= 500) = P(Z >= 0.2083) = 0.4175."
+    ],
+    "solution_en_explanation": "Build the net-gain distribution first, then compute E(X). Use n*E(X) for the minimum plays threshold. In part (d), standardize the total gain with z=(T-mu)/sigma and read the upper-tail normal probability.",
+    "final_answer": "Distribution: 12 (p=0.25), -3 (p=0.3333), -8 (p=0.4167); E(X)=-1.3333; min plays=-11; P(total >= 500)≈0.4175",
+    "tags": [
+      "expected-value",
+      "random-variable",
+      "clt"
+    ]
+  },
+  {
+    "id": "V4-B-Q2",
+    "variant": 4,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 2,
+    "prompt": "In January 2024, 530 of 1,000 randomly selected voters said they approved of a new policy. In January\n2023, 480 of 900 said the same.\n   Do the data provide convincing evidence that approval changed? Test at α = 0.05.",
+    "solution_ru_steps": [
+      "Гипотезы: H0: p1=p2, Ha: p1 != p2.",
+      "p1̂=530/1000=0.53, p2̂=480/900=0.5333.",
+      "Объединённая оценка p̂=0.5316.",
+      "SE = sqrt(p̂(1-p̂)(1/n1+1/n2)) = 0.02293.",
+      "z = (p1̂-p2̂)/SE = -0.1454.",
+      "Двустороннее p-value = 0.8844; не отвергаем H0."
+    ],
+    "solution_en_explanation": "Set null and alternative hypotheses for proportion(s), compute the z statistic using the null-based standard error, then compare the p-value to alpha=0.05.",
+    "final_answer": "p1=0.53, p2=0.5333, z=-0.1454, p-value=0.8844 => Fail to reject H0",
+    "tags": [
+      "hypothesis-test",
+      "proportion",
+      "z-test"
+    ]
+  },
+  {
+    "id": "V4-B-Q3",
+    "variant": 4,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 3,
+    "prompt": "A psychologist wants to estimate the average number of hours teenagers spend on social media daily.\nAssuming σ = 1.5 hours, how many teenagers should be sampled to be 90% confident the estimate is\nwithin 0.4 hours of the true mean?",
+    "solution_ru_steps": [
+      "Используем формулу для известной σ: n=(z*σ/E)^2.",
+      "Подставляем: n=(1.645*1.5/0.4)^2=38.0535.",
+      "Округляем вверх: n=39."
+    ],
+    "solution_en_explanation": "For a margin-of-error requirement with known sigma, use n=(z*sigma/E)^2 and round up.",
+    "final_answer": "Required minimum sample size: n=39",
+    "tags": [
+      "confidence-interval",
+      "sample-size"
+    ]
+  },
+  {
+    "id": "V4-B-Q4",
+    "variant": 4,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 4,
+    "prompt": "Monthly electricity bills in a city are approximately normally distributed with mean $120 and standard\ndeviation $25. Suppose 200 random samples of size 50 are drawn.\n   (a) Find the mean and standard deviation of the sampling distribution of x̄.\n\n   (b) How many sample means fall between $115 and $125?\n\n(c) How many sample means fall below $113?",
+    "solution_ru_steps": [
+      "Параметры распределения выборочного среднего: μx̄=μ=120, σx̄=σ/√n=3.53553.",
+      "Для интервала [115, 125]: z1=-1.4142, z2=1.4142.",
+      "P(115<=x̄<=125)=0.8427 => ожидаемое число = 168.54 (~169).",
+      "Для порога 113: z=-1.9799, вероятность=0.0239 => ожидаемое число=4.77 (~5)."
+    ],
+    "solution_en_explanation": "Use the sampling distribution of x-bar: mean mu and SD sigma/sqrt(n). Convert bounds to z-scores, compute normal probabilities, then multiply by the number of repeated samples.",
+    "final_answer": "mu_xbar=120, sd_xbar=3.53553; between count≈168.54; below 113 count≈4.77",
+    "tags": [
+      "sampling-distribution",
+      "normal-approximation"
+    ]
+  },
+  {
+    "id": "V5-A-Q1",
+    "variant": 5,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 1,
+    "prompt": "Two independent groups of 20 students each are compared on math performance. The appropriate test is:\n\nA. Paired t-test\nB. Two-sample t-test of means\nC. One-sample z-test\nD. Chi-square test\nE. ANOVA",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: inference).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "This compares means from two independent groups (athletes vs non-athletes), so use a two-sample procedure. Population standard deviations are not given and sample sizes are small, so a two-sample t-test is appropriate (not z, and not paired). That matches option B.",
+    "final_answer": "B",
+    "tags": [
+      "inference",
+      "test-selection"
+    ]
+  },
+  {
+    "id": "V5-A-Q2",
+    "variant": 5,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 2,
+    "prompt": "A histogram is roughly symmetric with mean 45 and standard deviation 7. The median is likely:\n\nA. Less than 45\nB. Greater than 45\nC. Approximately 45\nD. Equal to the standard deviation\nE. 0",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: descriptive-stats).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Most scores are around 70-80 with a tail toward lower values, so the distribution is left-skewed. In left skew, the mean is pulled downward below the median. Therefore the statement \"median > mean\" is the best choice, which is option C.",
+    "final_answer": "C",
+    "tags": [
+      "descriptive-stats",
+      "skewness"
+    ]
+  },
+  {
+    "id": "V5-A-Q3",
+    "variant": 5,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 3,
+    "prompt": "A researcher sends surveys to 500 randomly selected addresses from city records. This is:\n\nA. Cluster sampling\nB. Stratified sampling\nC. Simple random sampling\nD. Systematic sampling\nE. Convenience sampling",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: sampling-methods).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Selecting every 10th employee is the definition of systematic sampling: pick units at a fixed interval after an initial start. It is not simple random, cluster, or stratified sampling. Hence option C is correct.",
+    "final_answer": "C",
+    "tags": [
+      "sampling-methods"
+    ]
+  },
+  {
+    "id": "V5-A-Q4",
+    "variant": 5,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 4,
+    "prompt": "For a t-distribution, as the sample size increases:\n\nA. The tails become heavier.\nB. The distribution becomes less normal.\nC. The critical value for a given α increases.\nD. The critical value approaches the z-value.\nE. The mean decreases.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: distributions).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "A standard normal distribution is continuous, symmetric, centered at 0, with standard deviation 1, and total area under the curve equal to 1. The only false statement is \"area is 2,\" so the NOT-true option is D.",
+    "final_answer": "D",
+    "tags": [
+      "distributions",
+      "normal-t"
+    ]
+  },
+  {
+    "id": "V5-A-Q5",
+    "variant": 5,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 5,
+    "prompt": "A bag has 4 black balls and 6 white balls. Two balls are drawn without replacement. P(both black) =\n\nA. 0.16\nB. 0.12\nC. 0.24\nD. 0.13\nE. 0.40",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: probability-rules).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "Use conditional probability: P(Science | Math) = P(Science and Math) / P(Math). Substituting gives 0.42 / 0.70 = 0.60. The option expressing this setup is D.",
+    "final_answer": "D",
+    "tags": [
+      "probability-rules"
+    ]
+  },
+  {
+    "id": "V5-A-Q6",
+    "variant": 5,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 6,
+    "prompt": "Salaries are normally distributed with μ = $55,000 and σ = $8,000. P(salary > $71,000) =\n\nA. 0.0228\nB. 0.9772\nC. 0.0456\nD. 0.1587\nE. 0.0013",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: normal-distribution).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Standardize with z = (186 - 170) / 8 = 2. Then P(X > 186) = P(Z > 2) ≈ 0.0228 from the standard normal table. This corresponds to option A.",
+    "final_answer": "A",
+    "tags": [
+      "normal-distribution",
+      "z-score"
+    ]
+  },
+  {
+    "id": "V5-A-Q7",
+    "variant": 5,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 7,
+    "prompt": "To estimate a mean within E with confidence level C, the minimum sample size formula is:\n\nA. n = (zσ/E)²\nB. n = zσ/E\nC. n = (zσ)²/E\nD. n = zσ²/E²\nE. n = (zE/σ)²",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: confidence-interval).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "For a 95% margin requirement on a difference of two means with equal SDs, the margin form is z*sqrt(s1^2+s2^2)/sqrt(n). Set 1.96*sqrt(10^2+10^2)/sqrt(n) <= 3 and solve for n. That exact setup is option A.",
+    "final_answer": "A",
+    "tags": [
+      "confidence-interval",
+      "sample-size"
+    ]
+  },
+  {
+    "id": "V5-A-Q8",
+    "variant": 5,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 8,
+    "prompt": "r = 0.55 between income and spending. If all income values increase by $1,000, r becomes:\n\nA. 0.55\nB. Higher\nC. Lower\nD. 0\nE. −0.55",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: correlation).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Correlation near +1 means a strong positive linear association, while correlation near 0 means weak linear association. Correlation does not establish causation. The option consistent with these facts is A.",
+    "final_answer": "A",
+    "tags": [
+      "correlation"
+    ]
+  },
+  {
+    "id": "V5-A-Q9",
+    "variant": 5,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 9,
+    "prompt": "In a chi-square test for independence with a 2×3 table, the degrees of freedom are:\n\nA. 6\nB. 5\nC. 4\nD. 3\nE. 2",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: chi-square).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: E."
+    ],
+    "solution_en_explanation": "A chi-square test compares observed category counts to expected counts under a null model. The statistic sums (O-E)^2/E across categories and is right-tailed. The choice that describes this correctly is option E.",
+    "final_answer": "E",
+    "tags": [
+      "chi-square"
+    ]
+  },
+  {
+    "id": "V5-A-Q10",
+    "variant": 5,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 10,
+    "prompt": "A stock either gains $500 (prob. 0.3), stays flat $0 (prob. 0.5), or loses $200 (prob. 0.2). Expected gain is:\n\nA. $110\nB. $150\nC. $50\nD. $100\nE. $300",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: expected-value).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Expected value is the probability-weighted average: E(X)=sum x*p(x). You multiply each outcome by its probability and add, rather than averaging outcomes equally. The correct statement is option A.",
+    "final_answer": "A",
+    "tags": [
+      "expected-value"
+    ]
+  },
+  {
+    "id": "V5-A-Q11",
+    "variant": 5,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 11,
+    "prompt": "Subjects are matched by age and then randomly assigned within each pair to treatment A or B. This is:\n\nA. Completely randomized design\nB. Observational study\nC. Matched-pairs design\nD. Stratified sample\nE. Cluster design",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: experimental-design).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "A well-designed experiment uses random assignment to treatment groups to balance confounders and support causal conclusions. Random sampling affects generalizability, not internal treatment comparison alone. The best answer is option C.",
+    "final_answer": "C",
+    "tags": [
+      "experimental-design"
+    ]
+  },
+  {
+    "id": "V5-A-Q12",
+    "variant": 5,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 12,
+    "prompt": "A residual plot shows a curved (U-shaped) pattern. This suggests:\n\nA. Linear model is appropriate.\nB. A non-linear model would be better.\nC. Variance is constant.\nD. There are no outliers.\nE. The sample is too small.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: regression).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Residual = observed y - predicted y-hat. Positive residuals mean underprediction by the model, negative residuals mean overprediction. The option matching this interpretation is B.",
+    "final_answer": "B",
+    "tags": [
+      "regression",
+      "residuals"
+    ]
+  },
+  {
+    "id": "V5-A-Q13",
+    "variant": 5,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 13,
+    "prompt": "A sample of 18 from a population with unknown distribution: mean = 30, SD = 6. Which is most likely about the sample?\n\nA. Normal by CLT\nB. Skewed right because minimum within 5 SD\nC. Skewed left because minimum within 5 SD\nD. Distribution mirrors the population exactly\nE. Uniform",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: shape).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "By the central limit theorem, the sampling distribution of the sample mean becomes approximately normal for sufficiently large n (under standard conditions), even if the population is non-normal. The correct choice is option B.",
+    "final_answer": "B",
+    "tags": [
+      "shape",
+      "clt"
+    ]
+  },
+  {
+    "id": "V5-A-Q14",
+    "variant": 5,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 14,
+    "prompt": "In the one-proportion z-test, using p₀(1 - p₀)/n as the variance ensures:\n\nA. The denominator matches the alternative hypothesis.\nB. The standard error is computed under the assumption that H₀ is true.\nC. The sample proportion is maximized.\nD. The confidence interval is widest.\nE. The test is two-tailed.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: hypothesis-testing).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "In hypothesis testing, compare the p-value with alpha (or compare the test statistic with a critical threshold). Reject H0 only when evidence is strong enough under the null model. The option expressing this rule is B.",
+    "final_answer": "B",
+    "tags": [
+      "hypothesis-testing"
+    ]
+  },
+  {
+    "id": "V5-A-Q15",
+    "variant": 5,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 15,
+    "prompt": "In a survey, only people who feel strongly about an issue respond. This introduces:\n\nA. Undercoverage\nB. Cluster bias\nC. Voluntary response bias\nD. Response bias\nE. Observer bias",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: bias).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Bias is a systematic deviation caused by design or measurement issues, not random sampling fluctuation. Increasing sample size reduces random error but does not fix biased collection. Therefore option C is correct.",
+    "final_answer": "C",
+    "tags": [
+      "bias"
+    ]
+  },
+  {
+    "id": "V5-A-Q16",
+    "variant": 5,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 16,
+    "prompt": "Two relays in series each work with probability 0.9 independently. System works if both work. P(system works) =\n\nA. 0.81\nB. 0.90\nC. 0.19\nD. 0.99\nE. 0.50",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: independence).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Independence means P(A and B)=P(A)P(B), equivalently P(A|B)=P(A) when P(B)>0. If this product rule fails, events are dependent. The option stating this criterion is A.",
+    "final_answer": "A",
+    "tags": [
+      "independence",
+      "probability-rules"
+    ]
+  },
+  {
+    "id": "V5-A-Q17",
+    "variant": 5,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 17,
+    "prompt": "A 95% CI for μ is (18.5, 25.5). Which is true?\n\nA. P(μ is in this interval) = 0.95.\nB. 95% of population values are in this range.\nC. The sample mean is 22.\nD. μ must equal 22.\nE. The CI was computed incorrectly.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: confidence-interval).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "A confidence interval gives a plausible range for the population parameter based on sample data and method reliability. In repeated sampling, a 95% method captures the true parameter about 95% of the time. The correct interpretation here is option C.",
+    "final_answer": "C",
+    "tags": [
+      "confidence-interval"
+    ]
+  },
+  {
+    "id": "V5-A-Q18",
+    "variant": 5,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 18,
+    "prompt": "For a large sample test of H₀: μ = 50, the z-test statistic is:\n\nA. z = (x̄ - μ₀) / (s/√n)\nB. z = (x̄ - μ₀) / s\nC. z = x̄ / (σ/√n)\nD. z = (x̄ - μ₀) × √n / σ\nE. z = n(x̄ - μ₀) / s",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: conditions).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "Before inference, check conditions such as randomness/independence and distribution or large-sample requirements for the chosen method. If assumptions fail badly, usual formulas may be invalid. The best option is D.",
+    "final_answer": "D",
+    "tags": [
+      "conditions",
+      "inference"
+    ]
+  },
+  {
+    "id": "V5-A-Q19",
+    "variant": 5,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 19,
+    "prompt": "A game tickets cost $5. 1,500 tickets are sold and one prize of $2,000 is awarded. The expected net gain per ticket is approximately:\n\nA. −$3.67\nB. −$3.00\nC. $1.33\nD. −$1.33\nE. $3.67",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: expected-value).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "For repeated independent trials, expected total equals number of trials times expected single-trial outcome: E(total)=n*E(X). This linearity rule is fundamental and does not require normality. The option reflecting this is A.",
+    "final_answer": "A",
+    "tags": [
+      "expected-value"
+    ]
+  },
+  {
+    "id": "V5-A-Q20",
+    "variant": 5,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 20,
+    "prompt": "H_a: μ < 100. Power increases as:\n\nA. True μ approaches 100 from below.\nB. True μ moves far below 100.\nC. n decreases.\nD. σ increases.\nE. α decreases.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: power).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Statistical power is P(reject H0 | H1 true): the chance a test detects a real effect. Power increases with larger effects, larger n, lower variability, and a more permissive alpha. The option defining this correctly is B.",
+    "final_answer": "B",
+    "tags": [
+      "power"
+    ]
+  },
+  {
+    "id": "V5-B-Q1",
+    "variant": 5,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 1,
+    "prompt": "A fundraising event uses a ring-toss game. Players pay $5 per attempt. A win (probability 0.15) pays\n$15; a near-miss (probability 0.30) pays $2; a miss (probability 0.55) pays $0.\n   (a) Let X be the net gain to the charity. Complete the probability distribution of X.\n\n   (b) What is E(X)?\n\n   (c) What is the fewest number of attempts for the expected total net gain to be at least $500?\n\n   (d) In 1,000 attempts, the mean net gain is $2,650 and the standard deviation is $500. Use the\n   normal distribution to approximate the probability of total net gain of at least $2,500.",
+    "solution_ru_steps": [
+      "Определим чистый результат за игру: выигрыш организатора = стоимость - выплата.",
+      "Исход 1: X=-10, P=0.15.",
+      "Исход 2: X=3, P=0.3.",
+      "Исход 3: X=5, P=0.55.",
+      "Матожидание: E(X)=Σ x·p = 2.15.",
+      "Для ожидаемого суммарного результата не менее 500: n·E(X) >= 500, значит n >= 232.5581 -> минимально n=233.",
+      "Для части (d): z = (2500-2650)/500 = -0.3.",
+      "P(T >= 2500) = P(Z >= -0.3) = 0.6179."
+    ],
+    "solution_en_explanation": "Build the net-gain distribution first, then compute E(X). Use n*E(X) for the minimum plays threshold. In part (d), standardize the total gain with z=(T-mu)/sigma and read the upper-tail normal probability.",
+    "final_answer": "Distribution: -10 (p=0.15), 3 (p=0.3), 5 (p=0.55); E(X)=2.15; min plays=233; P(total >= 2500)≈0.6179",
+    "tags": [
+      "expected-value",
+      "random-variable",
+      "clt"
+    ]
+  },
+  {
+    "id": "V5-B-Q2",
+    "variant": 5,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 2,
+    "prompt": "A poll in March 2024 found that 620 of 1,100 randomly sampled people supported a local ordinance. A\nsimilar poll in March 2023 found 560 of 1,000 people supported it.\n   Is there convincing evidence that support has changed? Test at α = 0.05.",
+    "solution_ru_steps": [
+      "Гипотезы: H0: p1=p2, Ha: p1 != p2.",
+      "p1̂=620/1100=0.5636, p2̂=560/1000=0.56.",
+      "Объединённая оценка p̂=0.5619.",
+      "SE = sqrt(p̂(1-p̂)(1/n1+1/n2)) = 0.02168.",
+      "z = (p1̂-p2̂)/SE = 0.1677.",
+      "Двустороннее p-value = 0.8668; не отвергаем H0."
+    ],
+    "solution_en_explanation": "Set null and alternative hypotheses for proportion(s), compute the z statistic using the null-based standard error, then compare the p-value to alpha=0.05.",
+    "final_answer": "p1=0.5636, p2=0.56, z=0.1677, p-value=0.8668 => Fail to reject H0",
+    "tags": [
+      "hypothesis-test",
+      "proportion",
+      "z-test"
+    ]
+  },
+  {
+    "id": "V5-B-Q3",
+    "variant": 5,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 3,
+    "prompt": "An engineer wants to estimate the average tensile strength of a cable. From prior testing, σ = 15 MPa.\nHow many tests are needed to be 99% confident the estimate is within 4 MPa of the true mean?",
+    "solution_ru_steps": [
+      "Используем формулу для известной σ: n=(z*σ/E)^2.",
+      "Подставляем: n=(2.576*15/4)^2=93.3156.",
+      "Округляем вверх: n=94."
+    ],
+    "solution_en_explanation": "For a margin-of-error requirement with known sigma, use n=(z*sigma/E)^2 and round up.",
+    "final_answer": "Required minimum sample size: n=94",
+    "tags": [
+      "confidence-interval",
+      "sample-size"
+    ]
+  },
+  {
+    "id": "V5-B-Q4",
+    "variant": 5,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 4,
+    "prompt": "Daily water usage (liters) by households in a city is approximately normally distributed with mean 350\nand standard deviation 60. Suppose 250 random samples of size 36 are drawn.\n   (a) Find the mean and standard deviation of the sampling distribution of x̄.\n\n   (b) How many sample means fall between 340 and 360?\n\n(c) How many sample means fall above 365?",
+    "solution_ru_steps": [
+      "Параметры распределения выборочного среднего: μx̄=μ=350, σx̄=σ/√n=10.",
+      "Для интервала [340, 360]: z1=-1, z2=1.",
+      "P(340<=x̄<=360)=0.6827 => ожидаемое число = 170.67 (~171).",
+      "Для порога 365: z=1.5, вероятность=0.0668 => ожидаемое число=16.7 (~17)."
+    ],
+    "solution_en_explanation": "Use the sampling distribution of x-bar: mean mu and SD sigma/sqrt(n). Convert bounds to z-scores, compute normal probabilities, then multiply by the number of repeated samples.",
+    "final_answer": "mu_xbar=350, sd_xbar=10; between count≈170.67; above 365 count≈16.7",
+    "tags": [
+      "sampling-distribution",
+      "normal-approximation"
+    ]
+  },
+  {
+    "id": "V6-A-Q1",
+    "variant": 6,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 1,
+    "prompt": "A coach compares sprint times of athletes before and after a training program (same athletes). The best test is:\n\nA. Two-sample z-test\nB. Two-sample t-test\nC. Paired t-test\nD. Chi-square test\nE. F-test",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: inference).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "This compares means from two independent groups (athletes vs non-athletes), so use a two-sample procedure. Population standard deviations are not given and sample sizes are small, so a two-sample t-test is appropriate (not z, and not paired). That matches option C.",
+    "final_answer": "C",
+    "tags": [
+      "inference",
+      "test-selection"
+    ]
+  },
+  {
+    "id": "V6-A-Q2",
+    "variant": 6,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 2,
+    "prompt": "A distribution has a long right tail. Which is most likely true?\n\nA. Mean = Median\nB. Mean > Median\nC. Mean < Median\nD. Median = Mode\nE. IQR = 0",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: descriptive-stats).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Most scores are around 70-80 with a tail toward lower values, so the distribution is left-skewed. In left skew, the mean is pulled downward below the median. Therefore the statement \"median > mean\" is the best choice, which is option B.",
+    "final_answer": "B",
+    "tags": [
+      "descriptive-stats",
+      "skewness"
+    ]
+  },
+  {
+    "id": "V6-A-Q3",
+    "variant": 6,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 3,
+    "prompt": "Researchers interview one randomly chosen member from each of 40 randomly chosen households in a city. This is:\n\nA. Stratified sampling\nB. Simple random sampling\nC. Cluster sampling\nD. Systematic sampling\nE. Convenience sampling",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: sampling-methods).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Selecting every 10th employee is the definition of systematic sampling: pick units at a fixed interval after an initial start. It is not simple random, cluster, or stratified sampling. Hence option C is correct.",
+    "final_answer": "C",
+    "tags": [
+      "sampling-methods"
+    ]
+  },
+  {
+    "id": "V6-A-Q4",
+    "variant": 6,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 4,
+    "prompt": "A t-distribution with df = 2 compared to df = 20 is:\n\nA. More concentrated around 0\nB. Less spread out\nC. More spread out / heavier-tailed\nD. Identical\nE. Negatively skewed",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: distributions).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "A standard normal distribution is continuous, symmetric, centered at 0, with standard deviation 1, and total area under the curve equal to 1. The only false statement is \"area is 2,\" so the NOT-true option is C.",
+    "final_answer": "C",
+    "tags": [
+      "distributions",
+      "normal-t"
+    ]
+  },
+  {
+    "id": "V6-A-Q5",
+    "variant": 6,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 5,
+    "prompt": "P(A) = 0.6, P(B) = 0.5, A and B are independent. P(A and B) =\n\nA. 0.30\nB. 0.55\nC. 0.10\nD. 0.80\nE. 1.10",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: probability-rules).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Use conditional probability: P(Science | Math) = P(Science and Math) / P(Math). Substituting gives 0.42 / 0.70 = 0.60. The option expressing this setup is A.",
+    "final_answer": "A",
+    "tags": [
+      "probability-rules"
+    ]
+  },
+  {
+    "id": "V6-A-Q6",
+    "variant": 6,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 6,
+    "prompt": "Exam scores are N(75, 12). What percent score above 99?\n\nA. 0.0228\nB. 0.0456\nC. 0.9772\nD. 0.1587\nE. 0.0013",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: normal-distribution).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Standardize with z = (186 - 170) / 8 = 2. Then P(X > 186) = P(Z > 2) ≈ 0.0228 from the standard normal table. This corresponds to option A.",
+    "final_answer": "A",
+    "tags": [
+      "normal-distribution",
+      "z-score"
+    ]
+  },
+  {
+    "id": "V6-A-Q7",
+    "variant": 6,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 7,
+    "prompt": "A 99% CI for a mean requires knowing:\n\nA. Only the standard deviation\nB. Only the sample size\nC. Both sample size and standard deviation\nD. The population mean\nE. The population distribution",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: confidence-interval).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "For a 95% margin requirement on a difference of two means with equal SDs, the margin form is z*sqrt(s1^2+s2^2)/sqrt(n). Set 1.96*sqrt(10^2+10^2)/sqrt(n) <= 3 and solve for n. That exact setup is option C.",
+    "final_answer": "C",
+    "tags": [
+      "confidence-interval",
+      "sample-size"
+    ]
+  },
+  {
+    "id": "V6-A-Q8",
+    "variant": 6,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 8,
+    "prompt": "Correlation between age and income is 0.45. If income is expressed in thousands instead of dollars, r becomes:\n\nA. 0.045\nB. 45\nC. 0.45\nD. −0.45\nE. 0.90",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: correlation).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Correlation near +1 means a strong positive linear association, while correlation near 0 means weak linear association. Correlation does not establish causation. The option consistent with these facts is C.",
+    "final_answer": "C",
+    "tags": [
+      "correlation"
+    ]
+  },
+  {
+    "id": "V6-A-Q9",
+    "variant": 6,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 9,
+    "prompt": "A chi-square goodness-of-fit test with 6 categories has df =\n\nA. 6\nB. 5\nC. 4\nD. 7\nE. 12",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: chi-square).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "A chi-square test compares observed category counts to expected counts under a null model. The statistic sums (O-E)^2/E across categories and is right-tailed. The choice that describes this correctly is option B.",
+    "final_answer": "B",
+    "tags": [
+      "chi-square"
+    ]
+  },
+  {
+    "id": "V6-A-Q10",
+    "variant": 6,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 10,
+    "prompt": "A fair coin is flipped 10 times. Expected number of heads is:\n\nA. 10\nB. 4\nC. 6\nD. 5\nE. 2",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: expected-value).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "Expected value is the probability-weighted average: E(X)=sum x*p(x). You multiply each outcome by its probability and add, rather than averaging outcomes equally. The correct statement is option D.",
+    "final_answer": "D",
+    "tags": [
+      "expected-value"
+    ]
+  },
+  {
+    "id": "V6-A-Q11",
+    "variant": 6,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 11,
+    "prompt": "Volunteers are randomly assigned to watch comedy or drama films and their mood is rated afterward. This is:\n\nA. Observational study\nB. Randomized experiment\nC. Survey\nD. Case study\nE. Matched-pairs study",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: experimental-design).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "A well-designed experiment uses random assignment to treatment groups to balance confounders and support causal conclusions. Random sampling affects generalizability, not internal treatment comparison alone. The best answer is option B.",
+    "final_answer": "B",
+    "tags": [
+      "experimental-design"
+    ]
+  },
+  {
+    "id": "V6-A-Q12",
+    "variant": 6,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 12,
+    "prompt": "In regression, the least-squares line minimizes:\n\nA. Sum of residuals\nB. Sum of squared residuals\nC. Sum of absolute residuals\nD. Total variation in y\nE. Total variation in x",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: regression).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Residual = observed y - predicted y-hat. Positive residuals mean underprediction by the model, negative residuals mean overprediction. The option matching this interpretation is B.",
+    "final_answer": "B",
+    "tags": [
+      "regression",
+      "residuals"
+    ]
+  },
+  {
+    "id": "V6-A-Q13",
+    "variant": 6,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 13,
+    "prompt": "A sample of 35 has mean 200 and SD 40. This distribution is most likely:\n\nA. Normal by CLT (sampling distribution)\nB. Skewed right because minimum within 5 SD\nC. Skewed left\nD. Exactly normal\nE. Uniform",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: shape).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "By the central limit theorem, the sampling distribution of the sample mean becomes approximately normal for sufficiently large n (under standard conditions), even if the population is non-normal. The correct choice is option A.",
+    "final_answer": "A",
+    "tags": [
+      "shape",
+      "clt"
+    ]
+  },
+  {
+    "id": "V6-A-Q14",
+    "variant": 6,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 14,
+    "prompt": "In a two-proportion z-test, a pooled proportion is used because:\n\nA. It is more accurate than each p̂.\nB. Under H₀ the proportions are assumed equal, so we pool.\nC. The sample sizes differ.\nD. It makes the test two-tailed.\nE. It increases power.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: hypothesis-testing).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "In hypothesis testing, compare the p-value with alpha (or compare the test statistic with a critical threshold). Reject H0 only when evidence is strong enough under the null model. The option expressing this rule is B.",
+    "final_answer": "B",
+    "tags": [
+      "hypothesis-testing"
+    ]
+  },
+  {
+    "id": "V6-A-Q15",
+    "variant": 6,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 15,
+    "prompt": "A survey interviewer records a 'yes' for anyone who hesitates. This is:\n\nA. Voluntary response bias\nB. Non-response bias\nC. Measurement/response bias\nD. Undercoverage\nE. Cluster bias",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: bias).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Bias is a systematic deviation caused by design or measurement issues, not random sampling fluctuation. Increasing sample size reduces random error but does not fix biased collection. Therefore option C is correct.",
+    "final_answer": "C",
+    "tags": [
+      "bias"
+    ]
+  },
+  {
+    "id": "V6-A-Q16",
+    "variant": 6,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 16,
+    "prompt": "P(pass exam) = 0.80, P(pass and studied) = 0.72. P(studied | passed) =\n\nA. 0.80\nB. 0.72\nC. 0.90\nD. 0.576\nE. 0.08",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: independence).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Independence means P(A and B)=P(A)P(B), equivalently P(A|B)=P(A) when P(B)>0. If this product rule fails, events are dependent. The option stating this criterion is C.",
+    "final_answer": "C",
+    "tags": [
+      "independence",
+      "probability-rules"
+    ]
+  },
+  {
+    "id": "V6-A-Q17",
+    "variant": 6,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 17,
+    "prompt": "A 95% CI for p is (0.41, 0.59). The sample proportion is:\n\nA. 0.41\nB. 0.59\nC. 0.50\nD. 0.18\nE. 0.09",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: confidence-interval).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "A confidence interval gives a plausible range for the population parameter based on sample data and method reliability. In repeated sampling, a 95% method captures the true parameter about 95% of the time. The correct interpretation here is option C.",
+    "final_answer": "C",
+    "tags": [
+      "confidence-interval"
+    ]
+  },
+  {
+    "id": "V6-A-Q18",
+    "variant": 6,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 18,
+    "prompt": "The margin of error of a confidence interval decreases when:\n\nA. Confidence level increases\nB. Sample size decreases\nC. Standard deviation increases\nD. Sample size increases\nE. α decreases",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: conditions).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Before inference, check conditions such as randomness/independence and distribution or large-sample requirements for the chosen method. If assumptions fail badly, usual formulas may be invalid. The best option is A.",
+    "final_answer": "A",
+    "tags": [
+      "conditions",
+      "inference"
+    ]
+  },
+  {
+    "id": "V6-A-Q19",
+    "variant": 6,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 19,
+    "prompt": "1,200 raffle tickets at $4 each. One prize of $3,000. Expected net gain per ticket is:\n\nA. −$1.50\nB. −$2.50\nC. $1.50\nD. $2.50\nE. −$3.00",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: expected-value).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "For repeated independent trials, expected total equals number of trials times expected single-trial outcome: E(total)=n*E(X). This linearity rule is fundamental and does not require normality. The option reflecting this is B.",
+    "final_answer": "B",
+    "tags": [
+      "expected-value"
+    ]
+  },
+  {
+    "id": "V6-A-Q20",
+    "variant": 6,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 20,
+    "prompt": "H_a: μ ≠ 70 with α = 0.05. Power is increased by:\n\nA. Decreasing n\nB. Moving true μ closer to 70\nC. Increasing σ\nD. Increasing n\nE. Decreasing α",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: power).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Statistical power is P(reject H0 | H1 true): the chance a test detects a real effect. Power increases with larger effects, larger n, lower variability, and a more permissive alpha. The option defining this correctly is B.",
+    "final_answer": "B",
+    "tags": [
+      "power"
+    ]
+  },
+  {
+    "id": "V6-B-Q1",
+    "variant": 6,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 1,
+    "prompt": "A charity auction uses a sealed-bid game. Participants pay $6 to enter. Prizes: $50 (prob. 0.05), $10\n(prob. 0.20), $0 (prob. 0.75).\n   (a) Let X be net gain to the charity. Complete the probability distribution of X.\n\n   (b) Find E(X).\n\n   (c) Find the minimum number of entries for expected total net gain ≥ $200.\n\n   (d) In 700 entries, mean total net gain = $700, SD = $350. Use the normal approximation to find\n   P(total gain > $800).",
+    "solution_ru_steps": [
+      "Определим чистый результат за игру: выигрыш организатора = стоимость - выплата.",
+      "Исход 1: X=-44, P=0.05.",
+      "Исход 2: X=-4, P=0.2.",
+      "Исход 3: X=6, P=0.75.",
+      "Матожидание: E(X)=Σ x·p = 1.5.",
+      "Для ожидаемого суммарного результата не менее 200: n·E(X) >= 200, значит n >= 133.3333 -> минимально n=134.",
+      "Для части (d): z = (800-700)/350 = 0.2857.",
+      "P(T >= 800) = P(Z >= 0.2857) = 0.3875."
+    ],
+    "solution_en_explanation": "Build the net-gain distribution first, then compute E(X). Use n*E(X) for the minimum plays threshold. In part (d), standardize the total gain with z=(T-mu)/sigma and read the upper-tail normal probability.",
+    "final_answer": "Distribution: -44 (p=0.05), -4 (p=0.2), 6 (p=0.75); E(X)=1.5; min plays=134; P(total >= 800)≈0.3875",
+    "tags": [
+      "expected-value",
+      "random-variable",
+      "clt"
+    ]
+  },
+  {
+    "id": "V6-B-Q2",
+    "variant": 6,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 2,
+    "prompt": "A 2024 survey showed 450 of 750 adults support renewable energy legislation. A 2022 survey showed\n380 of 700.\n   Test whether support increased significantly from 2022 to 2024. Use α = 0.05.",
+    "solution_ru_steps": [
+      "Гипотезы: H0: p1=p2, Ha: p1 > p2.",
+      "p1̂=450/750=0.6, p2̂=380/700=0.5429.",
+      "Объединённая оценка p̂=0.5724.",
+      "SE = sqrt(p̂(1-p̂)(1/n1+1/n2)) = 0.026.",
+      "z = (p1̂-p2̂)/SE = 2.1978.",
+      "Правостороннее p-value = 0.014; отвергаем H0."
+    ],
+    "solution_en_explanation": "Set null and alternative hypotheses for proportion(s), compute the z statistic using the null-based standard error, then compare the p-value to alpha=0.05.",
+    "final_answer": "p1=0.6, p2=0.5429, z=2.1978, p-value=0.014 => Reject H0",
+    "tags": [
+      "hypothesis-test",
+      "proportion",
+      "z-test"
+    ]
+  },
+  {
+    "id": "V6-B-Q3",
+    "variant": 6,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 3,
+    "prompt": "A meteorologist wants to estimate mean annual rainfall with σ = 28 mm. How many years of data are\nneeded for a 95% CI within 8 mm?",
+    "solution_ru_steps": [
+      "Используем формулу для известной σ: n=(z*σ/E)^2.",
+      "Подставляем: n=(1.96*28/8)^2=47.0596.",
+      "Округляем вверх: n=48."
+    ],
+    "solution_en_explanation": "For a margin-of-error requirement with known sigma, use n=(z*sigma/E)^2 and round up.",
+    "final_answer": "Required minimum sample size: n=48",
+    "tags": [
+      "confidence-interval",
+      "sample-size"
+    ]
+  },
+  {
+    "id": "V6-B-Q4",
+    "variant": 6,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 4,
+    "prompt": "A factory's bolts have diameters approximately N(10 mm, 0.3 mm). 120 random samples of size 40 are\ntaken.\n   (a) Find the mean and SD of the sampling distribution of x̄.\n\n   (b) How many sample means fall between 9.9 and 10.1 mm?\n\n(c) How many fall below 9.85 mm?",
+    "solution_ru_steps": [
+      "Параметры распределения выборочного среднего: μx̄=μ=10, σx̄=σ/√n=0.04743.",
+      "Для интервала [9.9, 10.1]: z1=-2.1082, z2=2.1082.",
+      "P(9.9<=x̄<=10.1)=0.965 => ожидаемое число = 115.8 (~116).",
+      "Для порога 9.85: z=-3.1623, вероятность=0.0008 => ожидаемое число=0.09 (~0)."
+    ],
+    "solution_en_explanation": "Use the sampling distribution of x-bar: mean mu and SD sigma/sqrt(n). Convert bounds to z-scores, compute normal probabilities, then multiply by the number of repeated samples.",
+    "final_answer": "mu_xbar=10, sd_xbar=0.04743; between count≈115.8; below 9.85 count≈0.09",
+    "tags": [
+      "sampling-distribution",
+      "normal-approximation"
+    ]
+  },
+  {
+    "id": "V7-A-Q1",
+    "variant": 7,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 1,
+    "prompt": "To compare mean gas mileage of sedans vs. SUVs (25 of each), the appropriate test is:\n\nA. Paired t-test\nB. Two-sample t-test\nC. One-sample t-test\nD. Chi-square\nE. Z-test for proportions",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: inference).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "This compares means from two independent groups (athletes vs non-athletes), so use a two-sample procedure. Population standard deviations are not given and sample sizes are small, so a two-sample t-test is appropriate (not z, and not paired). That matches option B.",
+    "final_answer": "B",
+    "tags": [
+      "inference",
+      "test-selection"
+    ]
+  },
+  {
+    "id": "V7-A-Q2",
+    "variant": 7,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 2,
+    "prompt": "A distribution has mean 30 and median 35. It is most likely:\n\nA. Symmetric\nB. Skewed right\nC. Skewed left\nD. Bimodal\nE. Uniform",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: descriptive-stats).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Most scores are around 70-80 with a tail toward lower values, so the distribution is left-skewed. In left skew, the mean is pulled downward below the median. Therefore the statement \"median > mean\" is the best choice, which is option C.",
+    "final_answer": "C",
+    "tags": [
+      "descriptive-stats",
+      "skewness"
+    ]
+  },
+  {
+    "id": "V7-A-Q3",
+    "variant": 7,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 3,
+    "prompt": "A researcher selects every 20th name on a voter registration list. This is:\n\nA. Simple random sampling\nB. Stratified\nC. Cluster\nD. Systematic\nE. Convenience",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: sampling-methods).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "Selecting every 10th employee is the definition of systematic sampling: pick units at a fixed interval after an initial start. It is not simple random, cluster, or stratified sampling. Hence option D is correct.",
+    "final_answer": "D",
+    "tags": [
+      "sampling-methods"
+    ]
+  },
+  {
+    "id": "V7-A-Q4",
+    "variant": 7,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 4,
+    "prompt": "Which is true about all normal distributions?\n\nA. μ = 0\nB. σ = 1\nC. They are symmetric and bell-shaped.\nD. The area under the curve is 2.\nE. Mean > Median always.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: distributions).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "A standard normal distribution is continuous, symmetric, centered at 0, with standard deviation 1, and total area under the curve equal to 1. The only false statement is \"area is 2,\" so the NOT-true option is C.",
+    "final_answer": "C",
+    "tags": [
+      "distributions",
+      "normal-t"
+    ]
+  },
+  {
+    "id": "V7-A-Q5",
+    "variant": 7,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 5,
+    "prompt": "P(A) = 0.3 and P(B) = 0.6 with A and B mutually exclusive. P(A or B) =\n\nA. 0.18\nB. 0.72\nC. 0.90\nD. 0.42\nE. 0.30",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: probability-rules).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Use conditional probability: P(Science | Math) = P(Science and Math) / P(Math). Substituting gives 0.42 / 0.70 = 0.60. The option expressing this setup is C.",
+    "final_answer": "C",
+    "tags": [
+      "probability-rules"
+    ]
+  },
+  {
+    "id": "V7-A-Q6",
+    "variant": 7,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 6,
+    "prompt": "A normal distribution has μ = 60 and σ = 5. P(X < 52.5) =\n\nA. 0.0668\nB. 0.9332\nC. 0.0228\nD. 0.1587\nE. 0.3085",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: normal-distribution).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Standardize with z = (186 - 170) / 8 = 2. Then P(X > 186) = P(Z > 2) ≈ 0.0228 from the standard normal table. This corresponds to option A.",
+    "final_answer": "A",
+    "tags": [
+      "normal-distribution",
+      "z-score"
+    ]
+  },
+  {
+    "id": "V7-A-Q7",
+    "variant": 7,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 7,
+    "prompt": "The width of a confidence interval can be reduced by:\n\nA. Increasing confidence level\nB. Decreasing n\nC. Increasing σ\nD. Decreasing n\nE. Increasing n",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: confidence-interval).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: E."
+    ],
+    "solution_en_explanation": "For a 95% margin requirement on a difference of two means with equal SDs, the margin form is z*sqrt(s1^2+s2^2)/sqrt(n). Set 1.96*sqrt(10^2+10^2)/sqrt(n) <= 3 and solve for n. That exact setup is option E.",
+    "final_answer": "E",
+    "tags": [
+      "confidence-interval",
+      "sample-size"
+    ]
+  },
+  {
+    "id": "V7-A-Q8",
+    "variant": 7,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 8,
+    "prompt": "r = 0.70 between height (inches) and weight (lbs). If heights are converted to cm, r:\n\nA. Increases\nB. Decreases\nC. Becomes 0\nD. Stays 0.70\nE. Changes sign",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: correlation).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "Correlation near +1 means a strong positive linear association, while correlation near 0 means weak linear association. Correlation does not establish causation. The option consistent with these facts is D.",
+    "final_answer": "D",
+    "tags": [
+      "correlation"
+    ]
+  },
+  {
+    "id": "V7-A-Q9",
+    "variant": 7,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 9,
+    "prompt": "A 2×2 contingency table is tested for independence. df =\n\nA. 4\nB. 3\nC. 2\nD. 1\nE. 0",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: chi-square).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "A chi-square test compares observed category counts to expected counts under a null model. The statistic sums (O-E)^2/E across categories and is right-tailed. The choice that describes this correctly is option D.",
+    "final_answer": "D",
+    "tags": [
+      "chi-square"
+    ]
+  },
+  {
+    "id": "V7-A-Q10",
+    "variant": 7,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 10,
+    "prompt": "Rolling a fair die. Expected value of the outcome is:\n\nA. 1\nB. 3\nC. 3.5\nD. 4\nE. 6",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: expected-value).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Expected value is the probability-weighted average: E(X)=sum x*p(x). You multiply each outcome by its probability and add, rather than averaging outcomes equally. The correct statement is option C.",
+    "final_answer": "C",
+    "tags": [
+      "expected-value"
+    ]
+  },
+  {
+    "id": "V7-A-Q11",
+    "variant": 7,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 11,
+    "prompt": "Subjects in two groups receive different medications; assignment is by random coin flip. This is:\n\nA. Observational study\nB. Matched-pairs design\nC. Completely randomized design\nD. Block design\nE. Case-control study",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: experimental-design).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "A well-designed experiment uses random assignment to treatment groups to balance confounders and support causal conclusions. Random sampling affects generalizability, not internal treatment comparison alone. The best answer is option C.",
+    "final_answer": "C",
+    "tags": [
+      "experimental-design"
+    ]
+  },
+  {
+    "id": "V7-A-Q12",
+    "variant": 7,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 12,
+    "prompt": "The coefficient of determination R² represents:\n\nA. Correlation between x and y\nB. Fraction of variation in y explained by x\nC. Slope of regression line\nD. Standard error of regression\nE. Residual sum of squares",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: regression).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Residual = observed y - predicted y-hat. Positive residuals mean underprediction by the model, negative residuals mean overprediction. The option matching this interpretation is B.",
+    "final_answer": "B",
+    "tags": [
+      "regression",
+      "residuals"
+    ]
+  },
+  {
+    "id": "V7-A-Q13",
+    "variant": 7,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 13,
+    "prompt": "A sample of 50 from a right-skewed population: the sampling distribution of x̄ is:\n\nA. Right-skewed by CLT\nB. Left-skewed\nC. Approximately normal by CLT\nD. Uniform\nE. Unknown",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: shape).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "By the central limit theorem, the sampling distribution of the sample mean becomes approximately normal for sufficiently large n (under standard conditions), even if the population is non-normal. The correct choice is option C.",
+    "final_answer": "C",
+    "tags": [
+      "shape",
+      "clt"
+    ]
+  },
+  {
+    "id": "V7-A-Q14",
+    "variant": 7,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 14,
+    "prompt": "In a hypothesis test, a Type I error occurs when:\n\nA. H₀ is true and is rejected.\nB. H₀ is false and is rejected.\nC. H₀ is true and is not rejected.\nD. H₀ is false and is not rejected.\nE. The p-value exceeds α.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: hypothesis-testing).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "In hypothesis testing, compare the p-value with alpha (or compare the test statistic with a critical threshold). Reject H0 only when evidence is strong enough under the null model. The option expressing this rule is A.",
+    "final_answer": "A",
+    "tags": [
+      "hypothesis-testing"
+    ]
+  },
+  {
+    "id": "V7-A-Q15",
+    "variant": 7,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 15,
+    "prompt": "Asking about income in a face-to-face survey tends to cause:\n\nA. Undercoverage\nB. Voluntary response bias\nC. Social desirability bias\nD. Cluster bias\nE. Non-response bias",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: bias).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Bias is a systematic deviation caused by design or measurement issues, not random sampling fluctuation. Increasing sample size reduces random error but does not fix biased collection. Therefore option C is correct.",
+    "final_answer": "C",
+    "tags": [
+      "bias"
+    ]
+  },
+  {
+    "id": "V7-A-Q16",
+    "variant": 7,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 16,
+    "prompt": "P(at least one six in two rolls of a fair die) =\n\nA. 1/6\nB. 2/6\nC. 11/36\nD. 1/36\nE. 25/36",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: independence).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Independence means P(A and B)=P(A)P(B), equivalently P(A|B)=P(A) when P(B)>0. If this product rule fails, events are dependent. The option stating this criterion is C.",
+    "final_answer": "C",
+    "tags": [
+      "independence",
+      "probability-rules"
+    ]
+  },
+  {
+    "id": "V7-A-Q17",
+    "variant": 7,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 17,
+    "prompt": "A 95% CI for μ is (34, 46). The margin of error is:\n\nA. 34\nB. 46\nC. 40\nD. 6\nE. 12",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: confidence-interval).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "A confidence interval gives a plausible range for the population parameter based on sample data and method reliability. In repeated sampling, a 95% method captures the true parameter about 95% of the time. The correct interpretation here is option D.",
+    "final_answer": "D",
+    "tags": [
+      "confidence-interval"
+    ]
+  },
+  {
+    "id": "V7-A-Q18",
+    "variant": 7,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 18,
+    "prompt": "In a two-sample t-test, assuming equal variances is required when:\n\nA. Using the pooled two-sample t-test\nB. Using the Welch t-test\nC. n₁ = n₂\nD. Both samples are large\nE. σ is known",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: conditions).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Before inference, check conditions such as randomness/independence and distribution or large-sample requirements for the chosen method. If assumptions fail badly, usual formulas may be invalid. The best option is A.",
+    "final_answer": "A",
+    "tags": [
+      "conditions",
+      "inference"
+    ]
+  },
+  {
+    "id": "V7-A-Q19",
+    "variant": 7,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 19,
+    "prompt": "A game sells 800 tickets at $2. Two prizes of $200 each. Expected net gain per ticket:\n\nA. −$1.00\nB. −$1.50\nC. $0.50\nD. $1.00\nE. −$0.50",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: expected-value).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "For repeated independent trials, expected total equals number of trials times expected single-trial outcome: E(total)=n*E(X). This linearity rule is fundamental and does not require normality. The option reflecting this is B.",
+    "final_answer": "B",
+    "tags": [
+      "expected-value"
+    ]
+  },
+  {
+    "id": "V7-A-Q20",
+    "variant": 7,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 20,
+    "prompt": "Power of a hypothesis test can be increased by:\n\nA. Using a smaller α\nB. Increasing sample size\nC. Decreasing sample size\nD. Moving H_a closer to H₀\nE. Increasing σ",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: power).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Statistical power is P(reject H0 | H1 true): the chance a test detects a real effect. Power increases with larger effects, larger n, lower variability, and a more permissive alpha. The option defining this correctly is B.",
+    "final_answer": "B",
+    "tags": [
+      "power"
+    ]
+  },
+  {
+    "id": "V7-B-Q1",
+    "variant": 7,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 1,
+    "prompt": "A jar contains 3 gold coins, 5 silver coins, and 2 bronze coins. A player pays $4 and draws one coin:\ngold wins $10, silver wins $2, bronze wins $0.\n   (a) Let X be net gain to the charity. Complete the probability distribution.\n\n   (b) Find E(X).\n\n   (c) Fewest number of plays for expected total net gain ≥ $100?\n\n   (d) In 300 plays, mean = $90, SD = $150. P(total gain ≥ $60) using normal approximation.",
+    "solution_ru_steps": [
+      "Определим чистый результат за игру: выигрыш организатора = стоимость - выплата.",
+      "Исход 1: X=-6, P=0.3.",
+      "Исход 2: X=2, P=0.5.",
+      "Исход 3: X=4, P=0.2.",
+      "Матожидание: E(X)=Σ x·p = 0.",
+      "Для ожидаемого суммарного результата не менее 100: n·E(X) >= 100, значит n >= 450359962737049600 -> минимально n=450359962737049600.",
+      "Для части (d): z = (60-90)/150 = -0.2.",
+      "P(T >= 60) = P(Z >= -0.2) = 0.5793."
+    ],
+    "solution_en_explanation": "Build the net-gain distribution first, then compute E(X). Use n*E(X) for the minimum plays threshold. In part (d), standardize the total gain with z=(T-mu)/sigma and read the upper-tail normal probability.",
+    "final_answer": "Distribution: -6 (p=0.3), 2 (p=0.5), 4 (p=0.2); E(X)=0; min plays=450359962737049600; P(total >= 60)≈0.5793",
+    "tags": [
+      "expected-value",
+      "random-variable",
+      "clt"
+    ]
+  },
+  {
+    "id": "V7-B-Q2",
+    "variant": 7,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 2,
+    "prompt": "A study in City A found 280 of 400 adults own a car. In City B, 330 of 500 own a car.\n   Is there a significant difference in car ownership? Test at α = 0.05.",
+    "solution_ru_steps": [
+      "Гипотезы: H0: p1=p2, Ha: p1 != p2.",
+      "p1̂=280/400=0.7, p2̂=330/500=0.66.",
+      "Объединённая оценка p̂=0.6778.",
+      "SE = sqrt(p̂(1-p̂)(1/n1+1/n2)) = 0.03135.",
+      "z = (p1̂-p2̂)/SE = 1.2759.",
+      "Двустороннее p-value = 0.202; не отвергаем H0."
+    ],
+    "solution_en_explanation": "Set null and alternative hypotheses for proportion(s), compute the z statistic using the null-based standard error, then compare the p-value to alpha=0.05.",
+    "final_answer": "p1=0.7, p2=0.66, z=1.2759, p-value=0.202 => Fail to reject H0",
+    "tags": [
+      "hypothesis-test",
+      "proportion",
+      "z-test"
+    ]
+  },
+  {
+    "id": "V7-B-Q3",
+    "variant": 7,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 3,
+    "prompt": "A psychologist wants to estimate the mean number of hours people sleep with σ = 1.2 hours. How\nmany subjects are needed for a 95% CI within 0.3 hours?",
+    "solution_ru_steps": [
+      "Используем формулу для известной σ: n=(z*σ/E)^2.",
+      "Подставляем: n=(1.96*1.2/0.3)^2=61.4656.",
+      "Округляем вверх: n=62."
+    ],
+    "solution_en_explanation": "For a margin-of-error requirement with known sigma, use n=(z*sigma/E)^2 and round up.",
+    "final_answer": "Required minimum sample size: n=62",
+    "tags": [
+      "confidence-interval",
+      "sample-size"
+    ]
+  },
+  {
+    "id": "V7-B-Q4",
+    "variant": 7,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 4,
+    "prompt": "Coffee temperatures at a café are N(68°C, 4°C). 180 samples of size 25 are taken.\n   (a) Find the mean and SD of the sampling distribution of x̄.\n\n   (b) How many sample means fall between 67 and 69°C?\n\n   (c) How many fall above 69.5°C?",
+    "solution_ru_steps": [
+      "Параметры распределения выборочного среднего: μx̄=μ=68, σx̄=σ/√n=0.8.",
+      "Для интервала [67, 69]: z1=-1.25, z2=1.25.",
+      "P(67<=x̄<=69)=0.7887 => ожидаемое число = 141.97 (~142).",
+      "Для порога 69.5: z=1.875, вероятность=0.0304 => ожидаемое число=5.47 (~5)."
+    ],
+    "solution_en_explanation": "Use the sampling distribution of x-bar: mean mu and SD sigma/sqrt(n). Convert bounds to z-scores, compute normal probabilities, then multiply by the number of repeated samples.",
+    "final_answer": "mu_xbar=68, sd_xbar=0.8; between count≈141.97; above 69.5 count≈5.47",
+    "tags": [
+      "sampling-distribution",
+      "normal-approximation"
+    ]
+  },
+  {
+    "id": "V8-A-Q1",
+    "variant": 8,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 1,
+    "prompt": "A hospital compares recovery times of patients with two different surgeons, each treating 18 patients. The appropriate test is:\n\nA. Paired t-test\nB. Two-sample t-test\nC. One-sample t-test\nD. Two-proportion z-test\nE. Chi-square",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: inference).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "This compares means from two independent groups (athletes vs non-athletes), so use a two-sample procedure. Population standard deviations are not given and sample sizes are small, so a two-sample t-test is appropriate (not z, and not paired). That matches option B.",
+    "final_answer": "B",
+    "tags": [
+      "inference",
+      "test-selection"
+    ]
+  },
+  {
+    "id": "V8-A-Q2",
+    "variant": 8,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 2,
+    "prompt": "A dataset has mean 200 and median 180. The distribution is:\n\nA. Symmetric\nB. Skewed left\nC. Skewed right\nD. Bimodal\nE. Uniform",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: descriptive-stats).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Most scores are around 70-80 with a tail toward lower values, so the distribution is left-skewed. In left skew, the mean is pulled downward below the median. Therefore the statement \"median > mean\" is the best choice, which is option C.",
+    "final_answer": "C",
+    "tags": [
+      "descriptive-stats",
+      "skewness"
+    ]
+  },
+  {
+    "id": "V8-A-Q3",
+    "variant": 8,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 3,
+    "prompt": "To estimate voter preferences, a city is divided into 10 districts and 2 districts are randomly chosen; all voters in those districts are surveyed. This is:\n\nA. Simple random sampling\nB. Stratified sampling\nC. Cluster sampling\nD. Systematic sampling\nE. Convenience sampling",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: sampling-methods).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Selecting every 10th employee is the definition of systematic sampling: pick units at a fixed interval after an initial start. It is not simple random, cluster, or stratified sampling. Hence option C is correct.",
+    "final_answer": "C",
+    "tags": [
+      "sampling-methods"
+    ]
+  },
+  {
+    "id": "V8-A-Q4",
+    "variant": 8,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 4,
+    "prompt": "A z-score of 1.96 is used for a 95% confidence interval because:\n\nA. 5% of the normal distribution lies beyond ±1.96.\nB. 95% of the normal distribution lies within ±1.96.\nC. Both A and B.\nD. The t-distribution requires it.\nE. The sample size is 1.96.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: distributions).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "A standard normal distribution is continuous, symmetric, centered at 0, with standard deviation 1, and total area under the curve equal to 1. The only false statement is \"area is 2,\" so the NOT-true option is C.",
+    "final_answer": "C",
+    "tags": [
+      "distributions",
+      "normal-t"
+    ]
+  },
+  {
+    "id": "V8-A-Q5",
+    "variant": 8,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 5,
+    "prompt": "In a deck of 52 cards, P(drawing a king or a heart) =\n\nA. 4/52\nB. 13/52\nC. 16/52\nD. 17/52\nE. 1/52",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: probability-rules).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Use conditional probability: P(Science | Math) = P(Science and Math) / P(Math). Substituting gives 0.42 / 0.70 = 0.60. The option expressing this setup is C.",
+    "final_answer": "C",
+    "tags": [
+      "probability-rules"
+    ]
+  },
+  {
+    "id": "V8-A-Q6",
+    "variant": 8,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 6,
+    "prompt": "Weights are N(150 lbs, 20 lbs). P(weight between 130 and 170) =\n\nA. 0.32\nB. 0.68\nC. 0.95\nD. 0.99\nE. 0.50",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: normal-distribution).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Standardize with z = (186 - 170) / 8 = 2. Then P(X > 186) = P(Z > 2) ≈ 0.0228 from the standard normal table. This corresponds to option B.",
+    "final_answer": "B",
+    "tags": [
+      "normal-distribution",
+      "z-score"
+    ]
+  },
+  {
+    "id": "V8-A-Q7",
+    "variant": 8,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 7,
+    "prompt": "A 90% CI for a difference of means requires:\n\nA. 1.645 × SE\nB. 1.96 × SE\nC. 2.576 × SE\nD. 1.282 × SE\nE. 2.326 × SE",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: confidence-interval).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "For a 95% margin requirement on a difference of two means with equal SDs, the margin form is z*sqrt(s1^2+s2^2)/sqrt(n). Set 1.96*sqrt(10^2+10^2)/sqrt(n) <= 3 and solve for n. That exact setup is option A.",
+    "final_answer": "A",
+    "tags": [
+      "confidence-interval",
+      "sample-size"
+    ]
+  },
+  {
+    "id": "V8-A-Q8",
+    "variant": 8,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 8,
+    "prompt": "r = −0.60 between temperature and heating costs. If costs are measured in euros instead of dollars, r:\n\nA. Becomes positive\nB. Becomes −0.60 × exchange rate\nC. Stays −0.60\nD. Becomes −1\nE. Becomes 0",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: correlation).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Correlation near +1 means a strong positive linear association, while correlation near 0 means weak linear association. Correlation does not establish causation. The option consistent with these facts is C.",
+    "final_answer": "C",
+    "tags": [
+      "correlation"
+    ]
+  },
+  {
+    "id": "V8-A-Q9",
+    "variant": 8,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 9,
+    "prompt": "A chi-square test for independence for a 4×5 table has df =\n\nA. 20\nB. 12\nC. 9\nD. 15\nE. 8",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: chi-square).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "A chi-square test compares observed category counts to expected counts under a null model. The statistic sums (O-E)^2/E across categories and is right-tailed. The choice that describes this correctly is option B.",
+    "final_answer": "B",
+    "tags": [
+      "chi-square"
+    ]
+  },
+  {
+    "id": "V8-A-Q10",
+    "variant": 8,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 10,
+    "prompt": "Expected value of X where P(X=1)=0.5, P(X=2)=0.3, P(X=3)=0.2 is:\n\nA. 2.0\nB. 1.7\nC. 1.5\nD. 2.5\nE. 1.0",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: expected-value).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Expected value is the probability-weighted average: E(X)=sum x*p(x). You multiply each outcome by its probability and add, rather than averaging outcomes equally. The correct statement is option B.",
+    "final_answer": "B",
+    "tags": [
+      "expected-value"
+    ]
+  },
+  {
+    "id": "V8-A-Q11",
+    "variant": 8,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 11,
+    "prompt": "A new drug is tested versus a placebo. Patients are randomly assigned and evaluators don't know which treatment each patient received. This is:\n\nA. Observational study\nB. Single-blind experiment\nC. Double-blind experiment\nD. Matched-pairs design\nE. Block design",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: experimental-design).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "A well-designed experiment uses random assignment to treatment groups to balance confounders and support causal conclusions. Random sampling affects generalizability, not internal treatment comparison alone. The best answer is option C.",
+    "final_answer": "C",
+    "tags": [
+      "experimental-design"
+    ]
+  },
+  {
+    "id": "V8-A-Q12",
+    "variant": 8,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 12,
+    "prompt": "A regression line has slope 3.5 and intercept 12. Predicted value at x = 5 is:\n\nA. 17.5\nB. 29.5\nC. 12\nD. 3.5\nE. 17",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: regression).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Residual = observed y - predicted y-hat. Positive residuals mean underprediction by the model, negative residuals mean overprediction. The option matching this interpretation is B.",
+    "final_answer": "B",
+    "tags": [
+      "regression",
+      "residuals"
+    ]
+  },
+  {
+    "id": "V8-A-Q13",
+    "variant": 8,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 13,
+    "prompt": "A large simple random sample (n = 200) is drawn from a skewed population. The sampling distribution of x̄ is:\n\nA. Skewed, matching the population\nB. Right-skewed\nC. Approximately normal by CLT\nD. Uniform\nE. Unknown",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: shape).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "By the central limit theorem, the sampling distribution of the sample mean becomes approximately normal for sufficiently large n (under standard conditions), even if the population is non-normal. The correct choice is option C.",
+    "final_answer": "C",
+    "tags": [
+      "shape",
+      "clt"
+    ]
+  },
+  {
+    "id": "V8-A-Q14",
+    "variant": 8,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 14,
+    "prompt": "A Type II error occurs when:\n\nA. H₀ is rejected when it is true.\nB. H₀ is not rejected when it is false.\nC. α is too large.\nD. The sample is too small.\nE. The test is two-tailed.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: hypothesis-testing).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "In hypothesis testing, compare the p-value with alpha (or compare the test statistic with a critical threshold). Reject H0 only when evidence is strong enough under the null model. The option expressing this rule is B.",
+    "final_answer": "B",
+    "tags": [
+      "hypothesis-testing"
+    ]
+  },
+  {
+    "id": "V8-A-Q15",
+    "variant": 8,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 15,
+    "prompt": "To reduce non-response bias in a survey, the best approach is:\n\nA. Use a larger sample.\nB. Follow up with non-respondents.\nC. Use cluster sampling.\nD. Increase confidence level.\nE. Use a shorter questionnaire.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: bias).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Bias is a systematic deviation caused by design or measurement issues, not random sampling fluctuation. Increasing sample size reduces random error but does not fix biased collection. Therefore option B is correct.",
+    "final_answer": "B",
+    "tags": [
+      "bias"
+    ]
+  },
+  {
+    "id": "V8-A-Q16",
+    "variant": 8,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 16,
+    "prompt": "P(A) = 0.5, P(B) = 0.4, P(A ∩ B) = 0.2. Are A and B independent?\n\nA. Yes, because 0.5 × 0.4 = 0.2.\nB. No, because they overlap.\nC. Yes, because P(A|B) = P(A).\nD. No, because P(A) ≠ P(B).\nE. Cannot be determined.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: independence).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Independence means P(A and B)=P(A)P(B), equivalently P(A|B)=P(A) when P(B)>0. If this product rule fails, events are dependent. The option stating this criterion is A.",
+    "final_answer": "A",
+    "tags": [
+      "independence",
+      "probability-rules"
+    ]
+  },
+  {
+    "id": "V8-A-Q17",
+    "variant": 8,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 17,
+    "prompt": "A 99% CI for a proportion is (0.62, 0.78). The margin of error is:\n\nA. 0.16\nB. 0.08\nC. 0.70\nD. 0.62\nE. 0.78",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: confidence-interval).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "A confidence interval gives a plausible range for the population parameter based on sample data and method reliability. In repeated sampling, a 95% method captures the true parameter about 95% of the time. The correct interpretation here is option B.",
+    "final_answer": "B",
+    "tags": [
+      "confidence-interval"
+    ]
+  },
+  {
+    "id": "V8-A-Q18",
+    "variant": 8,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 18,
+    "prompt": "In a test H₀: μ = 0 vs. H_a: μ > 0, the p-value is:\n\nA. P(Z ≤ z_obs)\nB. P(Z ≥ z_obs)\nC. 2×P(Z ≥ |z_obs|)\nD. P(Z = z_obs)\nE. α",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: conditions).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Before inference, check conditions such as randomness/independence and distribution or large-sample requirements for the chosen method. If assumptions fail badly, usual formulas may be invalid. The best option is B.",
+    "final_answer": "B",
+    "tags": [
+      "conditions",
+      "inference"
+    ]
+  },
+  {
+    "id": "V8-A-Q19",
+    "variant": 8,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 19,
+    "prompt": "A raffle has 300 tickets at $5 each. Three prizes of $100 are awarded. Expected net gain per ticket:\n\nA. $0\nB. −$4\nC. −$3\nD. $1\nE. −$2",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: expected-value).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "For repeated independent trials, expected total equals number of trials times expected single-trial outcome: E(total)=n*E(X). This linearity rule is fundamental and does not require normality. The option reflecting this is B.",
+    "final_answer": "B",
+    "tags": [
+      "expected-value"
+    ]
+  },
+  {
+    "id": "V8-A-Q20",
+    "variant": 8,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 20,
+    "prompt": "To increase the power of a test while holding α constant:\n\nA. Decrease n\nB. Use a one-tailed test when two-tailed is appropriate\nC. Increase n\nD. Increase σ\nE. Decrease σ",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: power).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Statistical power is P(reject H0 | H1 true): the chance a test detects a real effect. Power increases with larger effects, larger n, lower variability, and a more permissive alpha. The option defining this correctly is C.",
+    "final_answer": "C",
+    "tags": [
+      "power"
+    ]
+  },
+  {
+    "id": "V8-B-Q1",
+    "variant": 8,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 1,
+    "prompt": "A school fair game uses a dice roll. Players pay $3. Rolling 6 wins $10; rolling 4 or 5 wins $3; rolling\n1–3 wins $0.\n   (a) Let X be the net gain to the school. Complete the probability distribution.\n\n   (b) Find E(X).\n\n   (c) Minimum plays so expected total net gain ≥ $80?\n\n   (d) In 500 plays, mean = $333, SD = $250. P(total gain > $400) using normal approximation.",
+    "solution_ru_steps": [
+      "Определим чистый результат за игру: выигрыш организатора = стоимость - выплата.",
+      "Исход 1: X=-7, P=0.1667.",
+      "Исход 2: X=0, P=0.3333.",
+      "Исход 3: X=3, P=0.5.",
+      "Матожидание: E(X)=Σ x·p = 0.3333.",
+      "Для ожидаемого суммарного результата не менее 80: n·E(X) >= 80, значит n >= 240 -> минимально n=240.",
+      "Для части (d): z = (400-333)/250 = 0.268.",
+      "P(T >= 400) = P(Z >= 0.268) = 0.3943."
+    ],
+    "solution_en_explanation": "Build the net-gain distribution first, then compute E(X). Use n*E(X) for the minimum plays threshold. In part (d), standardize the total gain with z=(T-mu)/sigma and read the upper-tail normal probability.",
+    "final_answer": "Distribution: -7 (p=0.1667), 0 (p=0.3333), 3 (p=0.5); E(X)=0.3333; min plays=240; P(total >= 400)≈0.3943",
+    "tags": [
+      "expected-value",
+      "random-variable",
+      "clt"
+    ]
+  },
+  {
+    "id": "V8-B-Q2",
+    "variant": 8,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 2,
+    "prompt": "550 of 900 adults in Region A support stricter air quality standards. 420 of 700 in Region B support it.\n   Is there a significant difference? Test at α = 0.05.",
+    "solution_ru_steps": [
+      "Гипотезы: H0: p1=p2, Ha: p1 != p2.",
+      "p1̂=550/900=0.6111, p2̂=420/700=0.6.",
+      "Объединённая оценка p̂=0.6062.",
+      "SE = sqrt(p̂(1-p̂)(1/n1+1/n2)) = 0.02462.",
+      "z = (p1̂-p2̂)/SE = 0.4513.",
+      "Двустороннее p-value = 0.6518; не отвергаем H0."
+    ],
+    "solution_en_explanation": "Set null and alternative hypotheses for proportion(s), compute the z statistic using the null-based standard error, then compare the p-value to alpha=0.05.",
+    "final_answer": "p1=0.6111, p2=0.6, z=0.4513, p-value=0.6518 => Fail to reject H0",
+    "tags": [
+      "hypothesis-test",
+      "proportion",
+      "z-test"
+    ]
+  },
+  {
+    "id": "V8-B-Q3",
+    "variant": 8,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 3,
+    "prompt": "An economist estimates mean household savings with σ = $2,800. How many households for a 98% CI\nwithin $600?",
+    "solution_ru_steps": [
+      "Используем формулу для известной σ: n=(z*σ/E)^2.",
+      "Подставляем: n=(2.326*2800/600)^2=117.8238.",
+      "Округляем вверх: n=118."
+    ],
+    "solution_en_explanation": "For a margin-of-error requirement with known sigma, use n=(z*sigma/E)^2 and round up.",
+    "final_answer": "Required minimum sample size: n=118",
+    "tags": [
+      "confidence-interval",
+      "sample-size"
+    ]
+  },
+  {
+    "id": "V8-B-Q4",
+    "variant": 8,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 4,
+    "prompt": "Ages of marathon finishers are approximately N(38, 7). 90 samples of size 49 are drawn.\n   (a) Find the mean and SD of the sampling distribution of x̄.\n\n   (b) How many sample means fall between 37 and 39?\n\n   (c) How many fall below 36.5?",
+    "solution_ru_steps": [
+      "Параметры распределения выборочного среднего: μx̄=μ=38, σx̄=σ/√n=1.",
+      "Для интервала [37, 39]: z1=-1, z2=1.",
+      "P(37<=x̄<=39)=0.6827 => ожидаемое число = 61.44 (~61).",
+      "Для порога 36.5: z=-1.5, вероятность=0.0668 => ожидаемое число=6.01 (~6)."
+    ],
+    "solution_en_explanation": "Use the sampling distribution of x-bar: mean mu and SD sigma/sqrt(n). Convert bounds to z-scores, compute normal probabilities, then multiply by the number of repeated samples.",
+    "final_answer": "mu_xbar=38, sd_xbar=1; between count≈61.44; below 36.5 count≈6.01",
+    "tags": [
+      "sampling-distribution",
+      "normal-approximation"
+    ]
+  },
+  {
+    "id": "V9-A-Q1",
+    "variant": 9,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 1,
+    "prompt": "A researcher compares annual incomes of 20 males and 20 females with unknown population variance. The best test is:\n\nA. Paired t-test\nB. Two-sample t-test\nC. One-sample z-test\nD. F-test only\nE. Chi-square",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: inference).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "This compares means from two independent groups (athletes vs non-athletes), so use a two-sample procedure. Population standard deviations are not given and sample sizes are small, so a two-sample t-test is appropriate (not z, and not paired). That matches option B.",
+    "final_answer": "B",
+    "tags": [
+      "inference",
+      "test-selection"
+    ]
+  },
+  {
+    "id": "V9-A-Q2",
+    "variant": 9,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 2,
+    "prompt": "Prices of products at two stores are compared. Store A has mean $25, median $20. The distribution at Store A is:\n\nA. Symmetric\nB. Skewed left\nC. Skewed right\nD. Bimodal\nE. Normal",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: descriptive-stats).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Most scores are around 70-80 with a tail toward lower values, so the distribution is left-skewed. In left skew, the mean is pulled downward below the median. Therefore the statement \"median > mean\" is the best choice, which is option C.",
+    "final_answer": "C",
+    "tags": [
+      "descriptive-stats",
+      "skewness"
+    ]
+  },
+  {
+    "id": "V9-A-Q3",
+    "variant": 9,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 3,
+    "prompt": "A researcher randomly selects 4 of 16 city blocks and surveys all residents in those 4 blocks. This is:\n\nA. Simple random sampling\nB. Stratified sampling\nC. Cluster sampling\nD. Systematic sampling\nE. Purposive sampling",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: sampling-methods).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Selecting every 10th employee is the definition of systematic sampling: pick units at a fixed interval after an initial start. It is not simple random, cluster, or stratified sampling. Hence option C is correct.",
+    "final_answer": "C",
+    "tags": [
+      "sampling-methods"
+    ]
+  },
+  {
+    "id": "V9-A-Q4",
+    "variant": 9,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 4,
+    "prompt": "Which of the following increases the width of a confidence interval?\n\nA. Increasing n\nB. Increasing confidence level\nC. Decreasing σ\nD. Decreasing confidence level\nE. Increasing α",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: distributions).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "A standard normal distribution is continuous, symmetric, centered at 0, with standard deviation 1, and total area under the curve equal to 1. The only false statement is \"area is 2,\" so the NOT-true option is B.",
+    "final_answer": "B",
+    "tags": [
+      "distributions",
+      "normal-t"
+    ]
+  },
+  {
+    "id": "V9-A-Q5",
+    "variant": 9,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 5,
+    "prompt": "P(A) = 0.4, P(A|B) = 0.4. Are A and B independent?\n\nA. Yes, because P(A|B) = P(A)\nB. No, because they are not mutually exclusive\nC. Yes, because P(B|A) = P(B)\nD. No, because P(A|B) ≠ P(B)\nE. Cannot be determined",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: probability-rules).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Use conditional probability: P(Science | Math) = P(Science and Math) / P(Math). Substituting gives 0.42 / 0.70 = 0.60. The option expressing this setup is A.",
+    "final_answer": "A",
+    "tags": [
+      "probability-rules"
+    ]
+  },
+  {
+    "id": "V9-A-Q6",
+    "variant": 9,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 6,
+    "prompt": "In N(50, 8), P(X > 66) =\n\nA. 0.0228\nB. 0.9772\nC. 0.1587\nD. 0.0456\nE. 0.0013",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: normal-distribution).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Standardize with z = (186 - 170) / 8 = 2. Then P(X > 186) = P(Z > 2) ≈ 0.0228 from the standard normal table. This corresponds to option A.",
+    "final_answer": "A",
+    "tags": [
+      "normal-distribution",
+      "z-score"
+    ]
+  },
+  {
+    "id": "V9-A-Q7",
+    "variant": 9,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 7,
+    "prompt": "To estimate a mean within E with 99% confidence with σ known, n must satisfy:\n\nA. n ≥ (2.576 σ / E)²\nB. n ≥ (1.96 σ / E)²\nC. n ≥ (2.576 E / σ)²\nD. n ≥ 2.576 σ / E\nE. n ≥ 1.96 / (σ × E)",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: confidence-interval).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "For a 95% margin requirement on a difference of two means with equal SDs, the margin form is z*sqrt(s1^2+s2^2)/sqrt(n). Set 1.96*sqrt(10^2+10^2)/sqrt(n) <= 3 and solve for n. That exact setup is option A.",
+    "final_answer": "A",
+    "tags": [
+      "confidence-interval",
+      "sample-size"
+    ]
+  },
+  {
+    "id": "V9-A-Q8",
+    "variant": 9,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 8,
+    "prompt": "r = 0.85 between x and y. If every x is squared, r generally:\n\nA. Stays 0.85\nB. Changes (squaring changes the linear relationship)\nC. Becomes 0.72\nD. Becomes 1\nE. Doubles",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: correlation).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Correlation near +1 means a strong positive linear association, while correlation near 0 means weak linear association. Correlation does not establish causation. The option consistent with these facts is B.",
+    "final_answer": "B",
+    "tags": [
+      "correlation"
+    ]
+  },
+  {
+    "id": "V9-A-Q9",
+    "variant": 9,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 9,
+    "prompt": "In a chi-square goodness-of-fit test with 8 categories, df =\n\nA. 8\nB. 7\nC. 6\nD. 9\nE. 4",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: chi-square).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "A chi-square test compares observed category counts to expected counts under a null model. The statistic sums (O-E)^2/E across categories and is right-tailed. The choice that describes this correctly is option B.",
+    "final_answer": "B",
+    "tags": [
+      "chi-square"
+    ]
+  },
+  {
+    "id": "V9-A-Q10",
+    "variant": 9,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 10,
+    "prompt": "X takes values 0, 2, 4 with probabilities 0.2, 0.5, 0.3. E(X) =\n\nA. 1.8\nB. 2.0\nC. 2.2\nD. 2.4\nE. 3.0",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: expected-value).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Expected value is the probability-weighted average: E(X)=sum x*p(x). You multiply each outcome by its probability and add, rather than averaging outcomes equally. The correct statement is option C.",
+    "final_answer": "C",
+    "tags": [
+      "expected-value"
+    ]
+  },
+  {
+    "id": "V9-A-Q11",
+    "variant": 9,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 11,
+    "prompt": "Half of patients receive a new drug; the other half receive the current standard. Doctors are told which is which but patients are not. This is:\n\nA. Double-blind\nB. Single-blind\nC. Observational study\nD. Block design\nE. Matched pairs",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: experimental-design).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "A well-designed experiment uses random assignment to treatment groups to balance confounders and support causal conclusions. Random sampling affects generalizability, not internal treatment comparison alone. The best answer is option B.",
+    "final_answer": "B",
+    "tags": [
+      "experimental-design"
+    ]
+  },
+  {
+    "id": "V9-A-Q12",
+    "variant": 9,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 12,
+    "prompt": "The correlation coefficient r = 0. This means:\n\nA. No relationship between x and y\nB. No linear relationship between x and y\nC. A perfect nonlinear relationship\nD. Slopes are negative\nE. The regression line is vertical",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: regression).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Residual = observed y - predicted y-hat. Positive residuals mean underprediction by the model, negative residuals mean overprediction. The option matching this interpretation is B.",
+    "final_answer": "B",
+    "tags": [
+      "regression",
+      "residuals"
+    ]
+  },
+  {
+    "id": "V9-A-Q13",
+    "variant": 9,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 13,
+    "prompt": "When sampling 40 from a bimodal population, the sampling distribution of x̄ (by CLT) is:\n\nA. Bimodal\nB. Skewed\nC. Approximately normal\nD. Uniform\nE. Unknown",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: shape).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "By the central limit theorem, the sampling distribution of the sample mean becomes approximately normal for sufficiently large n (under standard conditions), even if the population is non-normal. The correct choice is option C.",
+    "final_answer": "C",
+    "tags": [
+      "shape",
+      "clt"
+    ]
+  },
+  {
+    "id": "V9-A-Q14",
+    "variant": 9,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 14,
+    "prompt": "In a hypothesis test, failing to reject H₀ when H₀ is false is:\n\nA. Type I error\nB. Type II error\nC. Correct decision\nD. Power\nE. Significance level",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: hypothesis-testing).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "In hypothesis testing, compare the p-value with alpha (or compare the test statistic with a critical threshold). Reject H0 only when evidence is strong enough under the null model. The option expressing this rule is B.",
+    "final_answer": "B",
+    "tags": [
+      "hypothesis-testing"
+    ]
+  },
+  {
+    "id": "V9-A-Q15",
+    "variant": 9,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 15,
+    "prompt": "A survey interviewer avoids certain neighborhoods because they seem unsafe. This causes:\n\nA. Response bias\nB. Non-response bias\nC. Undercoverage\nD. Observer effect\nE. Voluntary response bias",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: bias).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Bias is a systematic deviation caused by design or measurement issues, not random sampling fluctuation. Increasing sample size reduces random error but does not fix biased collection. Therefore option C is correct.",
+    "final_answer": "C",
+    "tags": [
+      "bias"
+    ]
+  },
+  {
+    "id": "V9-A-Q16",
+    "variant": 9,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 16,
+    "prompt": "P(A) = 0.6, P(not A and not B) = 0.1, P(B) = 0.5. P(A or B) =\n\nA. 0.9\nB. 0.8\nC. 0.7\nD. 0.6\nE. 1.0",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: independence).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Independence means P(A and B)=P(A)P(B), equivalently P(A|B)=P(A) when P(B)>0. If this product rule fails, events are dependent. The option stating this criterion is A.",
+    "final_answer": "A",
+    "tags": [
+      "independence",
+      "probability-rules"
+    ]
+  },
+  {
+    "id": "V9-A-Q17",
+    "variant": 9,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 17,
+    "prompt": "A 95% CI (22, 30) leads to rejecting H₀: μ = 20 at α = 0.05 in a two-tailed test because:\n\nA. p-value > 0.05\nB. 20 is outside the CI.\nC. The test statistic is negative.\nD. The sample is too small.\nE. μ = 20 is in the CI.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: confidence-interval).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "A confidence interval gives a plausible range for the population parameter based on sample data and method reliability. In repeated sampling, a 95% method captures the true parameter about 95% of the time. The correct interpretation here is option B.",
+    "final_answer": "B",
+    "tags": [
+      "confidence-interval"
+    ]
+  },
+  {
+    "id": "V9-A-Q18",
+    "variant": 9,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 18,
+    "prompt": "Increasing α from 0.01 to 0.05:\n\nA. Decreases Type I error\nB. Increases Type I error\nC. Decreases power\nD. Increases Type II error\nE. Has no effect",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: conditions).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Before inference, check conditions such as randomness/independence and distribution or large-sample requirements for the chosen method. If assumptions fail badly, usual formulas may be invalid. The best option is B.",
+    "final_answer": "B",
+    "tags": [
+      "conditions",
+      "inference"
+    ]
+  },
+  {
+    "id": "V9-A-Q19",
+    "variant": 9,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 19,
+    "prompt": "A lottery: 1,000 tickets at $4; one $2,000 prize. Expected net gain per ticket:\n\nA. −$2.00\nB. $2.00\nC. −$1.50\nD. −$3.00\nE. −$4.00",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: expected-value).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "For repeated independent trials, expected total equals number of trials times expected single-trial outcome: E(total)=n*E(X). This linearity rule is fundamental and does not require normality. The option reflecting this is A.",
+    "final_answer": "A",
+    "tags": [
+      "expected-value"
+    ]
+  },
+  {
+    "id": "V9-A-Q20",
+    "variant": 9,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 20,
+    "prompt": "The p-value in a hypothesis test is 0.03. At α = 0.05:\n\nA. Fail to reject H₀\nB. Reject H₀\nC. Accept H₀\nD. Reject H_a\nE. The test is inconclusive",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: power).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Statistical power is P(reject H0 | H1 true): the chance a test detects a real effect. Power increases with larger effects, larger n, lower variability, and a more permissive alpha. The option defining this correctly is B.",
+    "final_answer": "B",
+    "tags": [
+      "power"
+    ]
+  },
+  {
+    "id": "V9-B-Q1",
+    "variant": 9,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 1,
+    "prompt": "An arcade game costs $3 to play. The prize distribution: $6 (prob. 0.10), $3 (prob. 0.25), $1 (prob.\n0.30), $0 (prob. 0.35).\n   (a) Let X be the net gain to the arcade. Complete the probability distribution.\n\n   (b) Find E(X).\n\n   (c) Minimum plays for expected total net gain ≥ $250?\n\n   (d) In 600 plays, mean total gain = $900, SD = $450. P(total gain ≥ $800) using normal\n   approximation.",
+    "solution_ru_steps": [
+      "Определим чистый результат за игру: выигрыш организатора = стоимость - выплата.",
+      "Исход 1: X=-3, P=0.1.",
+      "Исход 2: X=0, P=0.25.",
+      "Исход 3: X=2, P=0.3.",
+      "Исход 4: X=3, P=0.35.",
+      "Матожидание: E(X)=Σ x·p = 1.35.",
+      "Для ожидаемого суммарного результата не менее 250: n·E(X) >= 250, значит n >= 185.1852 -> минимально n=186.",
+      "Для части (d): z = (800-900)/450 = -0.2222.",
+      "P(T >= 800) = P(Z >= -0.2222) = 0.5879."
+    ],
+    "solution_en_explanation": "Build the net-gain distribution first, then compute E(X). Use n*E(X) for the minimum plays threshold. In part (d), standardize the total gain with z=(T-mu)/sigma and read the upper-tail normal probability.",
+    "final_answer": "Distribution: -3 (p=0.1), 0 (p=0.25), 2 (p=0.3), 3 (p=0.35); E(X)=1.35; min plays=186; P(total >= 800)≈0.5879",
+    "tags": [
+      "expected-value",
+      "random-variable",
+      "clt"
+    ]
+  },
+  {
+    "id": "V9-B-Q2",
+    "variant": 9,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 2,
+    "prompt": "In 2024, 360 of 600 students passed a standardized test. In 2023, 310 of 550 passed.\n   Is there evidence of improvement? Test at α = 0.05.",
+    "solution_ru_steps": [
+      "Гипотезы: H0: p1=p2, Ha: p1 > p2.",
+      "p1̂=360/600=0.6, p2̂=310/550=0.5636.",
+      "Объединённая оценка p̂=0.5826.",
+      "SE = sqrt(p̂(1-p̂)(1/n1+1/n2)) = 0.02911.",
+      "z = (p1̂-p2̂)/SE = 1.2492.",
+      "Правостороннее p-value = 0.1058; не отвергаем H0."
+    ],
+    "solution_en_explanation": "Set null and alternative hypotheses for proportion(s), compute the z statistic using the null-based standard error, then compare the p-value to alpha=0.05.",
+    "final_answer": "p1=0.6, p2=0.5636, z=1.2492, p-value=0.1058 => Fail to reject H0",
+    "tags": [
+      "hypothesis-test",
+      "proportion",
+      "z-test"
+    ]
+  },
+  {
+    "id": "V9-B-Q3",
+    "variant": 9,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 3,
+    "prompt": "An environmental scientist estimates mean CO₂ concentration with σ = 12 ppm. How many\nmeasurements for a 95% CI within 3 ppm?",
+    "solution_ru_steps": [
+      "Используем формулу для известной σ: n=(z*σ/E)^2.",
+      "Подставляем: n=(1.96*12/3)^2=61.4656.",
+      "Округляем вверх: n=62."
+    ],
+    "solution_en_explanation": "For a margin-of-error requirement with known sigma, use n=(z*sigma/E)^2 and round up.",
+    "final_answer": "Required minimum sample size: n=62",
+    "tags": [
+      "confidence-interval",
+      "sample-size"
+    ]
+  },
+  {
+    "id": "V9-B-Q4",
+    "variant": 9,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 4,
+    "prompt": "Lifetimes of batteries are approximately N(200 hours, 20 hours). 160 samples of size 64 are drawn.\n   (a) Find the mean and SD of the sampling distribution of x̄.\n\n   (b) How many sample means fall between 197.5 and 202.5 hours?\n\n   (c) How many fall above 203 hours?",
+    "solution_ru_steps": [
+      "Параметры распределения выборочного среднего: μx̄=μ=200, σx̄=σ/√n=2.5.",
+      "Для интервала [197.5, 202.5]: z1=-1, z2=1.",
+      "P(197.5<=x̄<=202.5)=0.6827 => ожидаемое число = 109.23 (~109).",
+      "Для порога 203: z=1.2, вероятность=0.1151 => ожидаемое число=18.41 (~18)."
+    ],
+    "solution_en_explanation": "Use the sampling distribution of x-bar: mean mu and SD sigma/sqrt(n). Convert bounds to z-scores, compute normal probabilities, then multiply by the number of repeated samples.",
+    "final_answer": "mu_xbar=200, sd_xbar=2.5; between count≈109.23; above 203 count≈18.41",
+    "tags": [
+      "sampling-distribution",
+      "normal-approximation"
+    ]
+  },
+  {
+    "id": "V10-A-Q1",
+    "variant": 10,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 1,
+    "prompt": "A teacher compares quiz scores of students who received tutoring vs. no tutoring (different students). The best test is:\n\nA. Paired t-test\nB. Two-sample t-test\nC. One-sample z-test\nD. Chi-square test of independence\nE. F-test",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: inference).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "This compares means from two independent groups (athletes vs non-athletes), so use a two-sample procedure. Population standard deviations are not given and sample sizes are small, so a two-sample t-test is appropriate (not z, and not paired). That matches option B.",
+    "final_answer": "B",
+    "tags": [
+      "inference",
+      "test-selection"
+    ]
+  },
+  {
+    "id": "V10-A-Q2",
+    "variant": 10,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 2,
+    "prompt": "A distribution with mean 45 and median 55 is:\n\nA. Symmetric\nB. Approximately normal\nC. Skewed left\nD. Skewed right\nE. Uniform",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: descriptive-stats).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Most scores are around 70-80 with a tail toward lower values, so the distribution is left-skewed. In left skew, the mean is pulled downward below the median. Therefore the statement \"median > mean\" is the best choice, which is option C.",
+    "final_answer": "C",
+    "tags": [
+      "descriptive-stats",
+      "skewness"
+    ]
+  },
+  {
+    "id": "V10-A-Q3",
+    "variant": 10,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 3,
+    "prompt": "Names are arranged alphabetically on a list. A researcher picks the 5th name and every 8th name thereafter. This is:\n\nA. Simple random sampling\nB. Cluster sampling\nC. Stratified sampling\nD. Systematic sampling\nE. Voluntary response",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: sampling-methods).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "Selecting every 10th employee is the definition of systematic sampling: pick units at a fixed interval after an initial start. It is not simple random, cluster, or stratified sampling. Hence option D is correct.",
+    "final_answer": "D",
+    "tags": [
+      "sampling-methods"
+    ]
+  },
+  {
+    "id": "V10-A-Q4",
+    "variant": 10,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 4,
+    "prompt": "The standard error of the sample mean is σ/√n. As n increases, the standard error:\n\nA. Increases\nB. Stays the same\nC. Decreases\nD. Becomes σ\nE. Becomes n × σ",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: distributions).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "A standard normal distribution is continuous, symmetric, centered at 0, with standard deviation 1, and total area under the curve equal to 1. The only false statement is \"area is 2,\" so the NOT-true option is C.",
+    "final_answer": "C",
+    "tags": [
+      "distributions",
+      "normal-t"
+    ]
+  },
+  {
+    "id": "V10-A-Q5",
+    "variant": 10,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 5,
+    "prompt": "P(rolling a 3 or an even number on a fair die) =\n\nA. 1/6\nB. 1/2\nC. 2/3\nD. 4/6\nE. 5/6",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: probability-rules).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Use conditional probability: P(Science | Math) = P(Science and Math) / P(Math). Substituting gives 0.42 / 0.70 = 0.60. The option expressing this setup is C.",
+    "final_answer": "C",
+    "tags": [
+      "probability-rules"
+    ]
+  },
+  {
+    "id": "V10-A-Q6",
+    "variant": 10,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 6,
+    "prompt": "Test scores are N(78, 11). P(score > 100) ≈\n\nA. 0.0228\nB. 0.0456\nC. 0.0013\nD. 0.9772\nE. 0.1587",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: normal-distribution).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "Standardize with z = (186 - 170) / 8 = 2. Then P(X > 186) = P(Z > 2) ≈ 0.0228 from the standard normal table. This corresponds to option A.",
+    "final_answer": "A",
+    "tags": [
+      "normal-distribution",
+      "z-score"
+    ]
+  },
+  {
+    "id": "V10-A-Q7",
+    "variant": 10,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 7,
+    "prompt": "A 95% CI for a proportion is reported as 0.45 ± 0.04. The margin of error is:\n\nA. 0.45\nB. 0.04\nC. 0.49\nD. 0.41\nE. 0.08",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: confidence-interval).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "For a 95% margin requirement on a difference of two means with equal SDs, the margin form is z*sqrt(s1^2+s2^2)/sqrt(n). Set 1.96*sqrt(10^2+10^2)/sqrt(n) <= 3 and solve for n. That exact setup is option B.",
+    "final_answer": "B",
+    "tags": [
+      "confidence-interval",
+      "sample-size"
+    ]
+  },
+  {
+    "id": "V10-A-Q8",
+    "variant": 10,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 8,
+    "prompt": "Correlation r = 0.65. If x and y are swapped, the new correlation is:\n\nA. 0.42\nB. −0.65\nC. 0.65\nD. 1/0.65\nE. 0",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: correlation).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Correlation near +1 means a strong positive linear association, while correlation near 0 means weak linear association. Correlation does not establish causation. The option consistent with these facts is C.",
+    "final_answer": "C",
+    "tags": [
+      "correlation"
+    ]
+  },
+  {
+    "id": "V10-A-Q9",
+    "variant": 10,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 9,
+    "prompt": "A chi-square statistic of 15.2 with df = 5. The p-value is:\n\nA. Greater than 0.10\nB. Between 0.05 and 0.10\nC. Between 0.01 and 0.05\nD. Less than 0.01\nE. Exactly 0.05",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: chi-square).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "A chi-square test compares observed category counts to expected counts under a null model. The statistic sums (O-E)^2/E across categories and is right-tailed. The choice that describes this correctly is option D.",
+    "final_answer": "D",
+    "tags": [
+      "chi-square"
+    ]
+  },
+  {
+    "id": "V10-A-Q10",
+    "variant": 10,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 10,
+    "prompt": "X = 1 with prob 0.3, X = 3 with prob 0.5, X = 5 with prob 0.2. Var(X) =\n\nA. 0.96\nB. 1.41\nC. 2.71\nD. 2.0\nE. 1.56",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: expected-value).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "Expected value is the probability-weighted average: E(X)=sum x*p(x). You multiply each outcome by its probability and add, rather than averaging outcomes equally. The correct statement is option D.",
+    "final_answer": "D",
+    "tags": [
+      "expected-value"
+    ]
+  },
+  {
+    "id": "V10-A-Q11",
+    "variant": 10,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 11,
+    "prompt": "Students are matched by GPA then randomly assigned to different study methods. This is:\n\nA. Simple random experiment\nB. Completely randomized design\nC. Randomized block design\nD. Cluster design\nE. Observational study",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: experimental-design).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "A well-designed experiment uses random assignment to treatment groups to balance confounders and support causal conclusions. Random sampling affects generalizability, not internal treatment comparison alone. The best answer is option C.",
+    "final_answer": "C",
+    "tags": [
+      "experimental-design"
+    ]
+  },
+  {
+    "id": "V10-A-Q12",
+    "variant": 10,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 12,
+    "prompt": "In a regression model, r² = 0.81. This means:\n\nA. r = 0.81\nB. 81% of variation in y is explained by x.\nC. The slope is 0.81.\nD. The intercept is 0.81.\nE. 19% of x is explained by y.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: regression).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Residual = observed y - predicted y-hat. Positive residuals mean underprediction by the model, negative residuals mean overprediction. The option matching this interpretation is B.",
+    "final_answer": "B",
+    "tags": [
+      "regression",
+      "residuals"
+    ]
+  },
+  {
+    "id": "V10-A-Q13",
+    "variant": 10,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 13,
+    "prompt": "A sample of n = 100 from a skewed population: by CLT, the sampling distribution of x̄ is:\n\nA. Skewed right\nB. Skewed left\nC. Approximately normal\nD. Bimodal\nE. Uniform",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: shape).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "By the central limit theorem, the sampling distribution of the sample mean becomes approximately normal for sufficiently large n (under standard conditions), even if the population is non-normal. The correct choice is option C.",
+    "final_answer": "C",
+    "tags": [
+      "shape",
+      "clt"
+    ]
+  },
+  {
+    "id": "V10-A-Q14",
+    "variant": 10,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 14,
+    "prompt": "The probability of a Type I error is:\n\nA. β\nB. 1 − β\nC. Power\nD. α\nE. 1 − α",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: hypothesis-testing).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "In hypothesis testing, compare the p-value with alpha (or compare the test statistic with a critical threshold). Reject H0 only when evidence is strong enough under the null model. The option expressing this rule is D.",
+    "final_answer": "D",
+    "tags": [
+      "hypothesis-testing"
+    ]
+  },
+  {
+    "id": "V10-A-Q15",
+    "variant": 10,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 15,
+    "prompt": "A researcher stops surveying before meeting the quota in low-income areas. This introduces:\n\nA. Voluntary response bias\nB. Non-response bias\nC. Undercoverage bias\nD. Measurement error\nE. Observer bias",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: bias).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "Bias is a systematic deviation caused by design or measurement issues, not random sampling fluctuation. Increasing sample size reduces random error but does not fix biased collection. Therefore option C is correct.",
+    "final_answer": "C",
+    "tags": [
+      "bias"
+    ]
+  },
+  {
+    "id": "V10-A-Q16",
+    "variant": 10,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 16,
+    "prompt": "If P(A) = 0.3, P(B) = 0.4, and A and B are mutually exclusive, P(A|B) =\n\nA. 0.3\nB. 0.4\nC. 0.12\nD. 0\nE. 0.7",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: independence).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "Independence means P(A and B)=P(A)P(B), equivalently P(A|B)=P(A) when P(B)>0. If this product rule fails, events are dependent. The option stating this criterion is D.",
+    "final_answer": "D",
+    "tags": [
+      "independence",
+      "probability-rules"
+    ]
+  },
+  {
+    "id": "V10-A-Q17",
+    "variant": 10,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 17,
+    "prompt": "A confidence interval is described as 'we are 90% confident the true mean is between 14 and 18'. This means:\n\nA. P(14 < μ < 18) = 0.90\nB. 90% of population values are in (14, 18).\nC. The method produces intervals containing μ 90% of the time.\nD. μ = 16 with 90% probability.\nE. The sample mean is 90% accurate.",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: confidence-interval).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: C."
+    ],
+    "solution_en_explanation": "A confidence interval gives a plausible range for the population parameter based on sample data and method reliability. In repeated sampling, a 95% method captures the true parameter about 95% of the time. The correct interpretation here is option C.",
+    "final_answer": "C",
+    "tags": [
+      "confidence-interval"
+    ]
+  },
+  {
+    "id": "V10-A-Q18",
+    "variant": 10,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 18,
+    "prompt": "Increasing the sample size in a hypothesis test:\n\nA. Increases α\nB. Decreases power\nC. Reduces Type I error\nD. Increases power\nE. Has no effect on Type II error",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: conditions).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: D."
+    ],
+    "solution_en_explanation": "Before inference, check conditions such as randomness/independence and distribution or large-sample requirements for the chosen method. If assumptions fail badly, usual formulas may be invalid. The best option is D.",
+    "final_answer": "D",
+    "tags": [
+      "conditions",
+      "inference"
+    ]
+  },
+  {
+    "id": "V10-A-Q19",
+    "variant": 10,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 19,
+    "prompt": "500 tickets at $6 each; one prize of $1,000. Expected net gain per ticket:\n\nA. −$4.00\nB. −$3.00\nC. −$2.00\nD. $4.00\nE. −$5.00",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: expected-value).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: A."
+    ],
+    "solution_en_explanation": "For repeated independent trials, expected total equals number of trials times expected single-trial outcome: E(total)=n*E(X). This linearity rule is fundamental and does not require normality. The option reflecting this is A.",
+    "final_answer": "A",
+    "tags": [
+      "expected-value"
+    ]
+  },
+  {
+    "id": "V10-A-Q20",
+    "variant": 10,
+    "part": "Part A",
+    "type": "MCQ",
+    "question_no": 20,
+    "prompt": "If a p-value is 0.001 for a two-tailed test, the conclusion at α = 0.05 is:\n\nA. Fail to reject H₀\nB. Reject H₀\nC. Accept H_a\nD. Increase sample size\nE. The result is inconclusive",
+    "solution_ru_steps": [
+      "Определяем ключевую тему задания (например: power).",
+      "Применяем соответствующее правило/формулу и отбрасываем некорректные варианты.",
+      "Итоговый выбор: B."
+    ],
+    "solution_en_explanation": "Statistical power is P(reject H0 | H1 true): the chance a test detects a real effect. Power increases with larger effects, larger n, lower variability, and a more permissive alpha. The option defining this correctly is B.",
+    "final_answer": "B",
+    "tags": [
+      "power"
+    ]
+  },
+  {
+    "id": "V10-B-Q1",
+    "variant": 10,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 1,
+    "prompt": "A charity's dunk tank charges $3 per throw. A hit (prob. 0.20) returns $6 to the player; near hit (prob.\n0.35) returns $1; miss (prob. 0.45) returns nothing.\n   (a) Let X = net gain to charity per throw. Complete the probability distribution.\n\n   (b) Find E(X).\n\n   (c) Minimum throws for expected total gain ≥ $300?\n\n   (d) In 800 throws, mean = $1,240, SD = $600. P(total gain > $1,400) using normal approximation.",
+    "solution_ru_steps": [
+      "Определим чистый результат за игру: выигрыш организатора = стоимость - выплата.",
+      "Исход 1: X=-3, P=0.2.",
+      "Исход 2: X=2, P=0.35.",
+      "Исход 3: X=3, P=0.45.",
+      "Матожидание: E(X)=Σ x·p = 1.45.",
+      "Для ожидаемого суммарного результата не менее 300: n·E(X) >= 300, значит n >= 206.8966 -> минимально n=207.",
+      "Для части (d): z = (1400-1240)/600 = 0.2667.",
+      "P(T >= 1400) = P(Z >= 0.2667) = 0.3949."
+    ],
+    "solution_en_explanation": "Build the net-gain distribution first, then compute E(X). Use n*E(X) for the minimum plays threshold. In part (d), standardize the total gain with z=(T-mu)/sigma and read the upper-tail normal probability.",
+    "final_answer": "Distribution: -3 (p=0.2), 2 (p=0.35), 3 (p=0.45); E(X)=1.45; min plays=207; P(total >= 1400)≈0.3949",
+    "tags": [
+      "expected-value",
+      "random-variable",
+      "clt"
+    ]
+  },
+  {
+    "id": "V10-B-Q2",
+    "variant": 10,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 2,
+    "prompt": "In City X, 400 of 650 adults own smartphones. In City Y, 350 of 600 own smartphones.\n   Is there a significant difference in smartphone ownership? Test at α = 0.05.",
+    "solution_ru_steps": [
+      "Гипотезы: H0: p1=p2, Ha: p1 != p2.",
+      "p1̂=400/650=0.6154, p2̂=350/600=0.5833.",
+      "Объединённая оценка p̂=0.6.",
+      "SE = sqrt(p̂(1-p̂)(1/n1+1/n2)) = 0.02774.",
+      "z = (p1̂-p2̂)/SE = 1.1556.",
+      "Двустороннее p-value = 0.2478; не отвергаем H0."
+    ],
+    "solution_en_explanation": "Set null and alternative hypotheses for proportion(s), compute the z statistic using the null-based standard error, then compare the p-value to alpha=0.05.",
+    "final_answer": "p1=0.6154, p2=0.5833, z=1.1556, p-value=0.2478 => Fail to reject H0",
+    "tags": [
+      "hypothesis-test",
+      "proportion",
+      "z-test"
+    ]
+  },
+  {
+    "id": "V10-B-Q3",
+    "variant": 10,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 3,
+    "prompt": "A geographer estimates mean annual temperature with σ = 3.5°C. How many years of data for a 99%\nCI within 1°C?",
+    "solution_ru_steps": [
+      "Используем формулу для известной σ: n=(z*σ/E)^2.",
+      "Подставляем: n=(2.576*3.5/1)^2=81.2883.",
+      "Округляем вверх: n=82."
+    ],
+    "solution_en_explanation": "For a margin-of-error requirement with known sigma, use n=(z*sigma/E)^2 and round up.",
+    "final_answer": "Required minimum sample size: n=82",
+    "tags": [
+      "confidence-interval",
+      "sample-size"
+    ]
+  },
+  {
+    "id": "V10-B-Q4",
+    "variant": 10,
+    "part": "Part B",
+    "type": "FR",
+    "question_no": 4,
+    "prompt": "Annual incomes are approximately N($52,000, $9,000). 120 random samples of size 36 are drawn.\n   (a) Find the mean and SD of the sampling distribution of x̄.\n\n   (b) How many sample means fall between $50,500 and $53,500?\n\n   (c) How many fall below $49,000?",
+    "solution_ru_steps": [
+      "Параметры распределения выборочного среднего: μx̄=μ=52000, σx̄=σ/√n=1500.",
+      "Для интервала [50500, 53500]: z1=-1, z2=1.",
+      "P(50500<=x̄<=53500)=0.6827 => ожидаемое число = 81.92 (~82).",
+      "Для порога 49000: z=-2, вероятность=0.0228 => ожидаемое число=2.73 (~3)."
+    ],
+    "solution_en_explanation": "Use the sampling distribution of x-bar: mean mu and SD sigma/sqrt(n). Convert bounds to z-scores, compute normal probabilities, then multiply by the number of repeated samples.",
+    "final_answer": "mu_xbar=52000, sd_xbar=1500; between count≈81.92; below 49000 count≈2.73",
+    "tags": [
+      "sampling-distribution",
+      "normal-approximation"
+    ]
+  }
+];
